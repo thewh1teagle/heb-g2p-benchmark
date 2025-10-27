@@ -17,6 +17,12 @@
             "url": "https://github.com/espeak-ng/espeak-ng",
             "wer": 1.0,
             "cer": 0.465262803647537252
+        },
+        {
+            "name": "Goruut",
+            "url": "https://github.com/neurlang/goruut",
+            "wer": 0.3634,
+            "cer": 0.0992
         }
     ]
 }
