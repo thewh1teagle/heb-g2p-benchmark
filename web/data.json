@@ -5,6 +5,12 @@
             "url": "https://github.com/thewh1teagle/phonikud",
             "wer": 0.1744037139331257,
             "cer": 0.038215107641595754
+        },
+        {
+            "name": "Gemma3-G2P 270m",
+            "url": "https://github.com/thewh1teagle/gemma3-g2p",
+            "wer": 0.237968843248255,
+            "cer": 0.0722328222624259
         }
     ]
 }
