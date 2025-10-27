@@ -1,0 +1,10 @@
+{
+    "models": [
+        {
+            "name": "Phonikud",
+            "url": "https://github.com/thewh1teagle/phonikud",
+            "wer": 0.1744037139331257,
+            "cer": 0.038215107641595754
+        }
+    ]
+}

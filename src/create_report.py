@@ -1,3 +1,7 @@
+"""
+uv run src/create_report.py gt.csv pred.csv
+"""
+
 import jiwer
 import csv
 import argparse

@@ -11,3 +11,5 @@ wheels/
 
 ilspeech_speaker2_v1/
 *.7z
+*.onnx
+pred.csv
