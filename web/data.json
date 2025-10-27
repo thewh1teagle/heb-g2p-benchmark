@@ -11,6 +11,12 @@
             "url": "https://github.com/thewh1teagle/gemma3-g2p",
             "wer": 0.237968843248255,
             "cer": 0.0722328222624259
+        },
+        {
+            "name": "ESpeak-NG",
+            "url": "https://github.com/espeak-ng/espeak-ng",
+            "wer": 1.0,
+            "cer": 0.465262803647537252
         }
     ]
 }
