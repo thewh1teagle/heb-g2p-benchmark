@@ -312,8 +312,8 @@
                     <td class="rank">${model.rank}</td>
                     <td class="model-name">${modelNameCell}</td>
                     <td class="metric">${accuracy}%</td>
-                    <td class="metric">${(model.wer * 100).toFixed(2)}%</td>
-                    <td class="metric">${(model.cer * 100).toFixed(2)}%</td>
+                    <td class="metric">${model.wer.toFixed(2)}</td>
+                    <td class="metric">${model.cer.toFixed(2)}</td>
                 `;
                 
                 tableBody.appendChild(row);
@@ -326,8 +326,8 @@
         function displayScatterPlot(models) {
             // Create trace
             const trace = {
-                x: models.map(m => m.wer * 100),
-                y: models.map(m => m.cer * 100),
+                x: models.map(m => m.wer),
+                y: models.map(m => m.cer),
                 text: models.map(m => m.name),
                 mode: 'markers+text',
                 type: 'scatter',
@@ -345,14 +345,14 @@
                     color: '#2d3748'
                 },
                 hovertemplate: '<b>%{text}</b><br>' +
-                              'WER: %{x:.2f}%<br>' +
-                              'CER: %{y:.2f}%<br>' +
+                              'WER: %{x:.2f}<br>' +
+                              'CER: %{y:.2f}<br>' +
                               '<extra></extra>'
             };
             
             // Calculate axis ranges with padding
-            const allWER = models.map(m => m.wer * 100);
-            const allCER = models.map(m => m.cer * 100);
+            const allWER = models.map(m => m.wer);
+            const allCER = models.map(m => m.cer);
             const werRange = Math.max(...allWER) - Math.min(...allWER);
             const cerRange = Math.max(...allCER) - Math.min(...allCER);
             
@@ -362,7 +362,7 @@
                     font: { size: 20, color: '#2d3748' }
                 },
                 xaxis: {
-                    title: 'Word Error Rate (WER) %',
+                    title: 'Word Error Rate (WER)',
                     titlefont: { size: 14 },
                     range: [
                         Math.max(0, Math.min(...allWER) - werRange * 0.3),
@@ -372,7 +372,7 @@
                     zerolinecolor: '#cbd5e0'
                 },
                 yaxis: {
-                    title: 'Character Error Rate (CER) %',
+                    title: 'Character Error Rate (CER)',
                     titlefont: { size: 14 },
                     range: [
                         Math.max(0, Math.min(...allCER) - cerRange * 0.3),
