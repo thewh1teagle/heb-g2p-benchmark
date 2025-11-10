@@ -4,10 +4,11 @@ See The [Web Page](https://thewh1teagle.github.io/heb-g2p-benchmark) for more de
 
 ## Add a new model
 
-1. Create new csv file with id, phonemes columns 2. phonemes should be genereated from the gt.csv transcript
+1. Create new csv file with `id, phonemes` columns 
+2. phonemes should be genereated from the `gt.csv` transcript
 3. Run 
 
-```bash
+```console
 uv run src/create_report.py gt.csv pred.csv
 ```
 

@@ -1,0 +1,709 @@
+{
+  "summary": {
+    "mean_wer": 0.3842816676787265,
+    "mean_cer": 0.2146208547465224,
+    "num_samples": 100
+  },
+  "individual": [
+    {
+      "id": "250",
+      "wer": 0.3333333333333333,
+      "cer": 0.07142857142857142,
+      "gt_phonemes": "meʁχˈak ʔalfˈej kilomˈetʁim mehajabaʃˈa. mˈahi ʔotˈa maʔaʁˈeχet χajʃanˈim mistoʁˈit?",
+      "pred_phonemes": "meʁχˈak ʔalfˈej kilˈometʁim mehajabaʃˈa. mˈahi ʔotˈa maʔaʁˈeχet χajaʃanˈim histˈoʁit?"
+    },
+    {
+      "id": "251",
+      "wer": 0.13333333333333333,
+      "cer": 0.03636363636363636,
+      "gt_phonemes": "beʃnˈat ʔˈelef tʃˈa meʔˈot ʃloʃˈim veʃˈeva. χakˈaʁ ʔˈet haʔˈofen ʃebˈo mitpaʃtˈim ɡalˈej kˈol betˈoχ hamˈajim.",
+      "pred_phonemes": "biʃnˈat ʔˈelef tˈeʃa meʔˈot ʃloʃˈim veʃˈeva. χakˈaʁ ʔˈet haʔˈofen ʃebˈo mitpaʃtˈim ɡalˈej kˈol betˈoχ hamˈajim."
+    },
+    {
+      "id": "252",
+      "wer": 0.2,
+      "cer": 0.038461538461538464,
+      "gt_phonemes": "ʃeʔanˈaχnu moʁidˈim mitʔˈan χˈomeʁ nˈefets leʔˈomek ʃˈel kamˈa meʔˈot mˈetʁim.",
+      "pred_phonemes": "ʃeʔanˈaχnu moʁidˈim mitʔˈan χˈomeʁ nˈefets laʔˈomek ʃˈel kˈama meʔˈot mˈetʁim."
+    },
+    {
+      "id": "253",
+      "wer": 0.3333333333333333,
+      "cer": 0.0625,
+      "gt_phonemes": "hitpaʃtˈu minekudˈat hapitsˈuts leχˈol ʔˈeveʁ. haɡalˈim ʃejifɡeʔˈu bekaʁkaʔˈit hajˈam jisfɡˈu baχˈol vejeʔalmˈu.",
+      "pred_phonemes": "hitpaʃtˈu minkudˈat hapitsˈuts leχˈol ʔavˈaʁ. haɡalˈim ʃejifɡʔˈu bekaʁkaʔˈit hajˈam jispɡˈu baχˈol vejeʔalmˈu."
+    },
+    {
+      "id": "254",
+      "wer": 0.26666666666666666,
+      "cer": 0.0603448275862069,
+      "gt_phonemes": "ɡalˈej hakˈol ʃejahanˈu lemˈaʔla, ʔˈel pnˈej haʃˈetaχ, vejaχzeʁˈu klapˈej mˈata kemˈo kadˈuʁ tenˈis ʃepoɡˈea bakˈiʁ.",
+      "pred_phonemes": "ɡalˈej hakˈol ʃehanˈu lemˈaʔla, ʔˈel pnˈej haʃˈetaχ, vejaχzeʁˈu klapˈej matˈe kmˈo kadˈuʁ tanˈis ʃepoɡˈea bakˈiʁ."
+    },
+    {
+      "id": "255",
+      "wer": 0.14285714285714285,
+      "cer": 0.029411764705882353,
+      "gt_phonemes": "hˈem jaʔasˈu ʔˈet daʁkˈam kˈol hadˈeʁeχ ʔˈel hakaʁkaʔˈit, veʔˈaz ɡˈam hˈem jisafɡˈu baχˈol vejeʔalmˈu.",
+      "pred_phonemes": "hˈem jaʔasˈu ʔˈet daʁkˈam kˈol hadˈeʁeχ ʔˈel hakaʁkaʔˈit, veʔˈaz ɡˈam hˈem jispɡˈu baχˈol vejaʔalmˈu."
+    },
+    {
+      "id": "256",
+      "wer": 0.07692307692307693,
+      "cer": 0.031578947368421054,
+      "gt_phonemes": "ʔavˈal mˈa koʁˈe leʔotˈam ɡalˈej kˈol hˈem lˈo zehˈim bitχunotehˈem beχˈol makˈom baʔokijˈanos.",
+      "pred_phonemes": "ʔavˈal mˈa koʁˈe leʔotˈam ɡalˈej kˈol hˈem lˈo zehˈim bitχunotehˈem beχˈol makˈom baʔokjanˈos."
+    },
+    {
+      "id": "257",
+      "wer": 0.08333333333333333,
+      "cer": 0.041237113402061855,
+      "gt_phonemes": "notˈim beʔˈofen tivʔˈi latsˈuf klapˈej mˈaʔla, vemˈajim meluχˈim notˈim liʃkˈoa ʔˈel hakaʁkaʔˈit.",
+      "pred_phonemes": "notˈim beʔˈofen tivʔˈi latsˈuf klapˈej mˈaʔla, umajˈim meluχˈim notˈim liʃkˈoa ʔˈel hakaʁkaʔˈit."
+    },
+    {
+      "id": "258",
+      "wer": 0.2857142857142857,
+      "cer": 0.06666666666666667,
+      "gt_phonemes": "ʃehamˈajim baʔokijˈanos niʁʔˈim ktsˈat kemˈo ʔuɡˈat ʃχavˈot.",
+      "pred_phonemes": "ʃehamˈajim baʔokjanˈos niʁʔˈim ktsˈat kmˈo ʔuɡˈat ʃχavˈot."
+    },
+    {
+      "id": "259",
+      "wer": 0.125,
+      "cer": 0.013513513513513514,
+      "gt_phonemes": "χamimˈim metukˈim vekalˈim jaχasˈit, beʔˈod ʃehamˈajim baʃiχvˈa haʔamukˈa.",
+      "pred_phonemes": "χanimˈim metukˈim vekalˈim jaχasˈit, beʔˈod ʃehamˈajim baʃiχvˈa haʔamukˈa."
+    },
+    {
+      "id": "260",
+      "wer": 0.08333333333333333,
+      "cer": 0.020833333333333332,
+      "gt_phonemes": "kʁiʁˈim meluχˈim udχusˈim jotˈeʁ, ɡalˈej kˈol naʔˈim mahˈeʁ jotˈeʁ bemˈajim metukˈim vaχamimˈim.",
+      "pred_phonemes": "kʁiʁˈim meluχˈim udχusˈim jotˈeʁ, ɡalˈej kˈol naʔˈim mahˈeʁ jotˈeʁ bemajˈim metukˈim vaχamimˈim."
+    },
+    {
+      "id": "261",
+      "wer": 0.3,
+      "cer": 0.07608695652173914,
+      "gt_phonemes": "meʔaʃˈeʁ bemˈajim, kʁiʁˈim umluχˈim. damjenˈu leʔatsmeχˈem ɡˈal kˈol ʃeniflˈat mehapitsˈuts.",
+      "pred_phonemes": "meʔaʃˈeʁ bamˈajim, kʁiʁˈim umluχˈim. daʔamˈinu leʔatsmχˈem ɡˈal kˈol ʃeniflˈat mehapitsˈuts."
+    },
+    {
+      "id": "262",
+      "wer": 0.14285714285714285,
+      "cer": 0.016666666666666666,
+      "gt_phonemes": "haɡˈal poɡˈeʃ ʔˈet ʃiχvˈat hamˈajim hametukˈim vehaχamimˈim.",
+      "pred_phonemes": "haɡˈal poɡˈeʃ ʔˈet ʃiχvˈat hamˈajim hamtukˈim vehaχamimˈim."
+    },
+    {
+      "id": "263",
+      "wer": 0.09090909090909091,
+      "cer": 0.02247191011235955,
+      "gt_phonemes": "haχˈelek ʃekaʁˈov jotˈeʁ lifnˈej hamˈajim, kaʁˈa laχˈem pˈaʔam ʃejaʁˈadetem ʔˈim haʔˈoto.",
+      "pred_phonemes": "haχˈelek ʃekaʁˈov jotˈeʁ lifnˈej hamˈajim, kaʁˈa laχˈem pˈaʔam ʃejʁˈadtem ʔˈim haʔˈoto."
+    },
+    {
+      "id": "264",
+      "wer": 0.1,
+      "cer": 0.010869565217391304,
+      "gt_phonemes": "velaχˈen haɡalɡalˈim hajemanijˈim ʃˈel haʁˈeχev meʔitˈim mamʃiχˈim linsˈoa beʔotˈa mehiʁˈut.",
+      "pred_phonemes": "velaχˈen haɡalɡalˈim hajmanijˈim ʃˈel haʁˈeχev meʔitˈim mamʃiχˈim linsˈoa beʔotˈa mehiʁˈut."
+    },
+    {
+      "id": "265",
+      "wer": 0.18181818181818182,
+      "cer": 0.034482758620689655,
+      "gt_phonemes": "haʁˈeχev ʔasˈuj lifnˈot jamˈina beχadˈut, nˈa mahˈeʁ jotˈeʁ mehaχˈelek hataχtˈon ʃelˈo.",
+      "pred_phonemes": "haʁˈeχev ʔasˈuj lifnˈot jaminˈa baχadˈut, nˈa mahˈeʁ jotˈeʁ mehaχˈelek hataχtˈon ʃelˈo."
+    },
+    {
+      "id": "266",
+      "wer": 0.42857142857142855,
+      "cer": 0.06779661016949153,
+      "gt_phonemes": "haɡˈal ponˈe jamˈina beχadˈut umitʔakˈel beχazaʁˈa lemˈata.",
+      "pred_phonemes": "haɡˈal ponˈe jaminˈa baχadˈut umitʔakˈel baχazaʁˈa lemˈata."
+    },
+    {
+      "id": "267",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "ɡalˈej hakˈol naʔˈim mahˈeʁ jotˈeʁ bemˈajim dχusˈim.",
+      "pred_phonemes": "ɡalˈej hakˈol naʔˈim mahˈeʁ jotˈeʁ bemˈajim dχusˈim."
+    },
+    {
+      "id": "268",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "velaχˈen χelkˈo hataχtˈon ʃˈel ɡˈal hakˈol nˈa mahˈeʁ jotˈeʁ meχelkˈo haʔeljˈon.",
+      "pred_phonemes": "velaχˈen χelkˈo hataχtˈon ʃˈel ɡˈal hakˈol nˈa mahˈeʁ jotˈeʁ meχelkˈo haʔeljˈon."
+    },
+    {
+      "id": "269",
+      "wer": 0.09090909090909091,
+      "cer": 0.02197802197802198,
+      "gt_phonemes": "kʃehˈi poɡˈeʃet ʔˈet ʃiχvˈat hamˈajim haʔeljonˈa, hˈi ʃˈuv muχzˈeʁet lekijvˈun hakaʁkaʔˈit.",
+      "pred_phonemes": "kʃehˈi poɡˈeʃet ʔˈet ʃiχvˈat hamˈajim haʔeljonˈa, hˈi ʃˈuv muχzˈeʁet lakivˈun hakaʁkaʔˈit."
+    },
+    {
+      "id": "270",
+      "wer": 0.2857142857142857,
+      "cer": 0.07017543859649122,
+      "gt_phonemes": "teʔalˈa ʃemoliχˈa ʔˈet ɡalˈej hakˈol bijiʔilˈut madhimˈa.",
+      "pred_phonemes": "taʔalˈe ʃemoliχˈa ʔˈet ɡalˈej hakˈol biʔilˈut madhimˈa."
+    },
+    {
+      "id": "271",
+      "wer": 0.16666666666666666,
+      "cer": 0.061855670103092786,
+      "gt_phonemes": "lˈo jeχolˈim lifʁˈots mimˈena haχˈutsa. hˈem kˈol hazmˈan nitazˈim mehadfanˈot ʃelˈa bemeʁχaʔˈot.",
+      "pred_phonemes": "lˈo jeχolˈim lifʁˈots mimˈena haχutsˈa. hˈem kˈol hazmˈan nitazˈim mehatafnˈut ʃelˈa bemeʁχaʔˈot."
+    },
+    {
+      "id": "272",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "ʃeɡalˈej hakˈol haʔˈele lˈo poɡʃˈim beʔˈaf ʃalˈav ʔˈet hakaʁkaʔˈit.",
+      "pred_phonemes": "ʃeɡalˈej hakˈol haʔˈele lˈo poɡʃˈim beʔˈaf ʃalˈav ʔˈet hakaʁkaʔˈit."
+    },
+    {
+      "id": "273",
+      "wer": 0.08333333333333333,
+      "cer": 0.010416666666666666,
+      "gt_phonemes": "velaχˈen hˈem ɡˈam lˈo nivlaʔˈim baχˈol. hˈem mamʃiχˈim lehitpaʃˈet velanˈua leʔˈoʁeχ hateʔalˈa.",
+      "pred_phonemes": "velaχˈen hˈem ɡˈam lˈo nivlaʔˈim baχˈol. hˈem mamʃiχˈim lehitpaʃˈet velanˈua leʔˈoʁeχ hataʔalˈa."
+    },
+    {
+      "id": "274",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "kimʔˈat miblˈi leʔabˈed mehaʔenˈeʁɡija ʃelahˈem, velaχˈen hˈem mesuɡalˈim lehaɡˈia lemeʁχakˈim ʔadiʁˈim.",
+      "pred_phonemes": "kimʔˈat miblˈi leʔabˈed mehaʔenˈeʁɡija ʃelahˈem, velaχˈen hˈem mesuɡalˈim lehaɡˈia lemeʁχakˈim ʔadiʁˈim."
+    },
+    {
+      "id": "275",
+      "wer": 0.21428571428571427,
+      "cer": 0.09259259259259259,
+      "gt_phonemes": "haʁbˈe jotˈeʁ meʔaʃˈeʁ ʔˈal hajabaʃˈa. biʃnˈat ʔˈelef tʃˈa meʔˈot ʔaʁbaʔˈim veʔˈaʁba ʔaʁˈaχ ʔˈijvinɡ nisˈuj.",
+      "pred_phonemes": "haʁbˈe jotˈeʁ meʔaʃˈeʁ ʔˈal hajabaʃˈa. biʃnˈat ʔˈelef tˈeʃa meʔˈot ʔaʁbaʔˈim veʔˈaʁba ʔˈeʁeχ ʔivˈinɡ nisˈuj."
+    },
+    {
+      "id": "276",
+      "wer": 0.125,
+      "cer": 0.014705882352941176,
+      "gt_phonemes": "beʔemtsaʔˈut sfinˈa ʃehetˈila mitʔanˈej nˈefets ktanˈim belˈev jˈam.",
+      "pred_phonemes": "beʔemtsaʔˈut sfinˈa ʃehetˈila mitaʔanˈej nˈefets ktanˈim belˈev jˈam."
+    },
+    {
+      "id": "277",
+      "wer": 0.45454545454545453,
+      "cer": 0.08080808080808081,
+      "gt_phonemes": "ɡˈam bemeʁχˈak ʃˈel kimʔˈat ʔalpˈajim kilomˈetʁim. beʔˈeʁeχ kemˈo hameʁχˈak mejisʁaʔˈel leʔitˈalja.",
+      "pred_phonemes": "ɡˈam bemeʁχˈak ʃˈel kimʔˈat ʔalpajˈim kilˈometʁim. beʔˈeʁeχ kmˈo hameʁχˈak mijisʁaʔˈel leʔitaljˈa."
+    },
+    {
+      "id": "278",
+      "wer": 0.23076923076923078,
+      "cer": 0.04310344827586207,
+      "gt_phonemes": "naflˈa lejadˈav ʃˈel hatsˈi haʔameʁikˈani, hajˈu mesuɡalˈot lehiʃaʔˈeʁ mitˈaχat lamˈajim bemˈeʃeχ χodaʃˈim ʔaʁukˈim.",
+      "pred_phonemes": "naflˈa lejadˈav ʃˈel hatsˈaj haʔameʁikanˈi, hajˈu mesuɡalˈot lehiʃaʔˈeʁ mitˈaχat lamˈajim bmˈeʃeχ χodaʃˈim ʔaʁukˈim."
+    },
+    {
+      "id": "279",
+      "wer": 0.3333333333333333,
+      "cer": 0.04819277108433735,
+      "gt_phonemes": "vehaʔameʁikˈanim χipsˈu pitaʁˈon ʃejeʔafʃˈeʁ lahˈem leɡalˈot ʔotˈan mimeʁχˈak ʁˈav.",
+      "pred_phonemes": "vehaʔameʁikanˈim χipsˈu pitʁˈon ʃejʔafʃˈeʁ lahˈem leɡalˈot ʔotˈan mimeʁχˈak ʁˈav."
+    },
+    {
+      "id": "280",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "heʃˈik ʔˈet ʔeχˈad mehapʁojˈektim haɡdolˈim bejotˈeʁ betoldotˈav.",
+      "pred_phonemes": "heʃˈik ʔˈet ʔeχˈad mehapʁojˈektim haɡdolˈim bejotˈeʁ betoldotˈav."
+    },
+    {
+      "id": "281",
+      "wer": 0.16666666666666666,
+      "cer": 0.037037037037037035,
+      "gt_phonemes": "maʔaʁˈaχ ʃˈel ʔalfˈej mikʁofˈonim jamijˈim ʃehunχˈu bekaʁkaʔˈit hajˈam, beʔikˈaʁ leʔˈoʁeχ madˈaf hajabˈeʃet.",
+      "pred_phonemes": "maʔaʁˈaχ ʃˈel ʔalfˈej mˈikʁofonim jamijˈim ʃehunχˈu bekaʁkaʔˈit hajˈam, beʔikˈaʁ leʔoʁˈeχ madˈaf hajabˈeʃet."
+    },
+    {
+      "id": "282",
+      "wer": 0.3,
+      "cer": 0.08139534883720931,
+      "gt_phonemes": "veʔˈal midʁonotehˈem ʃˈel haʁˈim tˈat mejmijˈim, veχubʁˈu letaχanˈot haʔazanˈa ʃonˈot.",
+      "pred_phonemes": "bˈaʔal midʁonotehˈem ʃˈel haʁˈim tˈet mijamijˈim, veχubʁˈu letaχanˈot haʔazanˈa ʃonˈot."
+    },
+    {
+      "id": "283",
+      "wer": 0.2222222222222222,
+      "cer": 0.05,
+      "gt_phonemes": "ubeʔemtsaʔˈut nitˈuaχ ʃˈel ʔotˈot zehˈim ʃenitkablˈu beχˈama mikʁofˈonim ʃonˈim.",
+      "pred_phonemes": "uvʔemtsaʔˈut nitˈuaχ ʃˈel ʔotˈot zehˈim ʃenitkablˈu beχˈama mˈikʁofonim ʃonˈim."
+    },
+    {
+      "id": "284",
+      "wer": 0.2222222222222222,
+      "cer": 0.04477611940298507,
+      "gt_phonemes": "hajˈu mesuɡalˈot leʔakˈen ʔˈet mikumˈo haklalˈi ʃˈel mekˈoʁ haʔˈot.",
+      "pred_phonemes": "hajˈu mesuɡalˈot leʔakˈen ʔˈet mekomˈo haklalˈi ʃˈel mekˈoʁ haʔˈoto."
+    },
+    {
+      "id": "285",
+      "wer": 0.2222222222222222,
+      "cer": 0.041666666666666664,
+      "gt_phonemes": "ʔˈad ʃehˈi hajtˈa mesuɡˈelet leɡalˈot ʔafˈilu metosˈej sijˈuʁ sovjˈetim.",
+      "pred_phonemes": "ʔˈad ʃehˈi hajtˈa mesuɡˈelet leɡalˈot ʔafˈilu mitosˈej sijˈuʁ sovjetˈim."
+    },
+    {
+      "id": "286",
+      "wer": 0.3333333333333333,
+      "cer": 0.05194805194805195,
+      "gt_phonemes": "ʃetˈasu beɡˈova namˈuχ meʔˈal hamˈajim. hafχˈa lemivtsaʔˈit beʃnˈot haʃiʃˈim.",
+      "pred_phonemes": "ʃetasˈu beɡˈova namˈuχ meʔˈal hamˈajim. hafχˈa lamivtsaʔˈit biʃnˈot haʃiʃˈim."
+    },
+    {
+      "id": "287",
+      "wer": 0.14285714285714285,
+      "cer": 0.017543859649122806,
+      "gt_phonemes": "vekijumˈa niʃmˈaʁ besˈod muχlˈat bemˈeʃeχ ʔesʁˈot ʃanˈim.",
+      "pred_phonemes": "vekijumˈa niʃmˈaʁ besˈod muχlˈat bmˈeʃeχ ʔesʁˈot ʃanˈim."
+    },
+    {
+      "id": "288",
+      "wer": 0.3333333333333333,
+      "cer": 0.06060606060606061,
+      "gt_phonemes": "ʔafˈilu lˈo dimjenˈu leʔatsmˈam, heχˈela ʔˈet χajˈeha kˈa tsolˈelet haʁiʃonˈa batsˈi haʔameʁikˈani.",
+      "pred_phonemes": "ʔafˈilu lˈo dimjanˈu leʔatsmˈam, heχˈela ʔˈet χajˈeha ketsolˈelet haʁiʃonˈa batsˈi haʔameʁikanˈi."
+    },
+    {
+      "id": "289",
+      "wer": 0.36363636363636365,
+      "cer": 0.0851063829787234,
+      "gt_phonemes": "χamiʃˈa tilˈim midˈeɡem ʁˈeɡolus ʔaχˈat. bazmˈan ʃelakˈaχ letaχnˈen velivnˈot ʔˈet hahalibˈat.",
+      "pred_phonemes": "χamiʃˈa tilˈim midɡˈam ʁeɡˈolus ʔaχˈat. bizmˈan ʃelakˈaχ letaχnˈen velivnˈot ʔˈet hahalibˈet."
+    },
+    {
+      "id": "290",
+      "wer": 0.3333333333333333,
+      "cer": 0.075,
+      "gt_phonemes": "putχˈu tˈilim tovˈim umitkadmˈim jotˈeʁ, vetilˈej haʁˈeɡolus jatsʔˈu mehaʃeʁˈut.",
+      "pred_phonemes": "potχˈu tilˈim tovˈim umitkadmˈim jotˈeʁ, vetilˈej haʁeɡˈulus jatsʔˈu mehaʃeʁˈut."
+    },
+    {
+      "id": "291",
+      "wer": 0.14285714285714285,
+      "cer": 0.01639344262295082,
+      "gt_phonemes": "ʃebeχˈol zˈot hajˈa medubˈaʁ betsolˈelet mehiʁˈa veʔejχutˈit.",
+      "pred_phonemes": "ʃebχˈol zˈot hajˈa medubˈaʁ betsolˈelet mehiʁˈa veʔejχutˈit."
+    },
+    {
+      "id": "292",
+      "wer": 0.2,
+      "cer": 0.036585365853658534,
+      "gt_phonemes": "ʃeɡˈam hajtˈa metsujˈedet bekˈuʁ ɡaʁʔinˈi mitkadˈem, hatsˈi heχlˈit liʃmˈoʁ ʔotˈa.",
+      "pred_phonemes": "ʃeɡˈam hajtˈa metsujˈedet beχˈoʁ ɡaʁʔinˈi mitkadˈem, hatsˈi heχelˈit liʃmˈoʁ ʔotˈa."
+    },
+    {
+      "id": "293",
+      "wer": 0.5714285714285714,
+      "cer": 0.16326530612244897,
+      "gt_phonemes": "leklˈi ʃˈajit jeʔudˈi ʔavˈuʁ χipusˈim tˈat jamˈi.",
+      "pred_phonemes": "lakliʃaʔˈit jehudˈi ʔavˈuʁ χipusˈim tˈet jamˈi."
+    },
+    {
+      "id": "294",
+      "wer": 0.3333333333333333,
+      "cer": 0.09302325581395349,
+      "gt_phonemes": "biʃnˈat ʔˈelef tʃˈa meʔˈot ʃiʃˈim uʃmonˈe ʔˈim kˈen ʔavʁˈa hahˈalibat ʃipˈuts masˈivi.",
+      "pred_phonemes": "biʃnˈat ʔˈelef tˈeʃa meʔˈot ʃisˈim uʃmonˈa ʔˈim kˈen ʔavʁˈa hahalibˈet ʃipˈuts masˈivi."
+    },
+    {
+      "id": "295",
+      "wer": 0.2727272727272727,
+      "cer": 0.07777777777777778,
+      "gt_phonemes": "bemisɡaʁtˈo hutkenˈu bˈa madχefˈim hekefˈim ʃeʔifʃeʁˈu lˈa leʁaχˈef bamˈajim lelˈo tzuzˈa.",
+      "pred_phonemes": "bemisɡaʁtˈo hutkˈinu bˈa mitχafˈim hekefˈim ʃeʔifʃʁˈu lˈa leʁaχˈef bamˈajim lelˈo tzuzˈa."
+    },
+    {
+      "id": "296",
+      "wer": 0.2857142857142857,
+      "cer": 0.04838709677419355,
+      "gt_phonemes": "veʁˈobot tˈat jamˈi ʃehajˈa metsujˈad bematslemˈot mitkadmˈot.",
+      "pred_phonemes": "veʁˈubut tˈet jamˈi ʃehajˈa metsujˈad bematslemˈot mitkadmˈot."
+    },
+    {
+      "id": "297",
+      "wer": 0.36363636363636365,
+      "cer": 0.07954545454545454,
+      "gt_phonemes": "tviʔatˈa ʃˈel hakˈej mˈeʔa ʔesʁˈim vetˈeʃa hajtˈa hahizdamnˈut haʁiʃonˈa ʃˈel hahalibˈat",
+      "pred_phonemes": "tfijatˈa ʃˈel hakˈaj meʔˈa ʔesʁˈim vetˈeʃa hajtˈa hahizdamnˈut haʁiʃonˈa ʃˈel hahalibˈet."
+    },
+    {
+      "id": "298",
+      "wer": 0.2222222222222222,
+      "cer": 0.04597701149425287,
+      "gt_phonemes": "keʔaʁbaʔˈa χodaʃˈim leʔaχˈaʁ ʃehasovjˈetim hifsikˈu leχapˈes ʔˈet hatsolˈelet ʃelahˈem.",
+      "pred_phonemes": "keʔaʁbaʔˈa χodaʃˈim leʔaχˈaʁ ʃehasovjetˈim hifsˈiku leχapˈes ʔˈet hatsolˈelet ʃelahˈem."
+    },
+    {
+      "id": "299",
+      "wer": 0.2857142857142857,
+      "cer": 0.058823529411764705,
+      "gt_phonemes": "ʔˈel ʔˈeveʁ hanekudˈa ʃebˈa ʔutʁˈu ʁaʃˈej hataviˈa.",
+      "pred_phonemes": "ʔˈel ʔˈeveʁ hankudˈa ʃebˈa ʔutʁˈu ʁaʃˈej hatavˈia."
+    },
+    {
+      "id": "300",
+      "wer": 0.2,
+      "cer": 0.046511627906976744,
+      "gt_phonemes": "ʁˈak bodedˈim meʔanʃˈej hatsˈevet ʃˈel hahˈalibat hajˈu mudaʔˈim lematʁˈat hahaflaɡˈa.",
+      "pred_phonemes": "ʁˈak boddˈim meʔanʃˈej hatsˈevet ʃˈel hahalibˈet hajˈu mudaʔˈim lematʁˈat hahaflaɡˈa."
+    },
+    {
+      "id": "301",
+      "wer": 0.4,
+      "cer": 0.0975609756097561,
+      "gt_phonemes": "heχˈel haʁˈobot lisʁˈok ʔˈet kaʁkaʔˈit hajˈam beʔˈomek ʃˈel kaχamiʃˈa kilomˈetʁim.",
+      "pred_phonemes": "haχˈel haʁavˈut lisʁˈok ʔˈet kaʁkaʔˈit hajˈam baʔˈomek ʃˈel kaχamiʃˈa kilˈometʁim."
+    },
+    {
+      "id": "302",
+      "wer": 0.16666666666666666,
+      "cer": 0.03409090909090909,
+      "gt_phonemes": "veʔulˈaj ʔˈejze dˈaɡ ʔakʁaʔˈi pˈo vaʃˈam, tslalitˈo habʁuʁˈa ʃˈel ɡˈeʃeʁ ʃˈel tsolˈelet.",
+      "pred_phonemes": "veʔulˈaj ʔˈejze dˈaɡ ʔekʁaʔˈi pˈo vaʃˈam, tsallitˈo habʁuʁˈa ʃˈel ɡˈeʃeʁ ʃˈel tsolˈelet."
+    },
+    {
+      "id": "303",
+      "wer": 0.4666666666666667,
+      "cer": 0.10679611650485436,
+      "gt_phonemes": "tsilˈem haʁˈobot lˈo paχˈot mˈi ʔesʁˈim ʔˈelef tmunˈot ʃˈel sʁidˈeha ʃˈel hakˈej mˈeʔa ʔesʁˈim vetˈeʃa.",
+      "pred_phonemes": "tsilˈem haʁˈobut lefaχˈot meʔesʁˈim ʔˈelef tmunˈot ʃˈel sʁidˈeha ʃˈel hakˈaj meʔˈa ʔesʁˈim vetˈeʃa."
+    },
+    {
+      "id": "304",
+      "wer": 0.25,
+      "cer": 0.0625,
+      "gt_phonemes": "keʃeχazʁˈa hahˈalibat labasˈis hoʔankˈu leʔanʃˈej tsivtˈa ʔotˈot hitstajnˈut mejuχadˈim ʔˈal hahesˈeɡ hamaʁʃˈim.",
+      "pred_phonemes": "kʃeχazʁˈa halibˈet labasˈis hoʔonkˈu leʔanʃˈej tsivtˈa ʔotˈot hitstajnˈut mejuχadˈim ʔˈal hahesˈeɡ hamaʁʃˈim."
+    },
+    {
+      "id": "305",
+      "wer": 4.083333333333333,
+      "cer": 4.2439024390243905,
+      "gt_phonemes": "lˈo hajˈa musˈaɡ ʔˈal mˈa bidjˈuk. umˈaʁvin lˈeʁd, sˈaʁ hahaɡanˈa lanasˈi nˈikson,",
+      "pred_phonemes": "lˈo hajˈa musˈaɡ ʔˈal mˈa bedijˈuk. umaʁvˈin lejaʁˈed, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, sˈaʁ hahaɡanˈa linsˈi niksˈon, "
+    },
+    {
+      "id": "306",
+      "wer": 0.2857142857142857,
+      "cer": 0.07246376811594203,
+      "gt_phonemes": "ʔˈet hakˈej mˈeʔa ʔesʁˈim vetˈeʃa mehametsulˈot. ʔanʃˈej hatsavˈa heʔeʁˈiχu ʃehatilˈim haɡaʁʔinijˈim, maʔaʁaχˈot hatikʃˈoʁet hamutspanˈot.",
+      "pred_phonemes": "ʔˈet hakˈaj meʔˈa ʔesʁˈim vetˈeʃa mehatsolˈelet. ʔanʃˈej hatsavˈa heʔeʁˈiχu ʃehatilˈim haɡaʁʔinijˈim, maʔaʁχˈot hatikʃˈoʁet hamutspanˈot."
+    },
+    {
+      "id": "307",
+      "wer": 0.2,
+      "cer": 0.020618556701030927,
+      "gt_phonemes": "vehamismaχˈim hamesuvaɡˈim ʃenimtsaʔˈim ʔˈal hatsolˈelet mehavˈim mejdˈa modiʔˈini jakˈaʁ mipˈaz.",
+      "pred_phonemes": "vehamismaχˈim hamsuvaɡˈim ʃenimtsaʔˈim ʔˈal hatsolˈelet mehavˈim medˈa modiʔˈini jakˈaʁ mipˈaz."
+    },
+    {
+      "id": "308",
+      "wer": 0.21428571428571427,
+      "cer": 0.046511627906976744,
+      "gt_phonemes": "netsiɡˈej maχlˈeket hamedinˈa umisʁˈad hamiʃpatˈim, hˈem heʔeʁˈiχu ʃemeʃiʔˈa ʃˈel tsolˈelet tvuʔˈa ʃeʃajˈeχet limedinˈa ʔaχˈeʁet.",
+      "pred_phonemes": "netsiɡˈej maχlˈeket hamedinˈa umisʁˈad hamiʃpatˈim, hˈem heʔeʁˈiχu ʃemsiʔˈa ʃˈel tsolˈelet tvuʔˈa ʃeʃajeχˈet limedinˈa ʔaχeʁˈet."
+    },
+    {
+      "id": "309",
+      "wer": 0.07692307692307693,
+      "cer": 0.018691588785046728,
+      "gt_phonemes": "ʔalulˈa leheχaʃˈev ʔˈal pˈi haχˈok habenleʔumˈi velaχˈen lesabˈeχ ʔˈet ʔaʁtsˈot habʁˈit mibχinˈa miʃpatˈit.",
+      "pred_phonemes": "ʔalulˈa leheχaʃˈev ʔˈal pˈi haχˈok habinlaʔumˈi velaχˈen lesabˈeχ ʔˈet ʔaʁtsˈot habʁˈit mibχinˈa miʃpatˈit."
+    },
+    {
+      "id": "310",
+      "wer": 0.18181818181818182,
+      "cer": 0.043478260869565216,
+      "gt_phonemes": "ʔavˈal bivdikˈa maʔamikˈa jotˈeʁ hitɡalˈa ʃehasovjˈetim ʔatsmˈam ʔasˈu mˈaʃu domˈe beʔavˈaʁ.",
+      "pred_phonemes": "ʔavˈal bivdikˈa maʔamikˈa jotˈeʁ hitɡalˈa ʃehasovjetˈim ʔatsmˈam ʔasˈu mˈaʃehu domˈe beʔavˈaʁ."
+    },
+    {
+      "id": "311",
+      "wer": 0.16666666666666666,
+      "cer": 0.038461538461538464,
+      "gt_phonemes": "veʃilvˈu ʔotˈa batsˈi ʃelahˈem ketsolˈelet ʔimunˈim.",
+      "pred_phonemes": "veʃilvˈu ʔotˈa batsˈaj ʃelahˈem ketsolˈelet ʔimunˈim."
+    },
+    {
+      "id": "312",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "hatakdˈim hazˈe hesˈiʁ ʔˈet haχaʃaʃˈot hamiʃpatijˈim vehanasˈi niksˈon ʔiʃˈeʁ ʔˈet hamivtsˈa.",
+      "pred_phonemes": "hatakdˈim hazˈe hesˈiʁ ʔˈet haχaʃaʃˈot hamiʃpatijˈim vehanasˈi niksˈon ʔiʃˈeʁ ʔˈet hamivtsˈa."
+    },
+    {
+      "id": "313",
+      "wer": 0.09090909090909091,
+      "cer": 0.021052631578947368,
+      "gt_phonemes": "hitkansˈu kedˈej letakˈes ʔejtsˈa. kulˈam hevˈinu beʔˈejze ʔetɡˈaʁ teχnolˈoɡi ʔatsˈum medubˈaʁ.",
+      "pred_phonemes": "hitkansˈu kedˈej letakˈes ʔitsˈa. kulˈam hevˈinu beʔˈejze ʔetɡˈaʁ teχnolˈoɡi ʔatsˈum medubˈaʁ."
+    },
+    {
+      "id": "314",
+      "wer": 0.125,
+      "cer": 0.03278688524590164,
+      "gt_phonemes": "hajtˈa ɡˈuʃ matˈeχet bemiʃkˈal ʃˈel kimʔˈat ʔalpˈajim tˈonot.",
+      "pred_phonemes": "hajtˈa ɡˈuʃ matˈeχet bemiʃkˈal ʃˈel kimʔˈat ʔalpajˈim tˈonot."
+    },
+    {
+      "id": "315",
+      "wer": 0.125,
+      "cer": 0.014084507042253521,
+      "gt_phonemes": "hajˈa χaʃˈaʃ mamaʃˈi ʃehateʔunˈa ʃehevˈiʔa litfiʔatˈa ʃˈel hatsolˈelet.",
+      "pred_phonemes": "hajˈa χaʃˈaʃ mamaʃˈi ʃehateʔunˈa ʃehevˈiʔa litfijatˈa ʃˈel hatsolˈelet."
+    },
+    {
+      "id": "316",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "ɡaʁmˈa ɡˈam lehitpaʁkutˈam ʃˈel hatilˈim haɡaʁʔinijˈim ʃehˈi nasʔˈa bevitnˈa.",
+      "pred_phonemes": "ɡaʁmˈa ɡˈam lehitpaʁkutˈam ʃˈel hatilˈim haɡaʁʔinijˈim ʃehˈi nasʔˈa bevitnˈa."
+    },
+    {
+      "id": "317",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "kˈaχ ʃehasʁidˈim ʔasujˈim lihjˈot mezohamˈim bikʁinˈa ʁˈadjo ʔaktˈivit.",
+      "pred_phonemes": "kˈaχ ʃehasʁidˈim ʔasujˈim lihjˈot mezohamˈim bikʁinˈa ʁˈadjo ʔaktˈivit."
+    },
+    {
+      "id": "318",
+      "wer": 3.4444444444444446,
+      "cer": 3.5795454545454546,
+      "gt_phonemes": "ʃesikujˈej hahatslaχˈa ʃˈel hapʁojˈekt hazˈe, ʔeχˈad haʁaʔjonˈot haʁiʃonijˈim ʃehuʔalˈu,",
+      "pred_phonemes": "ʃesikujˈej hahatslaχˈa ʃˈel hapʁojˈekt hazˈe, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu, ʔeχˈa"
+    },
+    {
+      "id": "319",
+      "wer": 0.16666666666666666,
+      "cer": 0.04395604395604396,
+      "gt_phonemes": "hajˈa leχabˈeʁ ʔˈel ɡˈuf hatsolˈelet balonˈim, lenapˈeaχ ʔotˈam beʔavˈiʁ ʔˈo beɡˈaz ʔaχˈeʁ.",
+      "pred_phonemes": "hajˈa leχabˈeʁ ʔˈel ɡˈuf hatsolˈelet belˈonim, lenapˈeaχ ʔotˈam baʔavˈiʁ ʔˈo beɡˈaz ʔaχˈeʁ."
+    },
+    {
+      "id": "320",
+      "wer": 0.8,
+      "cer": 0.6890756302521008,
+      "gt_phonemes": "veχˈaχ lehatsˈif ʔotˈa eˈl pnˈej haʃˈetaχ. biɡlˈal haχaʃˈaʃ ʃeʔalijˈa lˈo mevukˈeʁet ʃˈel hatsolˈelet lipnˈej hamˈajim,",
+      "pred_phonemes": "veχˈaχ lehatsˈif ʔotˈa lifnˈej haʃˈetaχ. biɡlˈal haχaʃˈaʃ ʃeʔalijˈa lˈo mevukˈeʁet ʃˈel hatsolˈelet lifnˈej hamˈajim, biɡlˈal haχaʃˈaʃ ʃeʔalijˈa lˈo mevukˈeʁet ʃˈel hatsolˈelet lifnˈej hamˈajim."
+    },
+    {
+      "id": "321",
+      "wer": 0.2,
+      "cer": 0.06493506493506493,
+      "gt_phonemes": "taχsˈof ʔotˈa lelavjanˈej ʁiɡˈul ʔˈo metosˈej tsilˈum ʃˈel bʁˈit hamoʔatsˈot.",
+      "pred_phonemes": "taχasˈof ʔotˈa lilvinˈej ʁiɡˈul ʔˈo metosˈej tsilˈum ʃˈel bʁˈit hamoʔatsˈot."
+    },
+    {
+      "id": "322",
+      "wer": 0.25,
+      "cer": 0.04672897196261682,
+      "gt_phonemes": "mˈi jodˈea mˈa jikʁˈe kʃejavˈinu haʁusˈim ʃehatsolˈelet haɡaʁʔinˈit ʃelahˈem naflˈa lijdˈej haʔameʁikˈanim?",
+      "pred_phonemes": "mˈi jodˈea mˈa jikʁˈe kʃejavˈinu haʁˈusim ʃehatsolˈelet haɡaʁʔinˈit ʃelahˈem naflˈa lidˈej haʔameʁikanˈim?"
+    },
+    {
+      "id": "323",
+      "wer": 0.09090909090909091,
+      "cer": 0.021739130434782608,
+      "gt_phonemes": "ʃekimʔˈat vehovˈil lemilχˈemet ʔolˈam ʃliʃˈit hajˈa ʔadˈajin taʁˈi bemaχotehˈem ʃˈel kulˈam.",
+      "pred_phonemes": "ʃekimʔˈat vehovˈil lemilχˈemet ʔolˈam ʃliʃˈit hajˈa ʔadˈajin taʁˈi bimχotehˈem ʃˈel kulˈam."
+    },
+    {
+      "id": "324",
+      "wer": 0.08333333333333333,
+      "cer": 0.01098901098901099,
+      "gt_phonemes": "hapitaʁˈon ʃenivχˈaʁ besofˈo ʃˈel davˈaʁ sfinˈa ʃetatsˈuf lelˈo tzuzˈa ʔˈal pnˈej haʃˈetaχ.",
+      "pred_phonemes": "hapitʁˈon ʃenivχˈaʁ besofˈo ʃˈel davˈaʁ sfinˈa ʃetatsˈuf lelˈo tzuzˈa ʔˈal pnˈej haʃˈetaχ."
+    },
+    {
+      "id": "325",
+      "wer": 0.2,
+      "cer": 0.06329113924050633,
+      "gt_phonemes": "kedˈej liʃlˈot tsaʔatsˈua ʔˈo mamtˈak. jimʃˈoχ ʔˈet hatsolˈelet klapˈej maʔlˈa.",
+      "pred_phonemes": "kedˈej liʃlˈot tsaʔatsˈua ʔˈo mematˈek. jimʃˈoχ ʔˈet hatsolˈelet klapˈej mˈaʔla."
+    },
+    {
+      "id": "326",
+      "wer": 0.13333333333333333,
+      "cer": 0.024193548387096774,
+      "gt_phonemes": "ʔˈel pˈetaχ mejuχˈad betaχtˈit hasfinˈa. haʁusˈim lˈo juχlˈu liʁʔˈot mibaχˈuts ʔˈet hapeʔilˈut ʃenaʔasˈet mitˈaχat lamˈajim.",
+      "pred_phonemes": "ʔˈal pˈetaχ mejuχˈad betaχtˈit hasfinˈa. haʁˈusim lˈo juχlˈu liʁʔˈot mibaχˈuts ʔˈet hapeʔilˈut ʃenaʔasˈet mitˈaχat lamˈajim."
+    },
+    {
+      "id": "327",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "mˈi mesuɡˈal livnˈot maʔaʁˈeχet haʁamˈa ʃekazˈo laʔetɡˈaʁ hateχnolˈoɡi heʔatsˈum ʃebˈo hajˈa medubˈaʁ.",
+      "pred_phonemes": "mˈi mesuɡˈal livnˈot maʔaʁˈeχet haʁamˈa ʃekazˈo laʔetɡˈaʁ hateχnolˈoɡi heʔatsˈum ʃebˈo hajˈa medubˈaʁ."
+    },
+    {
+      "id": "328",
+      "wer": 0.2,
+      "cer": 0.05555555555555555,
+      "gt_phonemes": "hajˈa baʁˈuʁ ʃeʔˈim mispanˈot hatsˈi jihjˈu ʔˈele ʃejivnˈu ʔˈet hasfinˈa hakˈol kˈaχ bˈilti ʃiɡʁatˈit hazˈo.",
+      "pred_phonemes": "hajˈa baʁˈuʁ ʃeʔˈim misafnˈot hatsˈaj jihjˈu ʔˈele ʃejivnˈu ʔˈet hasfinˈa hakˈol kˈaχ biltˈi ʃiɡʁatˈit hazˈo."
+    },
+    {
+      "id": "329",
+      "wer": 0.14285714285714285,
+      "cer": 0.03773584905660377,
+      "gt_phonemes": "hadavˈaʁ jeʔoʁˈeʁ mijˈad ʔˈet χaʃadˈam ʃˈel haʁusˈim.",
+      "pred_phonemes": "hadavˈaʁ jeʔoʁˈeʁ mijˈad ʔˈet χaʃadˈam ʃˈel haʁˈusim."
+    },
+    {
+      "id": "330",
+      "wer": 0.18181818181818182,
+      "cer": 0.022727272727272728,
+      "gt_phonemes": "niχˈan bajeχˈolet lehotsˈi lafˈoʔal miblˈi leʔoʁˈeʁ ʔˈet χaʃadˈa ʃˈel bʁˈit hamoʔatsˈot.",
+      "pred_phonemes": "niχˈan bajχˈolet lehotsˈi lapˈoʔal miblˈi leʔoʁˈeʁ ʔˈet χaʃadˈa ʃˈel bʁˈit hamoʔatsˈot."
+    },
+    {
+      "id": "331",
+      "wer": 0.1111111111111111,
+      "cer": 0.056338028169014086,
+      "gt_phonemes": "heχˈel ʔˈet hakaʁjˈeʁa ʃelˈo biʃnˈot haʔesʁˈim ʃˈel hameʔˈa hakodˈemet.",
+      "pred_phonemes": "heχˈel ʔˈet hakʁˈajʁa ʃelˈo biʃnˈot haʔesʁˈim ʃˈel hameʔˈa hakodˈemet."
+    },
+    {
+      "id": "332",
+      "wer": 0.2727272727272727,
+      "cer": 0.047619047619047616,
+      "gt_phonemes": "lˈo hajˈu hatʃukˈa hajeχidˈa ʃˈel jˈus. hˈu hitʔanjˈen meʔˈod bemadˈa veteχnolˈoɡja.",
+      "pred_phonemes": "lˈo hajˈu hatʃukˈa hajχidˈa ʃˈel jˈost. hˈu hitʔanjˈen meʔˈod bamadˈa veteχnolˈoɡja."
+    },
+    {
+      "id": "333",
+      "wer": 0.16666666666666666,
+      "cer": 0.04,
+      "gt_phonemes": "bifʁˈat bitχˈum hateʔufˈa ʃehajˈa ʔˈaz beχitulˈav.",
+      "pred_phonemes": "uvifʁˈat bitχˈum hateʔufˈa ʃehajˈa ʔˈaz beχitulˈav."
+    },
+    {
+      "id": "334",
+      "wer": 0.3076923076923077,
+      "cer": 0.05217391304347826,
+      "gt_phonemes": "heχlˈit jˈuz lenatsˈel ʔˈet hahizdamnˈut vehaχevʁˈa ʃelˈo heχˈela lefatˈeaχ mesokˈim ʔavˈuʁ hatsavˈa haʔameʁikˈani.",
+      "pred_phonemes": "heχelˈit jˈoz lenatsˈel ʔˈet hahizdamnˈut vehaχevʁˈa ʃelˈo heχˈela lefatˈeaχ masukˈim ʔavˈuʁ hatsavˈa haʔameʁikanˈi."
+    },
+    {
+      "id": "335",
+      "wer": 0.07692307692307693,
+      "cer": 0.016260162601626018,
+      "gt_phonemes": "zaχtˈa haχevʁˈa bepʁojˈektim tsvaʔijˈim nosafˈim vehafχˈa leʔaχˈat mikablanijˈot hamiʃnˈe haboltˈot ʃˈel misʁˈad hahaɡanˈa.",
+      "pred_phonemes": "zaχtˈa haχevʁˈa bifʁojˈektim tsvaʔijˈim nosafˈim vehafχˈa leʔaχˈat mikablanijˈot hamiʃnˈe haboltˈot ʃˈel misʁˈad hahaɡanˈa."
+    },
+    {
+      "id": "336",
+      "wer": 0.4,
+      "cer": 0.08860759493670886,
+      "gt_phonemes": "haχevʁˈa ʃˈel jˈuz jitsʁˈa metosˈej kʁˈav, lˈejzeʁim, tilˈim, lavjanˈim veʔˈod.",
+      "pred_phonemes": "haχevʁˈa ʃˈel jˈuz jatsʁˈa mitosˈej kʁˈav, lejazʁˈim, tilˈim, lajanˈim veʔˈod."
+    },
+    {
+      "id": "337",
+      "wer": 8.428571428571429,
+      "cer": 6.4655172413793105,
+      "gt_phonemes": "ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomeˈaχ ʃˈel jˈuz,",
+      "pred_phonemes": "ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomˈeaχ ʃˈel jˈoz, ʔˈoz, ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomˈeaχ ʃˈel jˈoz, ʔˈoz, ʃˈel jˈoz, jˈoz, ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomˈeaχ ʃˈel jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz, jˈoz"
+    },
+    {
+      "id": "338",
+      "wer": 0.125,
+      "cer": 0.01282051282051282,
+      "gt_phonemes": "ketajkˈun beʔolˈam hateχnolˈoɡja hatsvaʔˈit, biltˈi ʃiɡʁatˈi bilʃˈon hamʔatˈa.",
+      "pred_phonemes": "ketajkˈun baʔolˈam hateχnolˈoɡja hatsvaʔˈit, biltˈi ʃiɡʁatˈi bilʃˈon hamʔatˈa."
+    },
+    {
+      "id": "339",
+      "wer": 0.1111111111111111,
+      "cer": 0.0625,
+      "gt_phonemes": "hˈu nahˈaɡ leʔeχˈol beχˈol ʔˈeʁev ʔˈet ʔotˈa haʔaʁuχˈa bedijˈuk.",
+      "pred_phonemes": "hˈu nahˈaɡ leʔeχˈol beχˈol ʔaʁˈav ʔˈet ʔotˈa haʔaʁuχˈa bedijˈuk."
+    },
+    {
+      "id": "340",
+      "wer": 0.5833333333333334,
+      "cer": 0.17525773195876287,
+      "gt_phonemes": "stˈajk mˈedjum ʁˈejʁ, salˈat veʔafunˈim, hˈu bilʔˈa ʔaʁbaʔˈa χodaʃˈim ʁetsufˈim beʔolˈam kolnˈoa.",
+      "pred_phonemes": "stˈajk midijˈum ʁˈajiʁ, sˈelet veʔefonˈim, uvilʔˈa ʔaʁbaʔˈa χodaʃˈim ʁetsufˈim baʔolˈam kolnˈoa."
+    },
+    {
+      "id": "341",
+      "wer": 0.5833333333333334,
+      "cer": 0.13829787234042554,
+      "gt_phonemes": "hˈu ʁaʔˈa mˈeʔa veχamiʃˈim peʔamˈim. heχlˈit jˈuz laʔavˈoʁ lehitɡoʁˈeʁ bemalˈon belˈas vˈeɡas.",
+      "pred_phonemes": "hˈu ʁaʔˈa meʔˈa χamiʃˈim peʔamˈim. heχelˈit jˈoz laʔavˈoʁ lehitɡoʁˈeʁ bimlˈon bˈeles veɡˈas."
+    },
+    {
+      "id": "342",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "uvemˈeʃeχ χodaʃˈim ʔaʁukˈim lˈo jatsˈa mehaχˈedeʁ. kanˈa ɡˈam ʔˈet hakazˈino ʃemeʔˈeveʁ lakvˈiʃ.",
+      "pred_phonemes": "uvemˈeʃeχ χodaʃˈim ʔaʁukˈim lˈo jatsˈa mehaχˈedeʁ. kanˈa ɡˈam ʔˈet hakazˈino ʃemeʔˈeveʁ lakvˈiʃ."
+    },
+    {
+      "id": "343",
+      "wer": 0.1,
+      "cer": 0.047058823529411764,
+      "gt_phonemes": "mikejvˈan ʃeʃˈelet hanˈeʔon ʃˈel hakazˈino ɡˈam hajˈa ʔobsesˈivi leɡabˈej pʁatijutˈo.",
+      "pred_phonemes": "mikejvˈan ʃeʃˈelet hanaʔˈun ʃˈel hakazˈino ɡˈam hajˈa ʔobsesˈivi leɡabˈej pʁatijutˈo."
+    },
+    {
+      "id": "344",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "ʃelˈo lifnˈot ʔelˈav velˈo ledabˈeʁ ʔelˈav, ʔˈela ʔˈim panˈa ʔalehˈem kˈodem.",
+      "pred_phonemes": "ʃelˈo lifnˈot ʔelˈav velˈo ledabˈeʁ ʔelˈav, ʔˈela ʔˈim panˈa ʔalehˈem kˈodem."
+    },
+    {
+      "id": "345",
+      "wer": 2.4705882352941178,
+      "cer": 2.096296296296296,
+      "gt_phonemes": "vehekpˈid ʃˈel lˈo leheʁaʔˈot batsibˈuʁ. mˈi ʃejatsˈaʁ ʔˈet kamˈa miɡiboʁˈej haʔˈal hamukaʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomiks mˈaʁvel,",
+      "pred_phonemes": "vehakafˈid ʃˈel ʔolˈe ʁaʔˈot batsibˈuʁ. mˈi ʃejatsˈaʁ ʔˈet kˈama miɡiboʁˈi haʔˈal hamoχʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomiks maʁˈevel, mˈi ʃejatsˈaʁ ʔˈet kˈama miɡiboʁˈi haʔˈal hamoχʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomiks maʁˈevel, mˈi ʃejatsˈaʁ ʔˈet kˈama miɡiboʁˈi haʔˈal hamoχʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomiks maʁˈevel, mˈi ʃejatsˈaʁ ʔˈet kˈama miɡiboʁˈi haʔˈal hamoχʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomi"
+    },
+    {
+      "id": "346",
+      "wer": 0.2857142857142857,
+      "cer": 0.10091743119266056,
+      "gt_phonemes": "hivˈa ʔˈet hahaʃʁaʔˈa lidmutˈo ʃˈel tˈoni stˈaʁk, haɡaʔˈon haʔeksˈentʁi ʃebetˈoχ haχalifˈa ʃˈel ʔˈajʁon mˈan.",
+      "pred_phonemes": "hivˈa ʔˈet hahaʃʁaʔˈa lidmutˈo ʃˈel tunˈi stˈaʁk, haɡaʔˈon haʔaksentˈaʁi ʃebetˈoχ haχalifˈa ʃˈel ʔajaʁˈon mˈin."
+    },
+    {
+      "id": "347",
+      "wer": 0.3333333333333333,
+      "cer": 0.06666666666666667,
+      "gt_phonemes": "ʃejˈuz hˈu bidjˈuk haʔadˈam ʃehˈem meχapsˈim.",
+      "pred_phonemes": "ʃijˈuz hˈu bedijˈuk haʔadˈam ʃehˈem meχapsˈim."
+    },
+    {
+      "id": "348",
+      "wer": 0.2857142857142857,
+      "cer": 0.09859154929577464,
+      "gt_phonemes": "hajtˈa meʔoʁˈevet mimˈele beʔejnsfˈoʁ pʁojˈektim tsvaʔijˈim mitkadmˈim.",
+      "pred_phonemes": "hajtˈa meʔoʁˈevet mimelˈa beʔinspˈuʁ pʁojˈektim tsvaʔijˈim mitkadmˈim."
+    },
+    {
+      "id": "349",
+      "wer": 0.25,
+      "cer": 0.027777777777777776,
+      "gt_phonemes": "haʃilˈuv ʃˈel ɡeʔonˈut teχnolˈoɡit veʔiʃijˈut meʃunˈa ubiltˈi ʃiɡʁatˈit.",
+      "pred_phonemes": "haʃilˈuv ʃˈel ɡeʔonˈut teχnolˈoɡit veʔiʃijˈut meʃunˈe uviltˈi ʃiɡʁatˈit."
+    }
+  ]
+}

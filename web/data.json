@@ -1,6 +1,12 @@
 {
     "models": [
         {
+            "name": "ByT5",
+            "url": "https://github.com/thewh1teagle/phonikud-byt5",
+            "wer": 0.38,
+            "cer": 0.21
+        },
+        {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
             "wer": 0.1744037139331257,
