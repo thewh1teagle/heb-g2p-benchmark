@@ -1,6 +1,12 @@
 {
     "models": [
         {
+            "name": "Gemma3-Pro-Preview",
+            "url": "https://github.com/google/gemma3",
+            "wer": 0.20695461727814668,
+            "cer": 0.03936342353908933
+        },
+        {
             "name": "ByT5",
             "url": "https://github.com/thewh1teagle/phonikud-byt5",
             "wer": 0.38,
