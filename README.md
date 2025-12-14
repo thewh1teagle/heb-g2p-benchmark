@@ -2,6 +2,8 @@
 
 See The [Web Page](https://thewh1teagle.github.io/heb-g2p-benchmark) for more details.
 
+Part of [Phonikud project](https://phonikud.github.io)
+
 ## Add a new model
 
 1. Create new csv file with `id, phonemes` columns 
