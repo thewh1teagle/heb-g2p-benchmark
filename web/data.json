@@ -1,6 +1,12 @@
 {
     "models": [
         {
+            "name": "Gemini 3 Pro",
+            "url": "https://deepmind.google/technologies/gemini/",
+            "wer": 0.11896821998862814,
+            "cer": 0.026245468730923004
+        },
+        {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
             "wer": 0.13870163283428588,
