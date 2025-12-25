@@ -19,6 +19,12 @@
             "cer": 0.18738221918250675
         },
         {
+            "name": "GPT-5.2",
+            "url": "https://openai.com/index/introducing-gpt-5-2/",
+            "wer": 0.5601672420549972,
+            "cer": 0.15316855790984552
+        },
+        {
             "name": "ESpeak-NG",
             "url": "https://github.com/espeak-ng/espeak-ng",
             "wer": 1.0,
