@@ -7,6 +7,36 @@ import csv
 import argparse
 import json
 import os
+import re
+
+def extract_stress_positions(phonemes):
+    """
+    Extract stress positions per-word to prevent error cascading.
+
+    Splits by spaces and for each word, finds which vowel (a,e,i,o,u) position
+    has the stress mark. Returns position for each word.
+
+    Example: "ʃalˈom ʔolˈam" -> "1 1"
+             (word1: a=0, o=1✓ | word2: o=0, a=1✓)
+    """
+    vowels = 'aeiou'
+    words = phonemes.split()
+    positions = []
+
+    for word in words:
+        # Find stress position within this word
+        for i, char in enumerate(word):
+            if char == 'ˈ' and i + 1 < len(word) and word[i + 1] in vowels:
+                # Count vowels before this stress mark in this word only
+                vowel_count = sum(1 for c in word[:i] if c in vowels)
+                positions.append(str(vowel_count))
+                break  # Only one stress per word
+        else:
+            # No stress found in this word
+            positions.append('X')
+
+    return ' '.join(positions)
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('gt_file', type=str, default='gt.tsv')
@@ -40,10 +70,11 @@ if not common_sentences:
 
 print(f"Found {len(common_sentences)} common samples")
 
-# Calculate WER and CER for each sample
+# Calculate WER, CER, and Stress WER for each sample
 individual_results = []
 wer_scores = []
 cer_scores = []
+stress_wer_scores = []
 
 for sentence in sorted(common_sentences):
     gt_phonemes = gt_data[sentence]
@@ -55,13 +86,20 @@ for sentence in sorted(common_sentences):
     # Calculate CER (Character Error Rate)
     cer = jiwer.cer(gt_phonemes, pred_phonemes)
 
+    # Calculate Stress WER (comparing stress positions)
+    gt_stress = extract_stress_positions(gt_phonemes)
+    pred_stress = extract_stress_positions(pred_phonemes)
+    stress_wer = jiwer.wer(gt_stress, pred_stress)
+
     wer_scores.append(wer)
     cer_scores.append(cer)
+    stress_wer_scores.append(stress_wer)
 
     individual_results.append({
         'sentence': sentence,
         'wer': wer,
         'cer': cer,
+        'stress_wer': stress_wer,
         'gt_phonemes': gt_phonemes,
         'pred_phonemes': pred_phonemes
     })
@@ -69,12 +107,14 @@ for sentence in sorted(common_sentences):
 # Calculate mean scores
 mean_wer = sum(wer_scores) / len(wer_scores) if wer_scores else 0
 mean_cer = sum(cer_scores) / len(cer_scores) if cer_scores else 0
+mean_stress_wer = sum(stress_wer_scores) / len(stress_wer_scores) if stress_wer_scores else 0
 
 # Create report
 report = {
     'summary': {
         'mean_wer': mean_wer,
         'mean_cer': mean_cer,
+        'mean_stress_wer': mean_stress_wer,
         'num_samples': len(common_sentences)
     },
     'individual': individual_results
@@ -89,4 +129,5 @@ print(f"\nReport saved to {args.output}")
 print(f"\nSummary:")
 print(f"  Mean WER: {mean_wer:.4f}")
 print(f"  Mean CER: {mean_cer:.4f}")
+print(f"  Mean Stress WER: {mean_stress_wer:.4f}")
 print(f"  Samples: {len(common_sentences)}")

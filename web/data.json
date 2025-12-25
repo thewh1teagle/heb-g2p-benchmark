@@ -4,37 +4,43 @@
             "name": "Gemini 3 Pro",
             "url": "https://deepmind.google/technologies/gemini/",
             "wer": 0.11896821998862814,
-            "cer": 0.026245468730923004
+            "cer": 0.026245468730923004,
+            "stress_wer": 0.0523
         },
         {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
             "wer": 0.13870163283428588,
-            "cer": 0.0427421712897724
+            "cer": 0.0427421712897724,
+            "stress_wer": 0.0884
         },
         {
             "name": "Goruut",
             "url": "https://github.com/neurlang/goruut",
             "wer": 0.34375627207259857,
-            "cer": 0.1009555048959009
+            "cer": 0.1009555048959009,
+            "stress_wer": 0.1409
         },
         {
             "name": "Gemma3-G2P",
             "url": "https://github.com/thewh1teagle/gemma3-g2p",
             "wer": 0.2931237696543819,
-            "cer": 0.18738221918250675
+            "cer": 0.18738221918250675,
+            "stress_wer": 0.1325
         },
         {
             "name": "GPT-5.2",
             "url": "https://openai.com/index/introducing-gpt-5-2/",
             "wer": 0.5601672420549972,
-            "cer": 0.15316855790984552
+            "cer": 0.15316855790984552,
+            "stress_wer": 0.3879
         },
         {
             "name": "ESpeak-NG",
             "url": "https://github.com/espeak-ng/espeak-ng",
             "wer": 1.0,
-            "cer": 0.4506346576588769
+            "cer": 0.4506346576588769,
+            "stress_wer": 1.0
         }
     ]
 }

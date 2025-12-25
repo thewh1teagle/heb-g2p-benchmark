@@ -43,12 +43,15 @@ function displayResults(data) {
             ? `<a href="${model.url}" target="_blank">${model.name}</a>`
             : model.name;
 
+        const stressWer = model.stress_wer !== undefined ? model.stress_wer.toFixed(2) : 'N/A';
+
         row.innerHTML = `
             <td class="rank">${model.rank}</td>
             <td class="model-name">${modelNameCell}</td>
             <td class="metric">${accuracy}%</td>
             <td class="metric">${model.wer.toFixed(2)}</td>
             <td class="metric">${model.cer.toFixed(2)}</td>
+            <td class="metric">${stressWer}</td>
         `;
 
         tableBody.appendChild(row);
