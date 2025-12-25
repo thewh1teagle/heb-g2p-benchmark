@@ -1,40 +1,28 @@
 {
     "models": [
         {
-            "name": "Gemma3-Pro-Preview",
-            "url": "https://github.com/google/gemma3",
-            "wer": 0.20695461727814668,
-            "cer": 0.03936342353908933
-        },
-        {
-            "name": "ByT5",
-            "url": "https://github.com/thewh1teagle/phonikud-byt5",
-            "wer": 0.38,
-            "cer": 0.21
-        },
-        {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
-            "wer": 0.1744037139331257,
-            "cer": 0.038215107641595754
+            "wer": 0.13870163283428588,
+            "cer": 0.0427421712897724
         },
         {
-            "name": "Gemma3-G2P 270m",
+            "name": "Goruut",
+            "url": "https://github.com/neurlang/goruut",
+            "wer": 0.34375627207259857,
+            "cer": 0.1009555048959009
+        },
+        {
+            "name": "Gemma3-G2P",
             "url": "https://github.com/thewh1teagle/gemma3-g2p",
-            "wer": 0.237968843248255,
-            "cer": 0.0722328222624259
+            "wer": 0.2931237696543819,
+            "cer": 0.18738221918250675
         },
         {
             "name": "ESpeak-NG",
             "url": "https://github.com/espeak-ng/espeak-ng",
             "wer": 1.0,
-            "cer": 0.465262803647537252
-        },
-        {
-            "name": "Goruut",
-            "url": "https://github.com/neurlang/goruut",
-            "wer": 0.3634,
-            "cer": 0.0992
+            "cer": 0.4506346576588769
         }
     ]
 }

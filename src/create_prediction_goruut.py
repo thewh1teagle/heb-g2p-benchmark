@@ -18,13 +18,12 @@ def phonemize(sentence: str) -> str:
 
 # Example usage:
 if __name__ == "__main__":
-    with open("gt.csv", "r") as f, open("pred_goruut.csv", "w") as f_pred:
-        reader = csv.reader(f)
+    with open("gt.tsv", "r", encoding="utf-8") as f, open("pred_goruut.tsv", "w", encoding="utf-8") as f_pred:
+        reader = csv.reader(f, delimiter='\t')
         next(reader) # skip header
-        writer = csv.writer(f_pred)
-        writer.writerow(["id", "phonemes"])
+        writer = csv.writer(f_pred, delimiter='\t')
+        writer.writerow(["Sentence", "Phonemes"])
         for row in tqdm(reader):
-            id = row[0]
-            transcript = row[1]
-            phonemes = phonemize(transcript)
-            writer.writerow([id, phonemes])
+            sentence = row[0]
+            phonemes = phonemize(sentence)
+            writer.writerow([sentence, phonemes])

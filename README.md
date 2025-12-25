@@ -6,12 +6,12 @@ Part of [Phonikud project](https://phonikud.github.io)
 
 ## Add a new model
 
-1. Create new csv file with `id, phonemes` columns 
-2. phonemes should be genereated from the `gt.csv` transcript
-3. Run 
+1. Create new TSV file with `Sentence, Phonemes` columns
+2. phonemes should be generated from the `gt.tsv` sentences
+3. Run
 
 ```console
-uv run src/create_report.py gt.csv pred.csv
+uv run src/create_report.py gt.tsv pred.tsv
 ```
 
-4. Submit new pull request with the new csv file and the report.json file
+4. Submit new pull request with the new TSV file and the report.json file

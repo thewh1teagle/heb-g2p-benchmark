@@ -1,6 +1,7 @@
 """
+export GEMINI_API_KEY="YOUR_API_KEY"
 uv pip install google-genai pandas tqdm
-uv run src/gemma3.py
+uv run src/create_prediction_gemini3-pro.py
 """
 
 import os
@@ -71,12 +72,11 @@ def ask(prompt):
     return result
 
 if __name__ == "__main__":
-    df = pd.read_csv("gt.csv")
+    df = pd.read_csv("gt.tsv", sep='\t')
     results = []
     for index, row in tqdm(df.iterrows(), total=len(df)):
-        id = row["id"]
-        transcript = row["transcript"]
-        phonemes = ask(transcript).strip()
-        results.append({"id": id, "phonemes": phonemes})
+        sentence = row["Sentence"]
+        phonemes = ask(sentence).strip()
+        results.append({"Sentence": sentence, "Phonemes": phonemes})
         target_df = pd.DataFrame(results)
-        target_df.to_csv("pred_gemma3.csv", index=False)
+        target_df.to_csv("pred_gemini3-pro.tsv", sep='\t', index=False)

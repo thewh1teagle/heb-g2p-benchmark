@@ -1,0 +1,695 @@
+{
+  "summary": {
+    "mean_wer": 0.34375627207259857,
+    "mean_cer": 0.1009555048959009,
+    "num_samples": 98
+  },
+  "individual": [
+    {
+      "sentence": "אוריה אמרה לי שהיא אוהבת לטייל בטבע.",
+      "wer": 0.14285714285714285,
+      "cer": 0.058823529411764705,
+      "gt_phonemes": "ʔoʁˈija ʔamʁˈa lˈi ʃehˈi ʔohˈevet letajˈel batˈeva.",
+      "pred_phonemes": "ʔuʁijˈa ʔamʁˈa lˈi ʃehˈi ʔohˈevet letajˈel batˈeva."
+    },
+    {
+      "sentence": "אושרה אמרה שהיא מנסה להיות יותר סבלנית עם עצמה",
+      "wer": 0.4444444444444444,
+      "cer": 0.09230769230769231,
+      "gt_phonemes": "ʔˈoʃʁa ʔamʁˈa ʃehˈi menasˈa lihjˈot jotˈeʁ savlanˈit ʔˈim ʔatsmˈa",
+      "pred_phonemes": "ʔuʃʁˈa ʔamʁˈa ʃehˈi menasˈe lihjˈot jotˈeʁ savlanˈit ʔˈam ʔotsmˈa"
+    },
+    {
+      "sentence": "אחד מהחברים אמר שהוא חוזר לגור בעפולה אחרי כמה שנים במרכז",
+      "wer": 0.45454545454545453,
+      "cer": 0.10227272727272728,
+      "gt_phonemes": "ʔeχˈad mehaχaveʁˈim ʔamˈaʁ ʃehˈu χozˈeʁ laɡˈuʁ beʔafˈula ʔaχaʁˈej kˈama ʃanˈim bameʁkˈaz",
+      "pred_phonemes": "ʔeχˈad mehaχaveʁˈim ʔomˈaʁ ʃehˈu χozˈeʁ laɡˈuʁ baʔafulˈa ʔaχaʁˈaj kamˈea ʃanˈim bemeʁkˈaz"
+    },
+    {
+      "sentence": "אחרי שאתה אורז את המזוודה, תבוא לאכול אורז",
+      "wer": 0.25,
+      "cer": 0.06557377049180328,
+      "gt_phonemes": "ʔaχʁˈej ʃeʔatˈa ʔoʁˈez ʔˈet hamizvadˈa, tavˈo leʔeχˈol ʔˈoʁez",
+      "pred_phonemes": "ʔaχaʁˈaj ʃeʔatˈa ʔˈoʁez ʔˈet hamizvadˈa, tavˈo leʔeχˈol ʔˈoʁez"
+    },
+    {
+      "sentence": "איזה שמיים יפים וכחולים.",
+      "wer": 0.5,
+      "cer": 0.2727272727272727,
+      "gt_phonemes": "ʔˈejze ʃamˈajim jafˈim vekχulˈim.",
+      "pred_phonemes": "ʔˈejze ʃamajˈim jafˈim ukˈaχoalˈm."
+    },
+    {
+      "sentence": "אילון מאסק הוא האיש הכי עשיר בעולם.",
+      "wer": 0.5714285714285714,
+      "cer": 0.1956521739130435,
+      "gt_phonemes": "ʔˈelon mˈask hˈu haʔˈiʃ haχˈi ʔaʃˈiʁ baʔolˈam.",
+      "pred_phonemes": "ʔajalˈon masˈek hˈi haʔˈiʃ haχˈi ʔaʃˈiʁ beʔolˈam."
+    },
+    {
+      "sentence": "אלירז אמר שהוא מנסה למצוא קצת יותר איזון בחיים",
+      "wer": 0.2222222222222222,
+      "cer": 0.05970149253731343,
+      "gt_phonemes": "ʔeliʁˈaz ʔamˈaʁ ʃehˈu menasˈe limtsˈo ktsˈat jotˈeʁ ʔizˈun baχajˈim",
+      "pred_phonemes": "ʔeliʁˈaz ʔomˈeʁ ʃehˈu menasˈe limtsˈo ktsˈat jutˈaʁ ʔizˈun baχajˈim"
+    },
+    {
+      "sentence": "אמרתי לעצמי להיות רגוע ופשוט נהניתי מכל רגע",
+      "wer": 0.125,
+      "cer": 0.046153846153846156,
+      "gt_phonemes": "ʔamˈaʁti leʔatsmˈi lihjˈot ʁaɡˈua vepaʃˈut nehenˈeti mikˈol ʁˈeɡa",
+      "pred_phonemes": "ʔamˈaʁti leʔatsmˈi lihjˈot ʁaɡˈua ufaʃˈut nehenˈeti mikˈol ʁˈeɡa"
+    },
+    {
+      "sentence": "אמרתי לעצמי שאני רק אבדוק רגע את הטלפון ובסוף עבר חצי שעה",
+      "wer": 0.3333333333333333,
+      "cer": 0.1,
+      "gt_phonemes": "ʔamˈaʁti leʔatsmˈi ʃeʔanˈi ʁˈak ʔevdˈok ʁˈeɡa ʔˈet hatˈelefon vebasˈof ʔavˈaʁ χatsˈi ʃaʔˈa",
+      "pred_phonemes": "ʔamˈaʁti leʔatsmˈi ʃeʔanˈi ʁˈak ʔevdˈok ʁˈeɡa ʔˈat hatˈelefon uvsˈof ʔavˈoʁ χitsˈej ʃaʔˈa"
+    },
+    {
+      "sentence": "אמרתי שאקום מוקדם ובסוף גררתי את עצמי מהמיטה",
+      "wer": 0.125,
+      "cer": 0.045454545454545456,
+      "gt_phonemes": "ʔamˈaʁti ʃeʔakˈum mukdˈam vebasˈof ɡaʁˈaʁti ʔˈet ʔatsmˈi mehamitˈa",
+      "pred_phonemes": "ʔamˈaʁti ʃeʔakˈum mukdˈam uvasˈof ɡaʁˈaʁti ʔˈet ʔatsmˈi mehamitˈa"
+    },
+    {
+      "sentence": "אמרתי שהפעם אני באמת מתארגן בזמן ובסוף שוב מיהרתי",
+      "wer": 0.2222222222222222,
+      "cer": 0.06578947368421052,
+      "gt_phonemes": "ʔamˈaʁti ʃehapˈaʔam ʔanˈi beʔemˈet mitʔaʁɡˈen bazmˈan vebasˈof ʃˈuv mihˈaʁti",
+      "pred_phonemes": "ʔamˈaʁti ʃehapaʔˈam ʔanˈi beʔemˈet mitʔaʁɡˈen bazmˈan uvasˈof ʃˈuv mihˈaʁti"
+    },
+    {
+      "sentence": "אנחנו רוצים לעלות לפרודקשן אחרי שנקבל עוד קצת אינפוט",
+      "wer": 0.4444444444444444,
+      "cer": 0.16883116883116883,
+      "gt_phonemes": "ʔanˈaχnu ʁotsˈim laʔalˈot lepʁodˈakʃen ʔaχʁˈej ʃenekabˈel ʔˈod ktsˈat ʔˈinput",
+      "pred_phonemes": "ʔanˈaχnu ʁotsˈim laʔalˈot lifʁˈvedkˈʃn ʔaχaʁˈaj ʃenkabˈel ʔˈod ktsˈat ʔinpot"
+    },
+    {
+      "sentence": "אני בא אליך אחר כך ונשאר אצלך קצת אם מתאים. מה אתה אומר?",
+      "wer": 0.38461538461538464,
+      "cer": 0.07954545454545454,
+      "gt_phonemes": "ʔanˈi bˈa ʔelˈeχa ʔaχˈaʁ kˈaχ veniʃʔˈaʁ ʔetsleχˈa ktsˈat ʔˈim matʔˈim. mˈa ʔatˈa ʔomˈeʁ?",
+      "pred_phonemes": "ʔanˈi bˈo ʔelˈeχa ʔaχˈaʁ kˈaχ veniʃʔˈaʁ ʔetslˈeχ ktsˈat ʔˈem matʔˈim. mˈe ʔatˈa ʔomˈaʁ?"
+    },
+    {
+      "sentence": "אני באמת דואג לך ותמיד כאן בשבילך אם תצטרכי עזרה.",
+      "wer": 0.1,
+      "cer": 0.04054054054054054,
+      "gt_phonemes": "ʔanˈi beʔemˈet doʔˈeɡ lˈaχ vetamˈid kˈan biʃvilˈeχ ʔˈim titstaʁχˈi ʔezʁˈa.",
+      "pred_phonemes": "ʔanˈi beʔemˈet doʔˈeɡ leχˈa vetamˈid kˈan biʃvilˈeχ ʔˈim titstaʁχˈi ʔezʁˈa."
+    },
+    {
+      "sentence": "אני יודע לנסוע באופניים.",
+      "wer": 0.25,
+      "cer": 0.08823529411764706,
+      "gt_phonemes": "ʔanˈi jodˈea linsˈoa beʔofanˈajim.",
+      "pred_phonemes": "ʔanˈi jodˈea linsˈoa baʔofanajˈim."
+    },
+    {
+      "sentence": "אני לומד ממך המון ומעריך ממך כל דבר קטן שאתה נותן ",
+      "wer": 0.5454545454545454,
+      "cer": 0.14102564102564102,
+      "gt_phonemes": "ʔanˈi lomˈed mimχˈa hamˈon vemaʔaʁˈiχ mimχˈa kˈol davˈaʁ katˈan ʃeʔatˈa notˈen ",
+      "pred_phonemes": "ʔanˈi lomˈed mimeχˈa hamˈon umaʔaʁˈiχ mimˈeχ χˈl dabˈeʁ katˈon ʃeʔatˈa notˈen"
+    },
+    {
+      "sentence": "אני לומד ממך המון, אתה בן אדם חכם",
+      "wer": 0.25,
+      "cer": 0.07692307692307693,
+      "gt_phonemes": "ʔanˈi lomˈed mimχˈa hamˈon, ʔatˈa bˈen ʔadˈam χaχˈam",
+      "pred_phonemes": "ʔanˈi lomˈed mimˈeχ hamˈon, ʔatˈa bˈin ʔadˈam χaχˈam"
+    },
+    {
+      "sentence": "אני מתכנן לבוא אלייך מחר ורציתי לדעת אם זה מתאים לך",
+      "wer": 0.2727272727272727,
+      "cer": 0.06329113924050633,
+      "gt_phonemes": "ʔanˈi metaχnˈen lavˈo ʔelˈajiχ maχˈaʁ veʁatsˈiti ladˈaʔat ʔˈim zˈe matʔˈim lˈaχ",
+      "pred_phonemes": "ʔanˈi metaχnˈen lavˈo ʔelˈajiχ maχˈaʁ veʁatsˈiti ledˈaʔat ʔˈem zˈe matʔˈim leχˈa"
+    },
+    {
+      "sentence": "אני עומד לצדך ורוצה לשמוע ממך שאת לא לבד בזה",
+      "wer": 0.3,
+      "cer": 0.08571428571428572,
+      "gt_phonemes": "ʔanˈi ʔomˈed letsidˈeχ veʁotsˈe liʃmˈoa mimˈeχ ʃeʔˈat lˈo levˈad bezˈe",
+      "pred_phonemes": "ʔanˈi ʔomˈed letsidˈeχ veʁotsˈe liʃmˈoa mimeχˈa ʃeʔˈet lˈo levˈad bazˈa"
+    },
+    {
+      "sentence": "אני עומד לצדך ורוצה לשמוע ממך שאתה לא לבד בזה",
+      "wer": 0.3,
+      "cer": 0.07042253521126761,
+      "gt_phonemes": "ʔanˈi ʔomˈed letsidχˈa veʁotsˈe liʃmˈoa mimχˈa ʃeʔatˈa lˈo levˈad bezˈe",
+      "pred_phonemes": "ʔanˈi ʔomˈed letsidˈeχ veʁotsˈe liʃmˈoa mimχˈa ʃeʔatˈa lˈa levˈad bazˈe"
+    },
+    {
+      "sentence": "אני שמח בשבילך ומודה לך על כל מה שאתה עושה ",
+      "wer": 0.4,
+      "cer": 0.12307692307692308,
+      "gt_phonemes": "ʔanˈi samˈeaχ biʃvilχˈa vemodˈe leχˈa ʔˈal kˈol mˈa ʃeʔatˈa ʔosˈe ",
+      "pred_phonemes": "ʔanˈi samˈaχ biʃvilˈeχ umodˈa leχˈa ʔˈal χˈol mˈa ʃeʔatˈa ʔosˈe"
+    },
+    {
+      "sentence": "אני שמח בשבילך ומקווה בשבילך שכל מה שתרצה יקרה ",
+      "wer": 0.7777777777777778,
+      "cer": 0.2535211267605634,
+      "gt_phonemes": "ʔanˈi samˈeaχ biʃvilχˈa vemekavˈe biʃvilχˈa ʃekˈol mˈa ʃetirtsˈe jikʁˈe",
+      "pred_phonemes": "ʔanˈi samˈaχ biʃvilˈeχ umkavˈa biʃvilˈeχ ʃaχˈal mˈa ʃetiʁtsˈe jekaʁˈa"
+    },
+    {
+      "sentence": "אני שמח בשבילך, אחי",
+      "wer": 0.5,
+      "cer": 0.16666666666666666,
+      "gt_phonemes": "ʔanˈi samˈeaχ biʃvilχˈa, ʔaχˈi",
+      "pred_phonemes": "ʔanˈi samˈeaχ biʃvilˈeχ, ʔaχˈaj"
+    },
+    {
+      "sentence": "אתה צורח וזה כואב לי באוזניים.",
+      "wer": 0.3333333333333333,
+      "cer": 0.06818181818181818,
+      "gt_phonemes": "ʔatˈa tsoʁˈeaχ vezˈe koʔˈev lˈi baʔoznˈajim.",
+      "pred_phonemes": "ʔotˈa tsoʁˈeaχ vezˈe koʔˈev lˈi baʔoznajˈim."
+    },
+    {
+      "sentence": "בא תרד לאכול, יש בורקס עם תרד",
+      "wer": 0.42857142857142855,
+      "cer": 0.10869565217391304,
+      "gt_phonemes": "bˈo teʁˈed leʔeχˈol, jˈeʃ buʁˈekas ʔˈim tˈeʁed",
+      "pred_phonemes": "vˈa teʁˈed leʔeχˈol, jˈeʃ buʁˈekas ʔˈam teʁˈed"
+    },
+    {
+      "sentence": "באתי רק להגיד שלום ונשארתי הרבה יותר ממה שתכננתי",
+      "wer": 0.1111111111111111,
+      "cer": 0.014285714285714285,
+      "gt_phonemes": "bˈati ʁˈak lehaɡˈid ʃalˈom veniʃʔˈaʁti haʁbˈe jotˈeʁ mimˈa ʃetiχnˈanti",
+      "pred_phonemes": "bˈati ʁˈak lehaɡˈid ʃlˈom veniʃʔˈaʁti haʁbˈe jotˈeʁ mimˈa ʃetiχnˈanti"
+    },
+    {
+      "sentence": "בבוקר הכנתי ג'חנון ואכלנו כולנו ביחד",
+      "wer": 0.5,
+      "cer": 0.2222222222222222,
+      "gt_phonemes": "babˈokeʁ heχˈanti dʒˈaχnun veʔaχˈalnu kulˈanu bejˈaχad",
+      "pred_phonemes": "bevˈokeʁ heχˈanti 'ɡχaanˈojin veʔaχˈalnu kulˈanu bejaχˈad"
+    },
+    {
+      "sentence": "בוא נשים את זה בקובץ דוקס ונשתף את הצוות",
+      "wer": 0.5555555555555556,
+      "cer": 0.13114754098360656,
+      "gt_phonemes": "bˈo nasˈim ʔˈet zˈe bekˈovets dˈoks veneʃatˈef ʔˈet hatsˈevet",
+      "pred_phonemes": "bˈo naʃˈim ʔˈat zˈe bekˈovets doas unʃatˈef ʔˈat hatsˈevet"
+    },
+    {
+      "sentence": "בכל כוס של קולה יש המון סוכר.",
+      "wer": 0.2857142857142857,
+      "cer": 0.09523809523809523,
+      "gt_phonemes": "bekˈol kˈos ʃˈel kˈola jˈeʃ hamˈon sukˈaʁ.",
+      "pred_phonemes": "vakˈol kˈos ʃˈel kolˈa jˈeʃ hamˈon sukˈaʁ."
+    },
+    {
+      "sentence": "בסטארטאפ שלנו יש דיילי כל יום שני וחמישי",
+      "wer": 0.75,
+      "cer": 0.2631578947368421,
+      "gt_phonemes": "bastˈaʁtʔap ʃelˈanu jˈeʃ dˈejli kˈol jˈom ʃenˈi veχamiʃˈi",
+      "pred_phonemes": "bastaʔaaʁatʔif ʃelˈanu jˈeʃ dejlˈi χˈl jˈum ʃnˈej vaχamiʃˈi"
+    },
+    {
+      "sentence": "ג'ירפה צעירה רצה לאט ליד אמא שלה ונראתה מאוד שלווה",
+      "wer": 0.5,
+      "cer": 0.22666666666666666,
+      "gt_phonemes": "dʒiʁˈafa tseʔiʁˈa ʁˈatsa leʔˈat lejˈad ʔˈima ʃelˈa veniʁʔatˈa meʔˈod ʃlevˈa",
+      "pred_phonemes": "'ɡˈiaʁfˈh tseʔiʁˈa ʁatsˈa leʔˈat lˈid ʔimˈa ʃelˈa veniʁʔatˈa meʔˈod ʃalvˈa"
+    },
+    {
+      "sentence": "גילה אמרה לי שהוא גילה לה את הסוד.",
+      "wer": 0.5,
+      "cer": 0.13333333333333333,
+      "gt_phonemes": "ɡˈila ʔamʁˈa lˈi ʃehˈu ɡilˈa lˈa ʔˈet hasˈod.",
+      "pred_phonemes": "ɡilˈo ʔamʁˈa lˈi ʃehˈu ɡilˈo lˈe ʔˈat hasˈod."
+    },
+    {
+      "sentence": "האם מותר לשתות בירה בעיר הבירה ירושלים?",
+      "wer": 0.42857142857142855,
+      "cer": 0.08928571428571429,
+      "gt_phonemes": "haʔˈim mutˈaʁ liʃtˈot bˈiʁa beʔˈiʁ habiʁˈa jeʁuʃalˈajim?",
+      "pred_phonemes": "haʔˈem mutˈaʁ liʃtˈot biʁˈa beʔˈiʁ habiʁˈa jeʁuʃalajˈim?"
+    },
+    {
+      "sentence": "הבאתי צ'יפס חם ופריך, והוא נגמר תוך דקה.",
+      "wer": 0.375,
+      "cer": 0.2,
+      "gt_phonemes": "hevˈeti tʃˈips χˈam vepaʁˈiχ, vehˈu niɡmˈaʁ tˈoχ dakˈa.",
+      "pred_phonemes": "hevˈeti 'tsiifs χˈom opʁiχˈa, vehˈu niɡmˈaʁ tˈoχ dakˈa."
+    },
+    {
+      "sentence": "הבוקר יצא לרעות את העדר מוקדם מאוד בבוקר.",
+      "wer": 0.375,
+      "cer": 0.0967741935483871,
+      "gt_phonemes": "habokˈeʁ jatsˈa liʁʔˈot ʔˈet haʔˈedeʁ mukdˈam meʔˈod babˈokeʁ.",
+      "pred_phonemes": "habokˈeʁ jatsˈa laʁeʔˈut ʔˈat haʔˈedeʁ mukdˈam meʔˈod bevˈokeʁ."
+    },
+    {
+      "sentence": "הבטחתי לעצמי להיות רגוע ואז מישהו לחץ לי על העצבים",
+      "wer": 0.2,
+      "cer": 0.038461538461538464,
+      "gt_phonemes": "hivtˈaχti leʔatsmˈi lihjˈot ʁaɡˈua veʔˈaz mˈiʃehu laχˈats lˈi ʔˈal haʔatsabˈim",
+      "pred_phonemes": "hivtˈaχti leʔatsmˈi lihjˈot ʁaɡˈua veʔˈaz mˈiʃehu lˈaχats lˈi ʔˈal haʔatsavˈim"
+    },
+    {
+      "sentence": "הוא צעד לעבר האופק, ובכל צעד הרגיש את כובד הדרך.",
+      "wer": 0.5,
+      "cer": 0.15584415584415584,
+      "gt_phonemes": "hˈu tsaʔˈad leʔˈeveʁ haʔˈofek, vebeχˈol tsˈaʔad hiʁɡˈiʃ ʔˈet kˈoved hadˈeʁeχ.",
+      "pred_phonemes": "hˈu tsˈaʔad leʔˈeveʁ haʔˈofek, uvχˈol tsaʔˈad hiʁɡˈiʃ ʔˈat kˈoved hadaʁˈeχ."
+    },
+    {
+      "sentence": "הוא צפה בסרט וראה חיה שצפה במים",
+      "wer": 0.2857142857142857,
+      "cer": 0.058823529411764705,
+      "gt_phonemes": "hˈu tsafˈa besˈeʁet veʁaʔˈa χajˈa ʃetsˈafa bamˈajim",
+      "pred_phonemes": "hˈu tsˈafa besˈeʁet veʁaʔˈa χajˈe ʃetsˈafa bamˈajim"
+    },
+    {
+      "sentence": "הוא קנה לעצמו ג'ויסטיק חדש למשחקים",
+      "wer": 0.6666666666666666,
+      "cer": 0.1875,
+      "gt_phonemes": "hˈu kanˈa leʔatsmˈo dʒˈojstik χadˈaʃ lemisχakˈim",
+      "pred_phonemes": "hˈu kanˈe leʔatsmˈo 'ɡoˈiistˈik χadˈeʃ lamisχakˈim"
+    },
+    {
+      "sentence": "הוא רצה את זה גם, אבל היא רצה מהר והקדימה אותו",
+      "wer": 0.36363636363636365,
+      "cer": 0.08955223880597014,
+      "gt_phonemes": "hˈu ʁatsˈa ʔˈet zˈe ɡˈam, ʔavˈal hˈi ʁˈatsa mahˈeʁ vehikdˈima ʔotˈo",
+      "pred_phonemes": "hˈi ʁatsˈa ʔˈet zˈe ɡˈam, ʔavˈel hˈi ʁatsˈa mehˈaʁ vehikdˈima ʔotˈo"
+    },
+    {
+      "sentence": "הזמנתי וויסקי קטן רק בשביל הטעם",
+      "wer": 0.5,
+      "cer": 0.06666666666666667,
+      "gt_phonemes": "hizmˈanti wˈiski katˈan rˈak biʃvˈil hatˈaʔam",
+      "pred_phonemes": "hizmˈanti vˈiski ktˈan ʁˈak biʃvˈil hatˈaʔam"
+    },
+    {
+      "sentence": "החיה הזו חיה הרבה מאוד שנים.",
+      "wer": 0.3333333333333333,
+      "cer": 0.14634146341463414,
+      "gt_phonemes": "haχajˈa hazˈo χˈaja haʁbˈe meʔˈod ʃanˈim.",
+      "pred_phonemes": "haχajˈa hazˈo χajˈe haʁbˈe meʔˈod ʃnˈajim."
+    },
+    {
+      "sentence": "היה לי רגע קצר של שקט והוא נתן לי מלא כוח",
+      "wer": 0.2727272727272727,
+      "cer": 0.046875,
+      "gt_phonemes": "hajˈa lˈi ʁˈeɡa katsˈaʁ ʃˈel ʃˈeket vehˈu natˈan lˈi malˈe kˈoaχ",
+      "pred_phonemes": "hajˈo lˈi ʁˈeɡa katsˈaʁ ʃˈel ʃˈeket vehˈu nitˈan lˈi melˈe kˈoaχ"
+    },
+    {
+      "sentence": "היה לי תכנון ברור ואז המציאות פשוט צחקה לי בפנים",
+      "wer": 0.4,
+      "cer": 0.11267605633802817,
+      "gt_phonemes": "hajˈa lˈi tiχnˈun baʁˈuʁ veʔˈaz hametsiʔˈut paʃˈut tsaχkˈa lˈi bapanˈim",
+      "pred_phonemes": "hejˈe lˈi tiχnˈun baʁˈuʁ veʔˈaz hamtsiʔˈot paʃˈut tsaχakˈa lˈi bifnˈim"
+    },
+    {
+      "sentence": "הייתי בטוח שאני מבין מה קורה ואז הכל הסתבך לי",
+      "wer": 0.2,
+      "cer": 0.058823529411764705,
+      "gt_phonemes": "hajˈiti batˈuaχ ʃeʔanˈi mevˈin mˈa koʁˈe veʔˈaz hakˈol histabˈeχ lˈi",
+      "pred_phonemes": "hajˈiti batˈuaχ ʃeʔanˈi mibˈen mˈa koʁˈa veʔˈaz hakˈol histabˈeχ lˈi"
+    },
+    {
+      "sentence": "הייתי בטוח שזה יהיה רגיל ויצא הרבה יותר טוב ממה שציפיתי",
+      "wer": 0.2727272727272727,
+      "cer": 0.0625,
+      "gt_phonemes": "hajˈiti batˈuaχ ʃezˈe jihjˈe ʁaɡˈil vejatsˈa haʁbˈe jotˈeʁ tˈov mimˈa ʃetsipˈiti",
+      "pred_phonemes": "hajˈiti batˈuaχ ʃezˈe jihjˈe ʁaɡˈil vejetsˈe haʁabˈa jotˈeʁ tˈuv mimˈa ʃetsipˈiti"
+    },
+    {
+      "sentence": "הייתי בטוח שיש לי עוד זמן ואז גיליתי שהשעה כבר מאוחרת",
+      "wer": 0.18181818181818182,
+      "cer": 0.06329113924050633,
+      "gt_phonemes": "hajˈiti batˈuaχ ʃejˈeʃ lˈi ʔˈod zmˈan veʔˈaz ɡilˈiti ʃehaʃaʔˈa kvˈaʁ meʔuχˈeʁet",
+      "pred_phonemes": "hajˈiti batˈuaχ ʃˈajiʃ lˈi ʔˈud zmˈan veʔˈaz ɡilˈiti ʃehaʃaʔˈa kvˈaʁ meʔuχˈeʁet"
+    },
+    {
+      "sentence": "הלכתי בלי ציפיות ויצאתי עם תחושה ממש טובה",
+      "wer": 0.125,
+      "cer": 0.06779661016949153,
+      "gt_phonemes": "halˈaχti blˈi tsipijˈot vejatsˈati ʔˈim tχuʃˈa mamˈaʃ tovˈa",
+      "pred_phonemes": "hilχatˈi blˈi tsipijˈot vejatsˈati ʔˈim tχuʃˈa mamˈaʃ tovˈa"
+    },
+    {
+      "sentence": "הלכתי על משהו קטן ויצא ממנו משהו גדול וטוב",
+      "wer": 0.4444444444444444,
+      "cer": 0.11940298507462686,
+      "gt_phonemes": "halˈaχti ʔˈal mˈaʃehu katˈan vejatsˈa mimˈeno mˈaʃehu ɡadˈol vetˈov",
+      "pred_phonemes": "hilχatˈi ʔˈal mˈaʃehu ktˈan vejatsˈa mimˈenu maʃˈehu ɡadˈol vetˈov"
+    },
+    {
+      "sentence": "הם לנו בשטח, כי לא נשאר לנו מקום בבית.",
+      "wer": 0.2222222222222222,
+      "cer": 0.06779661016949153,
+      "gt_phonemes": "hˈem lˈanu baʃˈetaχ, kˈi lˈo niʃʔˈaʁ lanˈu makˈom babˈajit.",
+      "pred_phonemes": "hˈem lanˈu baʃˈetaχ, kˈi lˈo niʃʔˈaʁ lanˈu makˈom babajˈit."
+    },
+    {
+      "sentence": "הצלחת הזו נראית ממש יפה.",
+      "wer": 0.4,
+      "cer": 0.1282051282051282,
+      "gt_phonemes": "hatsalˈaχat hazˈo niʁʔˈejt mamˈaʃ jafˈa",
+      "pred_phonemes": "hatslaχˈat hazˈo niʁʔˈejt mamˈaʃ jafˈe."
+    },
+    {
+      "sentence": "הקשבתי לעצמי הפעם וזה עבד לי ממש טוב",
+      "wer": 0.25,
+      "cer": 0.07017543859649122,
+      "gt_phonemes": "hikʃˈavti leʔatsmˈi hapaʔˈam vezˈe ʔavˈad lˈi mamˈaʃ tˈov",
+      "pred_phonemes": "hikʃˈavti leʔatsmˈi hapˈaʔam vezˈe ʔabˈed lˈi mamˈaʃ tˈov"
+    },
+    {
+      "sentence": "השקעתי קצת זמן ופתאום הכול הסתדר בצורה מושלמת",
+      "wer": 0.25,
+      "cer": 0.058823529411764705,
+      "gt_phonemes": "hiʃkˈaʔti ktsˈat zmˈan vepitʔˈom hakˈol histadˈeʁ betsuʁˈa muʃlˈemet",
+      "pred_phonemes": "hiʃkˈaʔti ktsˈat zmˈan ufitʔˈom hakˈol histadˈeʁ batsuʁˈa muʃlˈemet"
+    },
+    {
+      "sentence": "התעוררתי עם אנרגיות טובות והכול פשוט זרם לי היום",
+      "wer": 0.2222222222222222,
+      "cer": 0.043478260869565216,
+      "gt_phonemes": "hitʔoʁˈaʁti ʔˈim ʔenˈeʁɡijot tovˈot vehakˈol paʃˈut zaʁˈam lˈi hajˈom",
+      "pred_phonemes": "hitʔoʁˈaʁti ʔˈam ʔenˈeʁɡijot tovˈot vehakˈol pʃˈot zaʁˈam lˈi hajˈom"
+    },
+    {
+      "sentence": "וואלה אח שלי אתה.",
+      "wer": 0.25,
+      "cer": 0.13043478260869565,
+      "gt_phonemes": "wˈala ʔˈaχ ʃelˈi ʔatˈa.",
+      "pred_phonemes": "valˈa ʔˈaχ ʃelˈi ʔatˈa."
+    },
+    {
+      "sentence": "חשבתי לעשות הפסקה קצרה ופתאום עבר חצי יום",
+      "wer": 0.625,
+      "cer": 0.19047619047619047,
+      "gt_phonemes": "χaʃˈavti laʔasˈot hafsakˈa ktsaʁˈa vepitʔˈom ʔavˈaʁ χatsˈi jˈom",
+      "pred_phonemes": "χaʃˈavti laʔasˈot hapiskˈa katsʁˈa ufitʔˈom ʔavˈaʁ χitsˈej jˈum"
+    },
+    {
+      "sentence": "חשבתי שאני מוכן להכל ואז הגיע משהו שלא צפיתי",
+      "wer": 0.1111111111111111,
+      "cer": 0.07246376811594203,
+      "gt_phonemes": "χaʃˈavti ʃeʔanˈi muχˈan lehakˈol veʔˈaz hiɡˈia mˈaʃehu ʃelˈo tsafˈiti",
+      "pred_phonemes": "χaʃˈavti ʃeʔanˈi muχˈan lχˈl veʔˈaz hiɡˈia mˈaʃehu ʃelˈo tsafˈiti"
+    },
+    {
+      "sentence": "חשבתי שזה יהיה משהו קטן ופשוט וזה יצא הרבה יותר מורכב",
+      "wer": 0.6363636363636364,
+      "cer": 0.1625,
+      "gt_phonemes": "χaʃˈavti ʃezˈe jihjˈe mˈaʃehu katˈan vepaʃˈut vezˈe jatsˈa haʁbˈe jotˈeʁ muʁkˈav",
+      "pred_phonemes": "χaʃˈavti ʃezˈe jihjˈe maʃˈehu katˈon ufaʃˈut vazˈe jetsˈe hiʁbˈa jutˈaʁ muʁkˈav"
+    },
+    {
+      "sentence": "חשבתי שזה יום רגוע והוא הפך ליום ממש כיף",
+      "wer": 0.1111111111111111,
+      "cer": 0.017241379310344827,
+      "gt_phonemes": "χaʃˈavti ʃezˈe jˈom ʁaɡˈua vehˈu hafˈaχ lejˈom mamˈaʃ kˈef",
+      "pred_phonemes": "χaʃˈavti ʃezˈe jˈom ʁaɡˈua vehˈu hafˈaχ lajˈom mamˈaʃ kˈef"
+    },
+    {
+      "sentence": "חשבתי שזה עוד יום רגיל ויצאה ממנו תחושה מדהימה",
+      "wer": 0.3333333333333333,
+      "cer": 0.046153846153846156,
+      "gt_phonemes": "χaʃˈavti ʃezˈe ʔˈod jˈom ʁaɡˈil vejatsʔˈa mimˈeno tχuʃˈa madhimˈa",
+      "pred_phonemes": "χaʃˈavti ʃezˈe ʔˈud jˈum ʁaɡˈil vejatsʔˈa mimˈenu tχuʃˈa madhimˈa"
+    },
+    {
+      "sentence": "טלגרם זו אפליקציה ממש נוחה לשימוש.",
+      "wer": 0.5,
+      "cer": 0.1,
+      "gt_phonemes": "tˈeleɡʁam zˈo ʔaplˈikˈatsja mamˈaʃ noχˈa leʃimˈuʃ.",
+      "pred_phonemes": "teleɡʁˈam zˈo ʔaplikˈatsja mamˈaʃ nˈoχa leʃimˈuʃ."
+    },
+    {
+      "sentence": "יאללה מתי אתה מגיע?",
+      "wer": 0.5,
+      "cer": 0.11538461538461539,
+      "gt_phonemes": "jˈala matˈaj ʔatˈa maɡˈia?",
+      "pred_phonemes": "jˈala metˈej ʔitˈa maɡˈia?"
+    },
+    {
+      "sentence": "ידידה סיפרה שהיא התחילה ללמוד בטכניון ועברה לגור בחיפה",
+      "wer": 0.1111111111111111,
+      "cer": 0.013513513513513514,
+      "gt_phonemes": "jedidˈa sipʁˈa ʃehˈi hitχˈila lilmˈod bateχnijˈon veʔavʁˈa laɡˈuʁ beχejfˈa",
+      "pred_phonemes": "jedidˈa sipʁˈa ʃehˈi hitχˈila lilmˈod bateχnijˈon veʔavʁˈa laɡˈuʁ beχefˈa"
+    },
+    {
+      "sentence": "ינאי כתב שהוא רוצה להתחיל משהו חדש השנה",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "janˈaj katˈav ʃehˈu ʁotsˈe lehatχˈil mˈaʃehu χadˈaʃ haʃanˈa",
+      "pred_phonemes": "janˈaj katˈav ʃehˈu ʁotsˈe lehatχˈil mˈaʃehu χadˈaʃ haʃanˈa"
+    },
+    {
+      "sentence": "יצאתי להליכה קצרה וחזרתי עם חיוך גדול על הפנים",
+      "wer": 0.5555555555555556,
+      "cer": 0.11428571428571428,
+      "gt_phonemes": "jatsˈati lahaliχˈa ktsaʁˈa veχazˈaʁti ʔˈim χijˈuχ ɡadˈol ʔˈal hapanˈim",
+      "pred_phonemes": "jatsˈati lahaliχˈa katsʁˈa veχazˈaʁti ʔˈam χijˈuχ ɡdˈol ʔˈol hifnˈim"
+    },
+    {
+      "sentence": "יש שם אווירה ממש סחבקית, כולם מרגישים בבית",
+      "wer": 0.375,
+      "cer": 0.13114754098360656,
+      "gt_phonemes": "jˈeʃ ʃˈam ʔaviʁˈa mamˈaʃ sˈaχbakit, kulˈam maʁɡiʃˈim babˈajit",
+      "pred_phonemes": "jˈeʃ ʃˈem ʔaviʁˈa mamˈaʃ saχbakˈit, kulˈam maʁɡiʃˈim bevˈet"
+    },
+    {
+      "sentence": "ישבתי לחשוב רגע ובלי לשים לב כבר הייתי עמוק בתוך זה",
+      "wer": 0.2727272727272727,
+      "cer": 0.1095890410958904,
+      "gt_phonemes": "jaʃˈavti laχʃˈov ʁˈeɡa veblˈi lasˈim lˈev kvˈaʁ hajˈiti ʔamˈok betˈoχ zˈe",
+      "pred_phonemes": "jaʃˈavti leχaʃˈuv ʁˈeɡa ˈuvli lasˈim lˈev kvˈaʁ hajˈiti ʔamˈok betˈoχ zˈo"
+    },
+    {
+      "sentence": "ישבתי לנוח דקה על הספה ובלי לשים לב נרדמתי",
+      "wer": 0.1111111111111111,
+      "cer": 0.0625,
+      "gt_phonemes": "jaʃˈavti lanˈuaχ dakˈa ʔˈal hasapˈa veblˈi lasˈim lˈev niʁdˈamti",
+      "pred_phonemes": "jaʃˈavti lanˈuaχ dakˈa ʔˈal hasapˈa ˈuvli lasˈim lˈev niʁdˈamti"
+    },
+    {
+      "sentence": "לא ציפיתי לכלום ובכל זאת היום התמלא ברגעים יפים",
+      "wer": 0.3333333333333333,
+      "cer": 0.11764705882352941,
+      "gt_phonemes": "lˈo tsipˈiti leklˈum vebeχˈol zˈot hajˈom hitmalˈe beʁeɡaʔˈim jafˈim",
+      "pred_phonemes": "lˈo tsipˈiti liχlˈum uvχˈol zˈot hajˈom hitmalˈe baʁɡaʔˈim jafˈim"
+    },
+    {
+      "sentence": "לא תכננתי כלום והיום התמלא בדברים טובים מעצמם",
+      "wer": 0.375,
+      "cer": 0.046153846153846156,
+      "gt_phonemes": "lˈo tiχnˈanti klˈum vehajˈom hitmalˈe bedvaʁˈim tovˈim meʔatsmˈam",
+      "pred_phonemes": "lˈa tiχnˈanti χlˈum vehajˈom hitmalˈe bidvaʁˈim tovˈim meʔatsmˈam"
+    },
+    {
+      "sentence": "מישהי בעבודה אמרה שהיא שוקלת לעבור לראשון לציון בשביל להיות קרובה למשפחה",
+      "wer": 0.3333333333333333,
+      "cer": 0.07920792079207921,
+      "gt_phonemes": "mˈiʃehi baʔavodˈa ʔamʁˈa ʃehˈi ʃokˈelet laʔavˈoʁ leʁˈiʃon letsˈijon biʃvˈil lihjˈot kʁovˈa lamiʃpaχˈa",
+      "pred_phonemes": "mˈiʃehi baʔavodˈa ʔimʁˈa ʃehˈi ʃokˈelet laʔavˈoʁ laʁiʃˈon letsijˈun biʃvˈil lihjˈot kʁovˈa lemiʃpaχˈa"
+    },
+    {
+      "sentence": "מערך הסייבר הלאומי הוא גוף טכנולוגי בישראל.",
+      "wer": 0.2857142857142857,
+      "cer": 0.08196721311475409,
+      "gt_phonemes": "maʔˈaʁaχ hasˈajbeʁ haleʔumˈi hˈu ɡˈuf teχnolˈoɡi bejisʁaʔˈel.",
+      "pred_phonemes": "meʔˈeʁeχ hasajbˈeʁ haleʔumˈi hˈu ɡˈuf teχnolˈoɡi bejisʁaʔˈel."
+    },
+    {
+      "sentence": "ניסיתי להיות רציני ובאיזשהו שלב זה כבר הפך לבדיחה",
+      "wer": 0.3333333333333333,
+      "cer": 0.14084507042253522,
+      "gt_phonemes": "nisˈiti lihjˈot ʁetsinˈi vebeʔˈezeʃehu ʃalˈav zˈe kvˈaʁ hafˈaχ lebdiχˈa",
+      "pred_phonemes": "nisˈiti lihjˈot ʁetsinˈi uvʔejzeʃehˈu ʃlˈav zˈe kvˈaʁ hafˈaχ livdiχˈa"
+    },
+    {
+      "sentence": "ניסיתי להסביר את עצמי ופשוט הסתבכתי יותר עם כל מילה",
+      "wer": 0.4,
+      "cer": 0.08108108108108109,
+      "gt_phonemes": "nisˈiti lehasbˈiʁ ʔˈet ʔatsmˈi vepaʃˈut histabˈaχti jotˈeʁ ʔˈim kˈol milˈa",
+      "pred_phonemes": "nisˈiti lehasbˈiʁ ʔˈat ʔatsmˈi ufaʃˈut histabˈaχti jotˈeʁ ʔˈam χˈol milˈa"
+    },
+    {
+      "sentence": "ניסיתי לעשות את זה פשוט ובדרך איכשהו זה נהיה מסובך יותר",
+      "wer": 0.36363636363636365,
+      "cer": 0.1,
+      "gt_phonemes": "nisˈiti laʔasˈot ʔˈet zˈe paʃˈut vebadˈeʁeχ ʔˈejχʃehu zˈe nihjˈa mesubˈaχ jotˈeʁ",
+      "pred_phonemes": "nisˈiti laʔasˈot ʔˈat zˈe paʃˈut uvadˈeʁeχ ʔejχʃehˈu zˈe nihjˈa mesubˈaχ jutˈaʁ"
+    },
+    {
+      "sentence": "נכנסתי למטבח רק לקחת מים ובסוף מצאתי את עצמי מכין ארוחה שלמה",
+      "wer": 0.16666666666666666,
+      "cer": 0.06451612903225806,
+      "gt_phonemes": "niχnˈasti lamitbˈaχ ʁˈak lakˈaχat mˈajim vebasˈof matsˈati ʔˈet ʔatsmˈi meχˈin ʔaʁuχˈa ʃlemˈa",
+      "pred_phonemes": "niχnˈasti lamitbˈaχ ʁˈak lakˈaχat majˈim uvsˈof matsˈati ʔˈet ʔatsmˈi meχˈin ʔaʁuχˈa ʃlemˈa"
+    },
+    {
+      "sentence": "נכנסתי לשיחה סתם בכאילו ובסוף יצא דיבור ממש עמוק",
+      "wer": 0.4444444444444444,
+      "cer": 0.12857142857142856,
+      "gt_phonemes": "niχnˈasti lesiχˈa stˈam bekiʔˈilu vebasˈof jatsˈa dibˈuʁ mamˈaʃ ʔamˈok",
+      "pred_phonemes": "niχnˈasti lasiχˈa stˈam biχeʔˈilu uvasˈof jetsˈe dibˈuʁ mamˈaʃ ʔamˈok"
+    },
+    {
+      "sentence": "נפגשנו סתם לכוס קפה ויצאה שיחה ממש נעימה",
+      "wer": 0.125,
+      "cer": 0.01694915254237288,
+      "gt_phonemes": "nifɡˈaʃnu stˈam lekˈos kafˈe vejatsʔˈa siχˈa mamˈaʃ neʔimˈa",
+      "pred_phonemes": "nifɡˈaʃnu stˈam leχˈos kafˈe vejatsʔˈa siχˈa mamˈaʃ neʔimˈa"
+    },
+    {
+      "sentence": "עשיתי הפסקה קטנה והיא נתנה לי בוסט מטורף להמשך",
+      "wer": 0.3333333333333333,
+      "cer": 0.1076923076923077,
+      "gt_phonemes": "ʔasˈiti hafsakˈa ktanˈa vehˈi natnˈa lˈi bˈust metoʁˈaf lahemʃˈeχ",
+      "pred_phonemes": "ʔasˈiti hapiskˈa ktanˈa vehˈi nitnˈa lˈi bevˈest metoʁˈaf lahemʃˈeχ"
+    },
+    {
+      "sentence": "עשיתי משהו בשביל עצמי והרגשתי שזה בדיוק מה שהייתי צריך",
+      "wer": 0.2,
+      "cer": 0.05063291139240506,
+      "gt_phonemes": "ʔasˈiti mˈaʃehu biʃvˈil ʔatsmˈi vehiʁɡˈaʃti ʃezˈe bidjˈuk mˈa ʃehajˈiti tsaʁˈiχ",
+      "pred_phonemes": "ʔasˈiti mˈaʃehu biʃvˈil ʔatsmˈi vehiʁɡˈaʃti ʃezˈe bedijˈuk mˈa ʃehajˈiti tsaʁajˈiχ"
+    },
+    {
+      "sentence": "עשיתי משהו קטן בשביל מישהו וקיבלתי פי כמה חזרה בלב",
+      "wer": 0.4,
+      "cer": 0.06756756756756757,
+      "gt_phonemes": "ʔasˈiti mˈaʃehu katˈan biʃvˈil mˈiʃehu vekibˈalti pˈi kˈama χazaʁˈa balˈev",
+      "pred_phonemes": "ʔasˈiti mˈaʃehu katˈon biʃvˈil mˈiʃehu vekibˈalti fˈi kamˈa χazaʁˈa belˈev"
+    },
+    {
+      "sentence": "עשיתי צעד קטן והוא הרגיש כמו התקדמות גדולה",
+      "wer": 0.25,
+      "cer": 0.05084745762711865,
+      "gt_phonemes": "ʔasˈiti tsˈaʔad katˈan vehˈu hiʁɡˈiʃ kmˈo hitkadmˈut ɡdolˈa",
+      "pred_phonemes": "ʔasˈiti tsˈaʔad ktˈan vehˈu haʁaɡˈiʃ kmˈo hitkadmˈut ɡdolˈa"
+    },
+    {
+      "sentence": "עשיתי שינוי קטן בשגרה והוא נתן לי תחושה ממש טובה",
+      "wer": 0.2,
+      "cer": 0.04477611940298507,
+      "gt_phonemes": "ʔasˈiti ʃinˈuj katˈan baʃiɡʁˈa vehˈu natˈan lˈi tχuʃˈa mamˈaʃ tovˈa",
+      "pred_phonemes": "ʔasˈiti ʃinˈuj ktˈan baʃiɡʁˈa vehˈu notˈen lˈi tχuʃˈa mamˈaʃ tovˈa"
+    },
+    {
+      "sentence": "פגשתי אנשים טובים והם פשוט עשו לי את היום",
+      "wer": 0.3333333333333333,
+      "cer": 0.1,
+      "gt_phonemes": "paɡˈaʃti ʔanaʃˈim tovˈim vehˈem paʃˈut ʔasˈu lˈi ʔˈet hajˈom",
+      "pred_phonemes": "paɡˈaʃti ʔanaʃˈim tovˈim vehˈem pʃˈot ʔesˈav lˈi ʔˈat hajˈom"
+    },
+    {
+      "sentence": "פגשתי במקרה מישהו שלא ראיתי הרבה זמן וזה עשה לי את היום",
+      "wer": 0.25,
+      "cer": 0.0375,
+      "gt_phonemes": "paɡˈaʃti bemikʁˈe mˈiʃehu ʃelˈo ʁaʔˈiti haʁbˈe zmˈan vezˈe ʔasˈa lˈi ʔˈet hajˈom",
+      "pred_phonemes": "paɡˈaʃti bamikʁˈe mˈiʃehu ʃelˈo ʁaʔˈiti haʁbˈe zmˈan vezˈe ʔasˈe lˈi ʔˈat hajˈom"
+    },
+    {
+      "sentence": "קבעתי להגיע בזמן אבל פקקים הרסו לי את כל התוכנית",
+      "wer": 0.3,
+      "cer": 0.04225352112676056,
+      "gt_phonemes": "kavˈaʔti lehaɡˈia bazmˈan ʔavˈal pkakˈim haʁsˈu lˈi ʔˈet kˈol hatoχnˈit",
+      "pred_phonemes": "kavˈaʔti lehaɡˈia bazmˈan ʔavˈel pkakˈim haʁsˈu lˈi ʔˈat χˈol hatoχnˈit"
+    },
+    {
+      "sentence": "קבעתי לצאת רק קצת והיום הפך למלא חוויות טובות",
+      "wer": 0.0,
+      "cer": 0.0,
+      "gt_phonemes": "kavˈaʔti latsˈet ʁˈak ktsˈat vehajˈom hafˈaχ lemalˈe χavajˈot tovˈot",
+      "pred_phonemes": "kavˈaʔti latsˈet ʁˈak ktsˈat vehajˈom hafˈaχ lemalˈe χavajˈot tovˈot"
+    },
+    {
+      "sentence": "קניתי משהו קטן ובסוף זה גרר עוד מיליון דברים מסביב",
+      "wer": 0.4,
+      "cer": 0.08333333333333333,
+      "gt_phonemes": "kanˈiti mˈaʃehu katˈan vebasˈof zˈe ɡaʁˈaʁ ʔˈod miljˈon dvaʁˈim misavˈiv",
+      "pred_phonemes": "kanˈiti mˈaʃehu katˈon uvasˈof zˈo ɡaʁˈaʁ ʔˈod miljˈon dvaʁˈim misvˈiv"
+    },
+    {
+      "sentence": "רננה סיפרה שהיא מתכננת טיול ארוך אחרי הלימודים",
+      "wer": 0.25,
+      "cer": 0.09230769230769231,
+      "gt_phonemes": "ʁenanˈa sipʁˈa ʃehˈi metaχnˈenet tijˈul ʔaʁˈoχ ʔaχʁˈej halimudˈim",
+      "pred_phonemes": "aʁnanh sipʁˈa ʃehˈi metaχnˈenet tijˈul ʔaʁˈoχ ʔaχaʁˈaj halimudˈim"
+    },
+    {
+      "sentence": "רציתי יום שקט בבית ובסוף כל היום היה מלא התעסקויות",
+      "wer": 0.7,
+      "cer": 0.18666666666666668,
+      "gt_phonemes": "ʁatsˈiti jˈom ʃˈaket babˈajit vebasˈof kˈol hajˈom hajˈa malˈe hitʔaskujˈot",
+      "pred_phonemes": "ʁatsˈiti jˈum ʃˈeket bevˈet uvasˈof χˈol hajˈom hejˈe melˈe hitʔaskujˈot"
+    },
+    {
+      "sentence": "שלומי סיפר שהוא התחיל לעבוד על פרויקט חדש והוא מתלהב מזה",
+      "wer": 0.18181818181818182,
+      "cer": 0.0379746835443038,
+      "gt_phonemes": "ʃlˈomi sipˈeʁ ʃehˈu hitχˈil laʔavˈod ʔˈal pʁojˈekt χadˈaʃ vehˈu mitlahˈev mizˈe",
+      "pred_phonemes": "ʃlomˈi sipˈeʁ ʃehˈu hitχˈil laʔavˈod ʔˈal pʁojˈekt χadˈaʃ vehˈu mitlahˈev mezˈe"
+    },
+    {
+      "sentence": "שלחתי לך לינק חדש לטיקט שפתחתי בגיהטאב",
+      "wer": 0.5714285714285714,
+      "cer": 0.23214285714285715,
+      "gt_phonemes": "ʃalˈaχti leχˈa lˈink χadˈaʃ latˈiket ʃepatˈaχti beɡˈitab",
+      "pred_phonemes": "ʃalˈaχti leχˈa linˈok χadˈeʃ lˈatiktˈ ʃepatˈaχti beɡihtˈʔbe"
+    },
+    {
+      "sentence": "שמתי ז'קט כי נהיה קצת קר.",
+      "wer": 0.5,
+      "cer": 0.1891891891891892,
+      "gt_phonemes": "sˈamti ʒakˈet kˈi nihjˈa ktsˈat kˈaʁ.",
+      "pred_phonemes": "sˈamti 'zˈeket χˈi nihjˈe ktsˈat kˈaʁ."
+    },
+    {
+      "sentence": "שמתי פלייליסט חדש בספוטיפיי ושיתפתי אותו באינסטגרם",
+      "wer": 0.5714285714285714,
+      "cer": 0.21212121212121213,
+      "gt_phonemes": "sˈamti plˈejlist χadˈaʃ baspˈotifaj veʃitˈafti ʔotˈo baʔˈinsteɡʁam",
+      "pred_phonemes": "sˈamti plajlˈist χadˈeʃ bespuatjpij veʃitˈafti ʔotˈo beʔinstaɡʁˈam"
+    },
+    {
+      "sentence": "שמתי תזכורת ולא הבנתי איך בכל זאת הצלחתי לשכוח",
+      "wer": 0.3333333333333333,
+      "cer": 0.11764705882352941,
+      "gt_phonemes": "sˈamti tizkˈoʁet velˈo hevˈanti ʔˈeχ beχˈol zˈot hitslˈaχti liʃkˈoaχ",
+      "pred_phonemes": "sˈamti tizkˈoʁet velˈo havanatˈi ʔˈejχ vakˈol zˈot hitslˈaχti liʃkˈoaχ"
+    },
+    {
+      "sentence": "שרה שרה שיר שמח",
+      "wer": 0.5,
+      "cer": 0.08333333333333333,
+      "gt_phonemes": "sˈaʁa ʃˈaʁa ʃˈiʁ samˈeaχ",
+      "pred_phonemes": "ʃˈaʁa ʃˈaʁa ʃˈiʁ samˈaχ"
+    },
+    {
+      "sentence": "תהל אמרה שהיא מנסה לעשות יותר הפסקות במהלך היום",
+      "wer": 0.1111111111111111,
+      "cer": 0.014084507042253521,
+      "gt_phonemes": "tahˈel ʔamʁˈa ʃehˈi menasˈa laʔasˈot jotˈeʁ hafsakˈot bemahalˈaχ hajˈom",
+      "pred_phonemes": "tahˈel ʔamʁˈa ʃehˈi menasˈa laʔasˈot jotˈeʁ hafsakˈot bamahalˈaχ hajˈom"
+    },
+    {
+      "sentence": "תוכל לכתוב לי בוואצאפ?",
+      "wer": 0.5,
+      "cer": 0.26666666666666666,
+      "gt_phonemes": "toχˈal liχtˈov lˈi bawˈatsʔap?",
+      "pred_phonemes": "tuχˈal liχtˈov lˈi beovʔtsʔˈif?"
+    }
+  ]
+}

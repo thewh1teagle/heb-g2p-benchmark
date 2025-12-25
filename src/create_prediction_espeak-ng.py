@@ -15,13 +15,12 @@ EspeakWrapper.set_data_path(espeakng_loader.get_data_path())
 
 # Example usage:
 if __name__ == "__main__":
-    with open("gt.csv", "r") as f, open("pred_espeak-ng.csv", "w") as f_pred:
-        reader = csv.reader(f)
+    with open("gt.tsv", "r", encoding="utf-8") as f, open("pred_espeak-ng.tsv", "w", encoding="utf-8") as f_pred:
+        reader = csv.reader(f, delimiter='\t')
         next(reader) # skip header
-        writer = csv.writer(f_pred)
-        writer.writerow(["id", "phonemes"])
+        writer = csv.writer(f_pred, delimiter='\t')
+        writer.writerow(["Sentence", "Phonemes"])
         for row in tqdm(reader):
-            id = row[0]
-            transcript = row[1]
-            phonemes = phonemize(transcript, language="he")
-            writer.writerow([id, phonemes])
+            sentence = row[0]
+            phonemes = phonemize(sentence, language="he")
+            writer.writerow([sentence, phonemes])

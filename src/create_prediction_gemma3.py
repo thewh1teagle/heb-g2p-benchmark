@@ -14,21 +14,20 @@ Input Format: A Hebrew sentence.
 Output Format: A string of IPA phonemes.
 """
 
-with open("gt.csv", "r", encoding="utf-8") as f, open("pred_gemma3.csv", "w", encoding="utf-8") as f_pred:
-    reader = csv.DictReader(f)
-    writer = csv.writer(f_pred)
-    writer.writerow(["id", "phonemes"])
-    
+with open("gt.tsv", "r", encoding="utf-8") as f, open("pred_gemma3.tsv", "w", encoding="utf-8") as f_pred:
+    reader = csv.DictReader(f, delimiter='\t')
+    writer = csv.writer(f_pred, delimiter='\t')
+    writer.writerow(["Sentence", "Phonemes"])
+
     for row in tqdm(reader):
-        id = row["id"]
-        transcript = row["transcript"]
-        
+        sentence = row["Sentence"]
+
         # Run inference with ollama
         response = ollama.chat(
             model="gemma3-g2p",
             messages=[
                 {"role": "system", "content": system_message},
-                {"role": "user", "content": transcript}
+                {"role": "user", "content": sentence}
             ],
             options={
                 "temperature": 0.9,
@@ -38,8 +37,8 @@ with open("gt.csv", "r", encoding="utf-8") as f, open("pred_gemma3.csv", "w", en
                 "stop": ["<end_of_turn>", "</s>"]
             }
         )
-        
-        phonemes = response["message"]["content"].strip()
-        writer.writerow([id, phonemes])
 
-print("\nPredictions saved to pred_gemma3.csv")
+        phonemes = response["message"]["content"].strip()
+        writer.writerow([sentence, phonemes])
+
+print("\nPredictions saved to pred_gemma3.tsv")
