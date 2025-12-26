@@ -24,9 +24,9 @@
         {
             "name": "Gemma3-G2P",
             "url": "https://github.com/thewh1teagle/gemma3-g2p",
-            "wer": 0.2931237696543819,
-            "cer": 0.18738221918250675,
-            "stress_wer": 0.1325
+            "wer": 0.2198,
+            "cer": 0.0833,
+            "stress_wer": 0.1172
         },
         {
             "name": "GPT-5.2",
