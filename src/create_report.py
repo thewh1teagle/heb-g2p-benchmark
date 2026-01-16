@@ -1,5 +1,5 @@
 """
-uv run src/create_report.py gt.tsv pred.tsv reports/report_name.json
+uv run src/create_report.py gt.tsv pred.tsv web/reports/report_name.json
 """
 
 import jiwer
@@ -7,7 +7,6 @@ import csv
 import argparse
 import json
 import os
-import re
 
 def extract_stress_positions(phonemes):
     """
@@ -44,16 +43,18 @@ parser.add_argument('pred_file', type=str, default='pred.tsv')
 parser.add_argument('output', type=str, default='report.json', help='Output JSON file')
 args = parser.parse_args()
 
-# Read ground truth file
+# Read ground truth file (format: Sentence\tPhonemes, with header)
 gt_data = {}
+gt_text = {}
 with open(args.gt_file, 'r', encoding='utf-8') as f:
     gt_reader = csv.DictReader(f, delimiter='\t')
     for row in gt_reader:
         # Use sentence as key since there's no ID column
         sentence = row['Sentence']
         gt_data[sentence] = row['Phonemes']
+        gt_text[sentence] = sentence
 
-# Read prediction file
+# Read prediction file (format: Sentence\tPhonemes, with header)
 pred_data = {}
 with open(args.pred_file, 'r', encoding='utf-8') as f:
     pred_reader = csv.DictReader(f, delimiter='\t')
@@ -126,7 +127,7 @@ with open(args.output, 'w', encoding='utf-8') as f:
     json.dump(report, f, indent=2, ensure_ascii=False)
 
 print(f"\nReport saved to {args.output}")
-print(f"\nSummary:")
+print("\nSummary:")
 print(f"  Mean WER: {mean_wer:.4f}")
 print(f"  Mean CER: {mean_cer:.4f}")
 print(f"  Mean Stress WER: {mean_stress_wer:.4f}")

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Details - Hebrew G2P Benchmark</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="model-name">Loading...</h1>
+            <p id="model-description">Detailed report showing prediction results for each test sentence.</p>
+        </div>
+
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-number" id="accuracy-stat">-</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="wer-stat">-</div>
+                <div class="stat-label">WER</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="cer-stat">-</div>
+                <div class="stat-label">CER</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="stress-wer-stat">-</div>
+                <div class="stat-label">Stress WER</div>
+            </div>
+        </div>
+
+        <div class="report-controls">
+            <button onclick="window.location.href='index.html'" class="back-button">
+                ← Back to Benchmark
+            </button>
+        </div>
+
+        <div class="sentences-section">
+            <h2 class="leaderboard-title">Test Sentences</h2>
+            <div id="loading" class="loading">Loading report...</div>
+            <div id="sentences-container"></div>
+        </div>
+    </div>
+
+    <script src="report.js"></script>
+</body>
+</html>
+

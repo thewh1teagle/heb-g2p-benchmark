@@ -5,7 +5,45 @@ async function loadData() {
             throw new Error('Failed to load data.json');
         }
         const data = await response.json();
-        displayResults(data);
+        
+        // Fetch report data for each model
+        const modelsWithMetrics = await Promise.all(
+            data.models.map(async (model) => {
+                try {
+                    const reportResponse = await fetch(model.report);
+                    if (!reportResponse.ok) {
+                        throw new Error(`Failed to load report for ${model.name}`);
+                    }
+                    const report = await reportResponse.json();
+                    
+                    // Extract report name from path (e.g., "reports/goruut.json" -> "goruut")
+                    const reportName = model.report.replace('reports/', '').replace('.json', '');
+                    
+                    // Extract metrics from report summary
+                    return {
+                        name: model.name,
+                        url: model.url,
+                        reportName: reportName,
+                        wer: report.summary.mean_wer,
+                        cer: report.summary.mean_cer,
+                        stress_wer: report.summary.mean_stress_wer,
+                        num_samples: report.summary.num_samples
+                    };
+                } catch (error) {
+                    console.error(`Error loading report for ${model.name}:`, error);
+                    return null;
+                }
+            })
+        );
+        
+        // Filter out models that failed to load
+        const validModels = modelsWithMetrics.filter(m => m !== null);
+        
+        if (validModels.length === 0) {
+            throw new Error('No valid models loaded');
+        }
+        
+        displayResults({ models: validModels });
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('loading').innerHTML =
@@ -52,6 +90,7 @@ function displayResults(data) {
             <td class="metric">${model.wer.toFixed(2)}</td>
             <td class="metric">${model.cer.toFixed(2)}</td>
             <td class="metric">${stressWer}</td>
+            <td class="report-link"><a href="report.html?report=${model.reportName}">View Details</a></td>
         `;
 
         tableBody.appendChild(row);
