@@ -6,7 +6,7 @@ colorTo: blue
 sdk: static
 pinned: false
 license: mit
-short_description: G2P benchmark comparing WER vs CER using IPA transcriptions for Hebrew
+short_description: Hebrew G2P benchmark comparing WER vs CER using IPA
 ---
 
 # Hebrew G2P Benchmark
