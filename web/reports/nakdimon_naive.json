@@ -1,810 +1,810 @@
 {
   "summary": {
-    "mean_wer": 0.36341354397236747,
-    "mean_cer": 0.0991747079293104,
-    "mean_stress_wer": 0.18114774930951402,
+    "mean_wer": 1.0,
+    "mean_cer": 0.33707450980217296,
+    "mean_stress_wer": 0.9993333333333334,
     "num_samples": 100
   },
   "individual": [
     {
       "sentence": "אבל בבדיקה מעמיקה יותר התגלה שהסובייטים עצמם עשו משהו דומה בעבר.",
-      "wer": 0.45454545454545453,
-      "cer": 0.15217391304347827,
-      "stress_wer": 0.2727272727272727,
+      "wer": 1.0,
+      "cer": 0.40217391304347827,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔavˈal bivdikˈa maʔamikˈa jotˈeʁ hitɡalˈa ʃehasovjˈetim ʔatsmˈam ʔasˈu mˈaʃu domˈe beʔavˈaʁ.",
-      "pred_phonemes": "ʔavˈal babdikˈa maʔamikˈa jotˈeʁ hitɡalˈa ʃehasovjetˈim ʔatsmˈam ʔasˈu maʃˈehu domˈa baʔˈeveʁ."
+      "pred_phonemes": "ʔabal bibdijkah maʕamijkah jvoter hitgalah ʃehasvobjejtijm ʕatsmam ʕasv maʃehv dvomeh beʕabar."
     },
     {
       "sentence": "אבל במקביל למוניטין ההולך וצומח של יוז,",
-      "wer": 0.42857142857142855,
-      "cer": 0.08620689655172414,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.3275862068965517,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomeˈaχ ʃˈel jˈuz,",
-      "pred_phonemes": "ʔavˈal bemakbˈil lamonitˈin haholˈeχ vetsomˈeaχ ʃˈal iuz,"
+      "pred_phonemes": "ʔabal bmakbijl lamvonijtijn hahvolek vtsvomeχa ʃel jvz,"
     },
     {
       "sentence": "אבל מה קורה לאותם גלי קול הם לא זהים בתכונותיהם בכל מקום באוקיינוס.",
-      "wer": 0.3076923076923077,
-      "cer": 0.06315789473684211,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.35789473684210527,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔavˈal mˈa koʁˈe leʔotˈam ɡalˈej kˈol hˈem lˈo zehˈim bitχunotehˈem beχˈol makˈom baʔokijˈanos.",
-      "pred_phonemes": "ʔavˈel mˈa koʁˈe leʔotˈam ɡalˈej kˈol hˈem lˈo zehˈim bitχunotehˈem veχˈol mekˈom baʔokjanˈos."
+      "pred_phonemes": "ʔabal mah kvoreh lʔvotam galej kvol hem loʔ zehijm bitkvnvotejhem bkal makvom baʔvokjajnvos."
     },
     {
       "sentence": "אל עבר הנקודה שבה אוטרו ראשי התביע.",
-      "wer": 0.5714285714285714,
-      "cer": 0.2549019607843137,
-      "stress_wer": 0.5714285714285714,
+      "wer": 1.0,
+      "cer": 0.43137254901960786,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔˈel ʔˈeveʁ hanekudˈa ʃebˈa ʔutʁˈu ʁaʃˈej hataviˈa.",
-      "pred_phonemes": "ʔˈel ʔovˈeʁ hankudˈa ʃebˈa ʔotaʁu ʁaʃˈej hitbejˈʔˈ."
+      "pred_phonemes": "ʔel ʕeber hankvdah ʃebah ʔvotrvo raʔʃej hatabijʕa."
     },
     {
       "sentence": "אל פתח מיוחד בתחתית הספינה. הרוסים לא יוכלו לראות מבחוץ את הפעילות שנעשית מתחת למים.",
-      "wer": 0.3333333333333333,
-      "cer": 0.08064516129032258,
-      "stress_wer": 0.13333333333333333,
+      "wer": 1.0,
+      "cer": 0.29838709677419356,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔˈel pˈetaχ mejuχˈad betaχtˈit hasfinˈa. haʁusˈim lˈo juχlˈu liʁʔˈot mibaχˈuts ʔˈet hapeʔilˈut ʃenaʔasˈet mitˈaχat lamˈajim.",
-      "pred_phonemes": "ʔˈel patˈaχ mejuχˈad betaχtˈit hasfinˈa. haʁˈusim lˈo juχlˈu liʁʔˈot mibaχˈuts ʔˈat hapeʔilˈut ʃenaʔasˈeta matˈaχta lamˈajim."
+      "pred_phonemes": "ʔel petaχ mjvχad btaχtijt haspijnah. harvsijm loʔ jvklv lirʔvot mibaχvts ʔet hapʕijlvt ʃenaʕasejt mitaχat lamajim."
     },
     {
       "sentence": "אפילו לא דמיינו לעצמם, החלה את חייה כצוללת הראשונה בצי האמריקני.",
-      "wer": 0.5,
-      "cer": 0.1414141414141414,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.3333333333333333,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔafˈilu lˈo dimjenˈu leʔatsmˈam, heχˈela ʔˈet χajˈeha kˈa tsolˈelet haʁiʃonˈa batsˈi haʔameʁikˈani.",
-      "pred_phonemes": "ʔafˈilu lˈo damjnˈu leʔatsmˈam, heχalˈa ʔˈat χajˈeha ektsulelit haʁiʃonˈa betsˈi haʔameʁikˈani."
+      "pred_phonemes": "ʔapijlv loʔ dimjjnv lʕatsmam, heχelah ʔet χajejha ktsvolelet hariʔʃvonah batsij haʔamerijkanij."
     },
     {
       "sentence": "את הקיי מאה עשרים ותשע מהצוללת. אנשי הצבא העריכו שהטילים הגרעיניים, מערכות התקשורת המוצפנות.",
-      "wer": 0.42857142857142855,
-      "cer": 0.13043478260869565,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.34057971014492755,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔˈet hakˈej mˈeʔa ʔesʁˈim vetˈeʃa mehametsulˈot. ʔanʃˈej hatsavˈa heʔeʁˈiχu ʃehatilˈim haɡaʁʔinijˈim, maʔaʁaχˈot hatikʃˈoʁet hamutspanˈot.",
-      "pred_phonemes": "ʔˈat hakˈii meʔˈa ʔesʁˈim vetˈeʃa mehatsolˈelet. ʔanʃˈej hatsavˈa heʔeʁˈiχu ʃehatilˈim haɡaʁʔinijˈim, maʔaʁχˈot hatikʃˈoʁet hamuˈfˈnoit."
+      "pred_phonemes": "ʔet hakejj meʔah ʕesrijm vteʃaʕ mehatsvolelet. ʔanʃej hatsabaʔ heʕerijkv ʃehatijlijm hagarʕijnijijm, maʕarkvot hatikʃvoret hamvtspanvot."
     },
     {
       "sentence": "באמצעות ספינה שהטילה מטעני נפץ קטנים בלב ים.",
-      "wer": 0.25,
-      "cer": 0.08823529411764706,
-      "stress_wer": 0.125,
+      "wer": 1.0,
+      "cer": 0.3088235294117647,
+      "stress_wer": 1.0,
       "gt_phonemes": "beʔemtsaʔˈut sfinˈa ʃehetˈila mitʔanˈej nˈefets ktanˈim belˈev jˈam.",
-      "pred_phonemes": "beʔemtsaʔˈut sfinˈa ʃehetˈila matʔˈeni nˈefets ktanˈim balˈev jˈam."
+      "pred_phonemes": "bʔemtsaʕvt spijnah ʃehetijlah mitʕanej nepets ktanijm bleb jam."
     },
     {
       "sentence": "במסגרתו הותקינו בה מתחפים היקפים שאפשרו לה לרחף במים ללא תזוזה.",
-      "wer": 0.36363636363636365,
-      "cer": 0.15555555555555556,
-      "stress_wer": 0.18181818181818182,
+      "wer": 1.0,
+      "cer": 0.4444444444444444,
+      "stress_wer": 1.0,
       "gt_phonemes": "bemisɡaʁtˈo hutkenˈu bˈa madχefˈim hekefˈim ʃeʔifʃeʁˈu lˈa leʁaχˈef bamˈajim lelˈo tzuzˈa.",
-      "pred_phonemes": "bemisɡaʁtˈo ajˈotikˈnu bˈa mitaχfˈiem hekefˈim ʃeʔifʃʁˈu lˈe leʁaχˈef bamˈajim lelˈo tzuzˈa."
+      "pred_phonemes": "bmisgartvo hvtkijnv bah mitχapijm hejkepijm ʃeʔipʃrv lah lraχep bmajim lloʔ tzvzah."
     },
     {
       "sentence": "בעל מדרונותיהם של הרים תת מימיים, וחוברו לתחנות האזנה שונות.",
-      "wer": 0.5,
-      "cer": 0.2441860465116279,
-      "stress_wer": 0.3,
+      "wer": 1.0,
+      "cer": 0.32558139534883723,
+      "stress_wer": 1.0,
       "gt_phonemes": "veʔˈal midʁonotehˈem ʃˈel haʁˈim tˈat mejmijˈim, veχubʁˈu letaχanˈot haʔazanˈa ʃonˈot.",
-      "pred_phonemes": "bˈaʔal imadˈʁvenvetjˈhim ʃˈel haʁˈim tˈat mimiim, veχubʁˈu lataχanˈot haʔazanˈa ʃonˈut."
+      "pred_phonemes": "baʕal midrvonvotejhem ʃel harijm tat mejamijijm, vχvbrv ltaχanvot haʔazanah ʃvonvot."
     },
     {
       "sentence": "בשנת אלף תשע מאות שישים ושמונה אם כן עברה ההליבט שיפוץ מסיבי.",
-      "wer": 0.4166666666666667,
-      "cer": 0.11627906976744186,
-      "stress_wer": 0.08333333333333333,
+      "wer": 1.0,
+      "cer": 0.36046511627906974,
+      "stress_wer": 1.0,
       "gt_phonemes": "biʃnˈat ʔˈelef tʃˈa meʔˈot ʃiʃˈim uʃmonˈe ʔˈim kˈen ʔavʁˈa hahˈalibat ʃipˈuts masˈivi.",
-      "pred_phonemes": "biʃnˈat ʔˈelef tˈeʃa meʔˈot ʃiʃˈim uʃmonˈa ʔˈem kˈen ʔevʁˈa aalibet ʃipˈuts masˈivi."
+      "pred_phonemes": "biʃnat ʔelep tʃaʕ meʔvot ʃijʃijm vʃmvoneh ʔim ken ʕabrah hahalijbet ʃijpvts misijbij."
     },
     {
       "sentence": "בשנת אלף תשע מאות שלושים ושבע. חקר את האופן שבו מתפשטים גלי קול בתוך המים.",
-      "wer": 0.4666666666666667,
-      "cer": 0.16363636363636364,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.2636363636363636,
+      "stress_wer": 1.0,
       "gt_phonemes": "beʃnˈat ʔˈelef tʃˈa meʔˈot ʃloʃˈim veʃˈeva. χakˈaʁ ʔˈet haʔˈofen ʃebˈo mitpaʃtˈim ɡalˈej kˈol betˈoχ hamˈajim.",
-      "pred_phonemes": "biʃnˈat ʔˈelef tˈeʃa meʔˈot ʃloʃˈim vaʃevˈa. χˈekeʁ ʔˈet haʔˈofen ʃˈavu mitpaʃtˈim ɡlˈej kˈol betˈoχ hamajˈim."
+      "pred_phonemes": "biʃnat ʔelep tʃaʕ meʔvot ʃlvoʃijm vʃebaʕ. χakar ʔet haʔvopen ʃebvo mitpaʃtijm galej kvol btvok hamajim."
     },
     {
       "sentence": "גלי הכל שיהנו למעלה, אל פני השטח, ויחזרו כלפי מטה כמו כדור טניס שפוגע בקיר.",
-      "wer": 0.4666666666666667,
-      "cer": 0.1206896551724138,
-      "stress_wer": 0.26666666666666666,
+      "wer": 1.0,
+      "cer": 0.3017241379310345,
+      "stress_wer": 1.0,
       "gt_phonemes": "ɡalˈej hakˈol ʃejahanˈu lemˈaʔla, ʔˈel pnˈej haʃˈetaχ, vejaχzeʁˈu klapˈej mˈata kemˈo kadˈuʁ tenˈis ʃepoɡˈea bakˈiʁ.",
-      "pred_phonemes": "ɡalˈi hakˈol ʃˈihanu lemˈaʔla, ʔˈal pnˈej haʃˈetaχ, vejaχzeʁˈu klapˈej matˈe kmˈo kadˈuʁ tˈenis ʃepoɡˈea bekˈiʁ."
+      "pred_phonemes": "galej hakol ʃejehanv lmaʕlah, ʔel pnej haʃetaχ, vjaχzrv klapej matah kmvo kadvr tenijs ʃepvogeʕa bakijr."
     },
     {
       "sentence": "גלי הקול נעים מהר יותר במים דחוסים.",
-      "wer": 0.5714285714285714,
-      "cer": 0.09615384615384616,
-      "stress_wer": 0.14285714285714285,
+      "wer": 1.0,
+      "cer": 0.3076923076923077,
+      "stress_wer": 1.0,
       "gt_phonemes": "ɡalˈej hakˈol naʔˈim mahˈeʁ jotˈeʁ bemˈajim dχusˈim.",
-      "pred_phonemes": "ɡlˈej hakˈol neʔˈim mehˈaʁ jotˈeʁ bamˈajim dχusˈim."
+      "pred_phonemes": "galej hakvol naʕijm maher jvoter bmajim dχvsijm."
     },
     {
       "sentence": "גם במרחק של כמעט אלפיים קילומטרים. בערך כמו המרחק מישראל לאיטליה.",
-      "wer": 0.5454545454545454,
-      "cer": 0.09090909090909091,
-      "stress_wer": 0.2727272727272727,
+      "wer": 1.0,
+      "cer": 0.31313131313131315,
+      "stress_wer": 1.0,
       "gt_phonemes": "ɡˈam bemeʁχˈak ʃˈel kimʔˈat ʔalpˈajim kilomˈetʁim. beʔˈeʁeχ kemˈo hameʁχˈak mejisʁaʔˈel leʔitˈalja.",
-      "pred_phonemes": "ɡˈam bemeʁχˈak ʃˈel kimʔˈat ʔalpajˈim kilˈometʁim. baʔˈeʁeχ kmˈo hameʁχˈak mijisʁaʔˈel leʔitaljˈa."
+      "pred_phonemes": "gam bmerχak ʃel kimʕat ʔalpajijm kijlvometrijm. bʕerek kmvo hamerχak mijisraʔel lʔijtaljah."
     },
     {
       "sentence": "גרמה גם להתפרקותם של הטילים הגרעיניים שהיא נשאה בבטנה.",
-      "wer": 0.3333333333333333,
-      "cer": 0.15584415584415584,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.37662337662337664,
+      "stress_wer": 1.0,
       "gt_phonemes": "ɡaʁmˈa ɡˈam lehitpaʁkutˈam ʃˈel hatilˈim haɡaʁʔinijˈim ʃehˈi nasʔˈa bevitnˈa.",
-      "pred_phonemes": "ɡʁamˈa ɡˈam latpʁkjˈotim ʃˈal hatilˈim haɡaʁʔinijˈim ʃehˈi nasʔˈa bevitnˈa."
+      "pred_phonemes": "garmah gam lhitparkvtam ʃel hatijlijm hagarʕijnijijm ʃehijʔ nasʔah bbitnah."
     },
     {
       "sentence": "הגל פוגש את שכבת המים המתוקים והחמימים.",
-      "wer": 0.5714285714285714,
-      "cer": 0.11666666666666667,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.3,
+      "stress_wer": 1.0,
       "gt_phonemes": "haɡˈal poɡˈeʃ ʔˈet ʃiχvˈat hamˈajim hametukˈim vehaχamimˈim.",
-      "pred_phonemes": "haɡˈal poɡˈeʃ ʔˈat ʃiχvˈat hamajˈim hamtukˈim vehaeχamˈimˈiim."
+      "pred_phonemes": "hagal pvogeʃ ʔet ʃikbat hamajim hamtvkijm vhaχamijmijm."
     },
     {
       "sentence": "הגל פונה ימינה בחדות ומתעכל בחזרה למטה.",
-      "wer": 0.5714285714285714,
-      "cer": 0.1694915254237288,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.3559322033898305,
+      "stress_wer": 1.0,
       "gt_phonemes": "haɡˈal ponˈe jamˈina beχadˈut umitʔakˈel beχazaʁˈa lemˈata.",
-      "pred_phonemes": "haɡˈal punˈa jaminˈa beχadˈut uemitʔˈklˈ baχazaʁˈa lemˈata."
+      "pred_phonemes": "hagal pvoneh jamijnah bχadvt vmitʕakel baχazarah lmatah."
     },
     {
       "sentence": "הדבר יעורר מיד את חשדם של הרוסים.",
-      "wer": 0.14285714285714285,
-      "cer": 0.018867924528301886,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.32075471698113206,
+      "stress_wer": 1.0,
       "gt_phonemes": "hadavˈaʁ jeʔoʁˈeʁ mijˈad ʔˈet χaʃadˈam ʃˈel haʁusˈim.",
-      "pred_phonemes": "hadavˈaʁ jeʔoʁˈeʁ mijˈad ʔˈat χaʃadˈam ʃˈel haʁusˈim."
+      "pred_phonemes": "hadabar jʕvorer mijad ʔet χaʃdam ʃel harvsijm."
     },
     {
       "sentence": "הוא נהג לאכול בכל ערב את אותה הערוכה בדיוק.",
-      "wer": 0.4444444444444444,
-      "cer": 0.109375,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.421875,
+      "stress_wer": 1.0,
       "gt_phonemes": "hˈu nahˈaɡ leʔeχˈol beχˈol ʔˈeʁev ʔˈet ʔotˈa haʔaʁuχˈa bedijˈuk.",
-      "pred_phonemes": "hˈu nahˈaɡ leʔeχˈol vχˈol ʔaʁˈev ʔˈat ʔotˈa haʔaʁuχˈa badijˈuk."
+      "pred_phonemes": "hvʔ nahag leʔekvol bkal ʕereb ʔet ʔvotah haʕarvkah bdijvk."
     },
     {
       "sentence": "הוא ראה מאה חמישים פעמים. החליט יוז לעבור להתגורר במלון בלס וגאס.",
-      "wer": 0.5,
-      "cer": 0.1276595744680851,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.425531914893617,
+      "stress_wer": 1.0,
       "gt_phonemes": "hˈu ʁaʔˈa mˈeʔa veχamiʃˈim peʔamˈim. heχlˈit jˈuz laʔavˈoʁ lehitɡoʁˈeʁ bemalˈon belˈas vˈeɡas.",
-      "pred_phonemes": "hˈu ʁaʔˈa meʔˈa χamiʃˈim peʔamˈim. heχlˈit iuz laʔavˈoʁ lehitɡoʁˈeʁ bamalˈon balˈas oɡʔas."
+      "pred_phonemes": "hvʔ raʔah meʔah χamijʃijm pʕamijm. heχelijt jvz laʕabvor lhitgvorer bamalvon bales vgaʔs."
     },
     {
       "sentence": "החברה של יוז יצרה מטוסי קרב, לייזרים, טילים, לוויינים ועוד.",
-      "wer": 0.5,
-      "cer": 0.08860759493670886,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.4050632911392405,
+      "stress_wer": 1.0,
       "gt_phonemes": "haχevʁˈa ʃˈel jˈuz jitsʁˈa metosˈej kʁˈav, lˈejzeʁim, tilˈim, lavjanˈim veʔˈod.",
-      "pred_phonemes": "haχaveʁˈa ʃˈel iuz jatsʁˈa metosˈej kʁˈav, lˈejzeʁim, tilˈim, lajanˈim vaʔˈod."
+      "pred_phonemes": "haχebrah ʃel jvz jatsrah mtvosej krab, lajjzarijm, tijlijm, lavvjajnijm vʕvod."
     },
     {
       "sentence": "החל את הקריירה שלו בשנות העשרים של המאה הקודמת.",
-      "wer": 0.3333333333333333,
-      "cer": 0.08450704225352113,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.2535211267605634,
+      "stress_wer": 1.0,
       "gt_phonemes": "heχˈel ʔˈet hakaʁjˈeʁa ʃelˈo biʃnˈot haʔesʁˈim ʃˈel hameʔˈa hakodˈemet.",
-      "pred_phonemes": "heχˈel ʔˈat hakaʁjˈeʁa slˈav biʃnˈot haʔesʁˈim ʃˈal hameʔˈa hakodˈemet."
+      "pred_phonemes": "heχel ʔet hakarjejrah ʃelvo biʃnvot haʕesrijm ʃel hameʔah hakvodemet."
     },
     {
       "sentence": "החל הרבוט לסרוק את קרקעית הים בעומק של כחמישה קילומטרים.",
-      "wer": 0.4,
-      "cer": 0.10975609756097561,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.3048780487804878,
+      "stress_wer": 1.0,
       "gt_phonemes": "heχˈel haʁˈobot lisʁˈok ʔˈet kaʁkaʔˈit hajˈam beʔˈomek ʃˈel kaχamiʃˈa kilomˈetʁim.",
-      "pred_phonemes": "haχˈel aʁbutˈ lisʁˈok ʔˈet kaʁkaʔˈit hajˈam beʔˈomek ʃˈal kaχamiʃˈa kilˈometʁim."
+      "pred_phonemes": "heχel haribvot lisrvok ʔet karkaʕijt hajam bʕvomek ʃel kaχamijʃah kijlvometrijm."
     },
     {
       "sentence": "החליט יוז לנצל את ההזדמנות והחברה שלו החלה לפתח מסוקים עבור הצבא האמריקני.",
-      "wer": 0.46153846153846156,
-      "cer": 0.13043478260869565,
-      "stress_wer": 0.3076923076923077,
+      "wer": 1.0,
+      "cer": 0.3391304347826087,
+      "stress_wer": 1.0,
       "gt_phonemes": "heχlˈit jˈuz lenatsˈel ʔˈet hahizdamnˈut vehaχevʁˈa ʃelˈo heχˈela lefatˈeaχ mesokˈim ʔavˈuʁ hatsavˈa haʔameʁikˈani.",
-      "pred_phonemes": "heχlˈit iuz lenatsˈel ʔˈat hahizdamnˈut vehaχevʁˈa slˈav heχalˈa lapˈetaχ masokˈim ʔavˈuʁ hatsavˈa haʔameʁikˈani."
+      "pred_phonemes": "heχelijt jvz lnatsel ʔet hahizdamnvt vhaχebrah ʃelvo heχelah lpateχa masvokijm ʕabvr hatsabaʔ haʔamerijkanij."
     },
     {
       "sentence": "החלק שקרוב יותר לפני המים, קרה לכם פעם שירדתם עם האוטו.",
-      "wer": 0.36363636363636365,
-      "cer": 0.10112359550561797,
-      "stress_wer": 0.2727272727272727,
+      "wer": 1.0,
+      "cer": 0.2696629213483146,
+      "stress_wer": 1.0,
       "gt_phonemes": "haχˈelek ʃekaʁˈov jotˈeʁ lifnˈej hamˈajim, kaʁˈa laχˈem pˈaʔam ʃejaʁˈadetem ʔˈim haʔˈoto.",
-      "pred_phonemes": "heχalˈak ʃekʁˈov jotˈeʁ lifnˈej hamˈajim, kaʁˈa laχˈem pˈaʔam ʃejʁˈadtem ʔˈam haʔˈoto."
+      "pred_phonemes": "haχelek ʃekarvob jvoter lipnej hamajim, karah lakem paʕam ʃejaradtem ʕim haʔvotvo."
     },
     {
       "sentence": "היה ברור שאם מספנות הצי יהיו אלה שיבנו את הספינה הכל כך בלתי שגרתית הזו.",
-      "wer": 0.26666666666666666,
-      "cer": 0.046296296296296294,
-      "stress_wer": 0.06666666666666667,
+      "wer": 1.0,
+      "cer": 0.3148148148148148,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajˈa baʁˈuʁ ʃeʔˈim mispanˈot hatsˈi jihjˈu ʔˈele ʃejivnˈu ʔˈet hasfinˈa hakˈol kˈaχ bˈilti ʃiɡʁatˈit hazˈo.",
-      "pred_phonemes": "hajˈo baʁˈuʁ ʃeʔˈim mispanˈot hatsˈi jihjˈu ʔˈel ʃejivnˈu ʔˈat hasfinˈa hakˈol kˈaχ biltˈi ʃiɡʁatˈit hazˈo."
+      "pred_phonemes": "hajah barvr ʃeʔim misapnvot hatsij jihjv ʔeleh ʃejibnv ʔet haspijnah hakol kak biltij ʃigratijt hazvo."
     },
     {
       "sentence": "היה חשש ממשי שהתאונה שהביאה לתפייתה של הצוללת.",
-      "wer": 0.25,
-      "cer": 0.08450704225352113,
-      "stress_wer": 0.125,
+      "wer": 1.0,
+      "cer": 0.29577464788732394,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajˈa χaʃˈaʃ mamaʃˈi ʃehateʔunˈa ʃehevˈiʔa litfiʔatˈa ʃˈel hatsolˈelet.",
-      "pred_phonemes": "hajˈo χaʃˈaʃ mamaʃˈi ʃehateʔunˈa ʃehevˈiʔa lˈtpiiitha ʃˈel hatsolˈelet."
+      "pred_phonemes": "hajah χaʃaʃ mamaʃij ʃehatʔvnah ʃehebijʔah litpijajtah ʃel hatsvolelet."
     },
     {
       "sentence": "היה לחבר אל גוף הצוללת בלונים, לנפח אותם באוויר או בגז אחר.",
-      "wer": 0.4166666666666667,
-      "cer": 0.0989010989010989,
-      "stress_wer": 0.16666666666666666,
+      "wer": 1.0,
+      "cer": 0.3516483516483517,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajˈa leχabˈeʁ ʔˈel ɡˈuf hatsolˈelet balonˈim, lenapˈeaχ ʔotˈam beʔavˈiʁ ʔˈo beɡˈaz ʔaχˈeʁ.",
-      "pred_phonemes": "hejˈe leχavˈeʁ ʔˈel ɡˈuf hatsolˈelet balˈonim, lenˈefaχ ʔotˈam baʔavˈiʁ ʔˈo beɡˈaz ʔaχˈeʁ."
+      "pred_phonemes": "hajah lχaber ʔel gvp hatsvolelet balvonijm, lnapeχa ʔvotam baʔavivjr ʔvo bgaz ʔaχer."
     },
     {
       "sentence": "היו מסוגלות לעקן את מקומו הכללי של מקור האוטו.",
-      "wer": 0.6666666666666666,
-      "cer": 0.14925373134328357,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.34328358208955223,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajˈu mesuɡalˈot leʔakˈen ʔˈet mikumˈo haklalˈi ʃˈel mekˈoʁ haʔˈot.",
-      "pred_phonemes": "hajˈo mesuɡalˈot lakn ʔˈat mekomˈo haklalˈi ʃˈel mikˈoʁ haʔˈoto."
+      "pred_phonemes": "hajv msvgalvot lʕaken ʔet mkvomvo haklalij ʃel makvor haʔvotvo."
     },
     {
       "sentence": "היווה את ההשראה לדמותו של טוני סטארק, הגאון האקסנטרי שבתוך החליפה של איירון מן.",
-      "wer": 0.35714285714285715,
-      "cer": 0.1834862385321101,
-      "stress_wer": 0.35714285714285715,
+      "wer": 1.0,
+      "cer": 0.3211009174311927,
+      "stress_wer": 1.0,
       "gt_phonemes": "hivˈa ʔˈet hahaʃʁaʔˈa lidmutˈo ʃˈel tˈoni stˈaʁk, haɡaʔˈon haʔeksˈentʁi ʃebetˈoχ haχalifˈa ʃˈel ʔˈajʁon mˈan.",
-      "pred_phonemes": "hivˈa ʔˈet hahaʃʁaʔˈa lidmutˈo ʃˈel tonˈi astʔʁk, haɡaʔˈon haʔasenatʁ ʃebetˈoχ heχlˈifa ʃˈel ʔiiʁˈveon mˈan."
+      "pred_phonemes": "hijvavh ʔet hahaʃraʔah lidmvtvo ʃel tvonij staʔrk, hagaʔvon haʔeksentarij ʃebtvok haχalijpah ʃel ʔajjrvon min."
     },
     {
       "sentence": "הייתה גוש מתכת במשקל של כמעט אלפיים טונות.",
-      "wer": 0.25,
-      "cer": 0.04918032786885246,
-      "stress_wer": 0.125,
+      "wer": 1.0,
+      "cer": 0.2786885245901639,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajtˈa ɡˈuʃ matˈeχet bemiʃkˈal ʃˈel kimʔˈat ʔalpˈajim tˈonot.",
-      "pred_phonemes": "hajtˈa ɡˈuʃ matˈeχet bamiʃkˈal ʃˈel kimʔˈat ʔalpajˈim tˈonot."
+      "pred_phonemes": "hajjtah gvʃ mateket bmiʃkal ʃel kimʕat ʔalpajijm tvonvot."
     },
     {
       "sentence": "הייתה מעורבת ממילא באינספור פרויקטים צבאיים מתקדמים.",
-      "wer": 0.2857142857142857,
-      "cer": 0.11267605633802817,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.352112676056338,
+      "stress_wer": 1.0,
       "gt_phonemes": "hajtˈa meʔoʁˈevet mimˈele beʔejnsfˈoʁ pʁojˈektim tsvaʔijˈim mitkadmˈim.",
-      "pred_phonemes": "hajtˈa meʔoʁˈevet mimelˈa baʔinspoʁ pʁojˈektim tsvaʔijˈim mitkadmˈim."
+      "pred_phonemes": "hajjtah mʕvorebet mimejlaʔ bʔejnspvor prvojektijm tsbaʔijijm mitkadmijm."
     },
     {
       "sentence": "הם יעשו את דרכם כל הדרך אל הקרקעית, ואז גם הם יספגו בחול ויעלמו.",
-      "wer": 0.2857142857142857,
-      "cer": 0.10784313725490197,
-      "stress_wer": 0.21428571428571427,
+      "wer": 1.0,
+      "cer": 0.3137254901960784,
+      "stress_wer": 1.0,
       "gt_phonemes": "hˈem jaʔasˈu ʔˈet daʁkˈam kˈol hadˈeʁeχ ʔˈel hakaʁkaʔˈit, veʔˈaz ɡˈam hˈem jisafɡˈu baχˈol vejeʔalmˈu.",
-      "pred_phonemes": "hˈem jaʔasˈu ʔˈat daʁkˈam χˈl hadˈeʁeχ ʔˈel hakaʁkaʔˈit, veʔˈaz ɡˈam hˈem jispɡˈu baχˈol uiʔlmu."
+      "pred_phonemes": "hem jaʕasv ʔet darkam kal haderek ʔel hakarkaʕijt, vʔaz gam hem jispgv baχvol vjeʕalmv."
     },
     {
       "sentence": "הפתרון שנבחר בסופו של דבר ספינה שתצוף ללא תזוזה על פני השטח.",
-      "wer": 0.25,
-      "cer": 0.054945054945054944,
-      "stress_wer": 0.16666666666666666,
+      "wer": 1.0,
+      "cer": 0.34065934065934067,
+      "stress_wer": 1.0,
       "gt_phonemes": "hapitaʁˈon ʃenivχˈaʁ besofˈo ʃˈel davˈaʁ sfinˈa ʃetatsˈuf lelˈo tzuzˈa ʔˈal pnˈej haʃˈetaχ.",
-      "pred_phonemes": "hapitʁˈon ʃenivχˈaʁ besofˈo ʃˈal davˈaʁ sfinˈa ʃttsuf lelˈo tzuzˈa ʔˈal pnˈej haʃˈetaχ."
+      "pred_phonemes": "hapitrvon ʃenibχar bsvopvo ʃel dabar spijnah ʃetatsvp lloʔ tzvzah ʕal pnej haʃetaχ."
     },
     {
       "sentence": "הרבה יותר מאשר על היבשה. בשנת אלף תשע מאות ארבעים וארבע ערך איווינג ניסוי.",
-      "wer": 0.42857142857142855,
-      "cer": 0.16666666666666666,
-      "stress_wer": 0.21428571428571427,
+      "wer": 1.0,
+      "cer": 0.3611111111111111,
+      "stress_wer": 1.0,
       "gt_phonemes": "haʁbˈe jotˈeʁ meʔaʃˈeʁ ʔˈal hajabaʃˈa. biʃnˈat ʔˈelef tʃˈa meʔˈot ʔaʁbaʔˈim veʔˈaʁba ʔaʁˈaχ ʔˈijvinɡ nisˈuj.",
-      "pred_phonemes": "hiʁbˈa jotˈeʁ meʔaʃˈeʁ ʔˈol hajveʃˈa. biʃnˈat ʔˈelef tˈeʃa meʔˈot ʔaʁbaʔˈim veʔˈaʁba ʔˈeʁeχ ʔjuuinɡˈ nisˈuj."
+      "pred_phonemes": "harbeh jvoter meʔaʃer ʕal hajabaʃah. biʃnat ʔelep tʃaʕ meʔvot ʔarbaʕijm vʔarbaʕ ʕerek ʔijvivjng nijsvj."
     },
     {
       "sentence": "הרכב עשוי לפנות ימינה בחדות, נע מהר יותר מהחלק התחתון שלו.",
-      "wer": 0.18181818181818182,
-      "cer": 0.04597701149425287,
-      "stress_wer": 0.09090909090909091,
+      "wer": 1.0,
+      "cer": 0.28735632183908044,
+      "stress_wer": 1.0,
       "gt_phonemes": "haʁˈeχev ʔasˈuj lifnˈot jamˈina beχadˈut, nˈa mahˈeʁ jotˈeʁ mehaχˈelek hataχtˈon ʃelˈo.",
-      "pred_phonemes": "haʁˈeχev ʔasˈuj lifnˈot jaminˈa beχadˈut, nˈa mehˈaʁ jotˈeʁ mehaχˈelek hataχtˈon ʃelˈo."
+      "pred_phonemes": "harekeb ʕasvj lipnvot jamijnah bχadvt, naʕ maher jvoter mehaχelek hataχtvon ʃelvo."
     },
     {
       "sentence": "השילוב של גאונות טכנולוגית ואישיות משונה ובלתי שגרתית.",
-      "wer": 0.375,
-      "cer": 0.041666666666666664,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.4166666666666667,
+      "stress_wer": 1.0,
       "gt_phonemes": "haʃilˈuv ʃˈel ɡeʔonˈut teχnolˈoɡit veʔiʃijˈut meʃunˈa ubiltˈi ʃiɡʁatˈit.",
-      "pred_phonemes": "haʃilˈuv ʃˈel ɡeʔonˈut teχnolˈoɡit veʔiʃijˈot meʃunˈe uviltˈi ʃiɡʁatˈit."
+      "pred_phonemes": "haʃijlvb ʃel gʔvonvot teknvolvogijt vʔijʃijvt mʃvnah vbiltij ʃigratijt."
     },
     {
       "sentence": "השיק את אחד מהפרויקטים הגדולים ביותר בתולדותיו.",
-      "wer": 0.42857142857142855,
-      "cer": 0.046153846153846156,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.3384615384615385,
+      "stress_wer": 1.0,
       "gt_phonemes": "heʃˈik ʔˈet ʔeχˈad mehapʁojˈektim haɡdolˈim bejotˈeʁ betoldotˈav.",
-      "pred_phonemes": "hiʃˈik ʔˈat ʔaχˈad mehapʁojˈektim haɡdolˈim bejotˈeʁ betoldotˈav."
+      "pred_phonemes": "hiʃijk ʔet ʔeχad mehaprvojektijm hagdvolijm bjvoter btvoldvotajv."
     },
     {
       "sentence": "התכנסו כדי לתקס איצה. כולם הבינו באיזה אתגר טכנולוגי עצום מדובר.",
-      "wer": 0.2727272727272727,
-      "cer": 0.12631578947368421,
-      "stress_wer": 0.18181818181818182,
+      "wer": 1.0,
+      "cer": 0.35789473684210527,
+      "stress_wer": 1.0,
       "gt_phonemes": "hitkansˈu kedˈej letakˈes ʔejtsˈa. kulˈam hevˈinu beʔˈejze ʔetɡˈaʁ teχnolˈoɡi ʔatsˈum medubˈaʁ.",
-      "pred_phonemes": "hitkansˈu χedˈej ˈtkt aihatsha. kulˈam hevˈinu beʔˈejze ʔetɡˈaʁ teχnolˈoɡi ʔatsˈum medubˈaʁ."
+      "pred_phonemes": "hitkansv kdej ltaks ʔijtsah. kvlam hebijnv bʔejzeh ʔetgar teknvolvogij ʕatsvm mdvbar."
     },
     {
       "sentence": "התפשטו מנקודת הפיצוץ לכל עבר. הגלים שיפגעו בקרקעית הים יספגו בחול וייעלמו.",
-      "wer": 0.4166666666666667,
-      "cer": 0.07142857142857142,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.36607142857142855,
+      "stress_wer": 1.0,
       "gt_phonemes": "hitpaʃtˈu minekudˈat hapitsˈuts leχˈol ʔˈeveʁ. haɡalˈim ʃejifɡeʔˈu bekaʁkaʔˈit hajˈam jisfɡˈu baχˈol vejeʔalmˈu.",
-      "pred_phonemes": "hitpaʃtˈu minkudˈat hapitsˈuts leχˈol ʔavˈaʁ. haɡalˈim ʃejifɡʔˈu bekaʁkaʔˈit hajˈam jispɡˈu beχˈol vejeʔalmˈu."
+      "pred_phonemes": "hitpaʃtv minkvdat hapijtsvts lkal ʕeber. hagalijm ʃejipgʕv bkarkaʕijt hajam jispgv baχvol vjejʕalmv."
     },
     {
       "sentence": "התקדים הזה הסיר את החששות המשפטיים והנשיא ניקסון אישר את המבצע.",
-      "wer": 0.18181818181818182,
-      "cer": 0.021505376344086023,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.25806451612903225,
+      "stress_wer": 1.0,
       "gt_phonemes": "hatakdˈim hazˈe hesˈiʁ ʔˈet haχaʃaʃˈot hamiʃpatijˈim vehanasˈi niksˈon ʔiʃˈeʁ ʔˈet hamivtsˈa.",
-      "pred_phonemes": "hatakdˈim hazˈe hasˈiʁ ʔˈet haχaʃaʃˈot hamiʃpatijˈim vehanasˈi niksˈon ʔiʃˈeʁ ʔˈat hamivtsˈa."
+      "pred_phonemes": "hatakdijm hazeh hesijr ʔet haχaʃaʃvot hamiʃpatijijm vhanasijʔ nijksvon ʔijʃer ʔet hamibtsaʕ."
     },
     {
       "sentence": "ואולי איזה דג אקראי פה ושם, צלליתו הברורה של גשר של צוללת.",
-      "wer": 0.4166666666666667,
-      "cer": 0.09090909090909091,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.3068181818181818,
+      "stress_wer": 1.0,
       "gt_phonemes": "veʔulˈaj ʔˈejze dˈaɡ ʔakʁaʔˈi pˈo vaʃˈam, tslalitˈo habʁuʁˈa ʃˈel ɡˈeʃeʁ ʃˈel tsolˈelet.",
-      "pred_phonemes": "veʔulˈaj ʔˈejze dˈaɡ ʔakʁaʔˈi fˈa veʃˈem, tsellitˈo habʁuʁˈa ʃˈal ɡˈeʃeʁ ʃˈal tsolˈelet."
+      "pred_phonemes": "vʔvlaj ʔejzeh dag ʔakraʔij poh vaʃam, tslalijtvo habrvrah ʃel geʃer ʃel tsvolelet."
     },
     {
       "sentence": "ובאמצעות ניתוח של אותות זהים שנתקבלו בכמה מיקרופונים שונים.",
-      "wer": 0.3333333333333333,
-      "cer": 0.05,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.3625,
+      "stress_wer": 1.0,
       "gt_phonemes": "ubeʔemtsaʔˈut nitˈuaχ ʃˈel ʔotˈot zehˈim ʃenitkablˈu beχˈama mikʁofˈonim ʃonˈim.",
-      "pred_phonemes": "uveʔemtsaʔˈut nitˈuaχ ʃˈal ʔotˈot zehˈim ʃenitkablˈu beχˈama mikʁˈofonim ʃonˈim."
+      "pred_phonemes": "vbʔemtsaʕvt nijtvχa ʃel ʔvotvot zehijm ʃenitkablv bkamah mijkrvopvonijm ʃvonijm."
     },
     {
       "sentence": "ובמשך חודשים ארוכים לא יצא מהחדר. קנה גם את הקזינו שמעבר לכביש.",
-      "wer": 0.3333333333333333,
-      "cer": 0.0625,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.3333333333333333,
+      "stress_wer": 1.0,
       "gt_phonemes": "uvemˈeʃeχ χodaʃˈim ʔaʁukˈim lˈo jatsˈa mehaχˈedeʁ. kanˈa ɡˈam ʔˈet hakazˈino ʃemeʔˈeveʁ lakvˈiʃ.",
-      "pred_phonemes": "uvemˈeʃeχ χodaʃˈim ʔaʁukˈim lˈo jetsˈe mehaχˈedeʁ. kanˈo ɡˈam ʔˈat hakazˈino ʃemeʔˈeveʁ liχvˈiʃ."
+      "pred_phonemes": "vbmeʃek χvodaʃijm ʔarvkijm loʔ jatsaʔ mehaχeder. kanah gam ʔet hakazijnv ʃemeʕeber lakbijʃ."
     },
     {
       "sentence": "ובפרט בתחום התעופה שהיה אז בחיתוליו.",
-      "wer": 0.16666666666666666,
-      "cer": 0.04,
-      "stress_wer": 0.16666666666666666,
+      "wer": 1.0,
+      "cer": 0.4,
+      "stress_wer": 1.0,
       "gt_phonemes": "bifʁˈat bitχˈum hateʔufˈa ʃehajˈa ʔˈaz beχitulˈav.",
-      "pred_phonemes": "uvifʁˈat bitχˈum hateʔufˈa ʃehajˈa ʔˈaz beχitulˈav."
+      "pred_phonemes": "vbiprat bitχvm hatʕvpah ʃehajah ʔaz bχijtvlajv."
     },
     {
       "sentence": "והאמריקנים חיפשו פתרון שיאפשר להם לגלות אותן ממרחק רב.",
-      "wer": 0.4444444444444444,
-      "cer": 0.060240963855421686,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.3132530120481928,
+      "stress_wer": 1.0,
       "gt_phonemes": "vehaʔameʁikˈanim χipsˈu pitaʁˈon ʃejeʔafʃˈeʁ lahˈem leɡalˈot ʔotˈan mimeʁχˈak ʁˈav.",
-      "pred_phonemes": "vehaʔameʁikanˈim χipsˈu pitʁˈon ʃejʔafʃˈeʁ lahˈem leɡalˈut ʔotˈan mimeʁχˈak ʁˈav."
+      "pred_phonemes": "vhaʔamerijkanijm χijpsv pitrvon ʃejʔapʃer lahem lgalvot ʔvotan mimerχak rab."
     },
     {
       "sentence": "והמסמכים המסווגים שנמצאים על הצוללת מהווים מידע מודיעיני יקר מפז.",
-      "wer": 0.3,
-      "cer": 0.030927835051546393,
-      "stress_wer": 0.1,
+      "wer": 1.0,
+      "cer": 0.30927835051546393,
+      "stress_wer": 1.0,
       "gt_phonemes": "vehamismaχˈim hamesuvaɡˈim ʃenimtsaʔˈim ʔˈal hatsolˈelet mehavˈim mejdˈa modiʔˈini jakˈaʁ mipˈaz.",
-      "pred_phonemes": "vehamismaχˈim hamsuvaɡˈim ʃenimtsaʔˈim ʔˈal hatsolˈelet mehavˈim medˈa modiʔˈini jekˈaʁ mipˈaz."
+      "pred_phonemes": "vhamismakijm hamsvvgijm ʃenimtsaʔijm ʕal hatsvolelet mhavivjm mejdaʕ mvodijʕijnij jakar mipaz."
     },
     {
       "sentence": "והקפיד של עולה רעות בציבור. מי שיצר את כמה מגיבורי העל המוכרים ביותר של חברת הקומיקס מרוול,",
-      "wer": 0.5882352941176471,
-      "cer": 0.15555555555555556,
-      "stress_wer": 0.11764705882352941,
+      "wer": 1.0,
+      "cer": 0.34814814814814815,
+      "stress_wer": 1.0,
       "gt_phonemes": "vehekpˈid ʃˈel lˈo leheʁaʔˈot batsibˈuʁ. mˈi ʃejatsˈaʁ ʔˈet kamˈa miɡiboʁˈej haʔˈal hamukaʁˈim bejotˈeʁ ʃˈel χevʁˈat hakˈomiks mˈaʁvel,",
-      "pred_phonemes": "vehikpˈid ʃˈel ʔulˈa ʁaʔˈot betsibˈuʁ. mˈej ʃejatsˈaʁ ʔˈat kamˈea miɡiboʁˈej haʔˈal hamukaʁˈim bejotˈeʁ ʃˈal χavʁˈat hakˈomiks mʁˈuolˈ,"
+      "pred_phonemes": "vhikpijd ʃel ʕvoleh raʕvot batsijbvr. mij ʃejatsar ʔet kamah migijbvorej haʕal hamvkarijm bjvoter ʃel χebrat hakvomijks marvevl,"
     },
     {
       "sentence": "וכך להציף אותה לפני השטח. בגלל החשש שעלייה לא מבוקרת של הצוללת לפני המים,",
-      "wer": 0.2,
-      "cer": 0.08403361344537816,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.2857142857142857,
+      "stress_wer": 0.9333333333333333,
       "gt_phonemes": "veχˈaχ lehatsˈif ʔotˈa eˈl pnˈej haʃˈetaχ. biɡlˈal haχaʃˈaʃ ʃeʔalijˈa lˈo mevukˈeʁet ʃˈel hatsolˈelet lipnˈej hamˈajim,",
-      "pred_phonemes": "veχˈaχ lehatsˈif ʔotˈa lefanˈaj haʃˈetaχ. biɡlˈal haχaʃˈaʃ ʃeʔalijˈa lˈo mevukˈeʁet ʃˈel hatsolˈelet lefanˈaj hamˈajim,"
+      "pred_phonemes": "vkak lhatsijp ʔvotah lipnej haʃetaχ. biglal haχaʃaʃ ʃeʕalijajh loʔ mbvkeret ʃel hatsvolelet lipnej hamajim,"
     },
     {
       "sentence": "ולכן הגלגלים הימניים של הרכב מעיטים ממשיכים לנסוע באותה מהירות.",
-      "wer": 0.4,
-      "cer": 0.10869565217391304,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.358695652173913,
+      "stress_wer": 1.0,
       "gt_phonemes": "velaχˈen haɡalɡalˈim hajemanijˈim ʃˈel haʁˈeχev meʔitˈim mamʃiχˈim linsˈoa beʔotˈa mehiʁˈut.",
-      "pred_phonemes": "velaχˈen haɡalɡalˈim hajmanijˈim ʃˈal heʁkˈev maiatim mamʃiχˈim linsˈoa beʔotˈa mehiʁˈut."
+      "pred_phonemes": "vlaken hagalgalijm hajmanijijm ʃel harekeb mʕijtijm mamʃijkijm linsvoʕa bʔvotah mhijrvt."
     },
     {
       "sentence": "ולכן הם גם לא נבלעים בחול. הם ממשיכים להתפשט ולנוע לאורך התעלה.",
-      "wer": 0.16666666666666666,
-      "cer": 0.041666666666666664,
-      "stress_wer": 0.16666666666666666,
+      "wer": 1.0,
+      "cer": 0.3125,
+      "stress_wer": 1.0,
       "gt_phonemes": "velaχˈen hˈem ɡˈam lˈo nivlaʔˈim baχˈol. hˈem mamʃiχˈim lehitpaʃˈet velanˈua leʔˈoʁeχ hateʔalˈa.",
-      "pred_phonemes": "velaχˈen hˈem ɡˈam lˈo nivlaʔˈim baχˈol. hˈem mamʃiχˈim lehitpaʃˈet velanˈua leʔoʁˈeχ hitʔalˈa."
+      "pred_phonemes": "vlaken hem gam loʔ niblaʕijm baχvol. hem mamʃijkijm lhitpaʃet vlanvʕa lʔvorek hatʕalah."
     },
     {
       "sentence": "ולכן חלקו התחתון של גל הקול נע מהר יותר מחלקו העליון.",
-      "wer": 0.18181818181818182,
-      "cer": 0.0375,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.2375,
+      "stress_wer": 1.0,
       "gt_phonemes": "velaχˈen χelkˈo hataχtˈon ʃˈel ɡˈal hakˈol nˈa mahˈeʁ jotˈeʁ meχelkˈo haʔeljˈon.",
-      "pred_phonemes": "velaχˈen χelkˈo hataχtˈon ʃˈal ɡˈal hakˈol nˈa mehˈaʁ jotˈeʁ meχelkˈo haʔeljˈon."
+      "pred_phonemes": "vlaken χelkvo hataχtvon ʃel gal hakvol naʕ maher jvoter meχelkvo haʕeljvon."
     },
     {
       "sentence": "וקיומה נשמר בסוד מוחלט במשך עשרות שנים.",
-      "wer": 0.42857142857142855,
-      "cer": 0.08771929824561403,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.3157894736842105,
+      "stress_wer": 1.0,
       "gt_phonemes": "vekijumˈa niʃmˈaʁ besˈod muχlˈat bemˈeʃeχ ʔesʁˈot ʃanˈim.",
-      "pred_phonemes": "vekijumˈa niʃmˈaʁ besˈod muχlˈat bmˈeʃeχ ʔasʁˈot ʃnˈajim."
+      "pred_phonemes": "vkijvmah niʃmar bsvod mvχlat bmeʃek ʕesrvot ʃanijm."
     },
     {
       "sentence": "ורובוט תת ימי שהיה מצויד במצלמות מתקדמות.",
-      "wer": 0.2857142857142857,
-      "cer": 0.12903225806451613,
-      "stress_wer": 0.14285714285714285,
+      "wer": 1.0,
+      "cer": 0.25806451612903225,
+      "stress_wer": 1.0,
       "gt_phonemes": "veʁˈobot tˈat jamˈi ʃehajˈa metsujˈad bematslemˈot mitkadmˈot.",
-      "pred_phonemes": "ueʁauvˈot tˈat jemˈej ʃehajˈa metsujˈad bematslemˈot mitkadmˈot."
+      "pred_phonemes": "vrvobvot tat jmej ʃehajah mtsvjad bmatslemvot mitkadmvot."
     },
     {
       "sentence": "ושילבו אותה בצי שלהם כצוללת אימונים.",
-      "wer": 0.3333333333333333,
-      "cer": 0.11538461538461539,
-      "stress_wer": 0.16666666666666666,
+      "wer": 1.0,
+      "cer": 0.36538461538461536,
+      "stress_wer": 1.0,
       "gt_phonemes": "veʃilvˈu ʔotˈa batsˈi ʃelahˈem ketsolˈelet ʔimunˈim.",
-      "pred_phonemes": "veʃilvˈu ʔotˈa betsˈi ʃelahˈem ektsulelit ʔimunˈim."
+      "pred_phonemes": "vʃijlbv ʔvotah batsij ʃelahem ktsvolelat ʔijmvnijm."
     },
     {
       "sentence": "זכתה החברה בפרויקטים צבאיים נוספים והפכה לאחת מקבלניות המשנה הבולטות של משרד ההגנה.",
-      "wer": 0.3076923076923077,
-      "cer": 0.08130081300813008,
-      "stress_wer": 0.15384615384615385,
+      "wer": 1.0,
+      "cer": 0.3089430894308943,
+      "stress_wer": 1.0,
       "gt_phonemes": "zaχtˈa haχevʁˈa bepʁojˈektim tsvaʔijˈim nosafˈim vehafχˈa leʔaχˈat mikablanijˈot hamiʃnˈe haboltˈot ʃˈel misʁˈad hahaɡanˈa.",
-      "pred_phonemes": "zaχtˈa haχaveʁˈa bipʁojˈektim tsvaʔijˈim nosafˈim vehafχˈa leʔaχˈat emavlˈnijot hamiʃnˈa haboltˈot ʃˈel misʁˈad hahaɡanˈa."
+      "pred_phonemes": "zaktah haχebrah biprvojektijm tsbaʔijijm nvosapijm vhapkah lʔaχat mkablanijvot hamiʃneh habvoltvot ʃel misrad hahaganah."
     },
     {
       "sentence": "חמישה טילים מדגם רגולוס אחת. בזמן שלקח לתכנן ולבנות את ההליבט.",
-      "wer": 0.45454545454545453,
-      "cer": 0.13829787234042554,
-      "stress_wer": 0.18181818181818182,
+      "wer": 1.0,
+      "cer": 0.2978723404255319,
+      "stress_wer": 1.0,
       "gt_phonemes": "χamiʃˈa tilˈim midˈeɡem ʁˈeɡolus ʔaχˈat. bazmˈan ʃelakˈaχ letaχnˈen velivnˈot ʔˈet hahalibˈat.",
-      "pred_phonemes": "χamiʃˈa tilˈim midɡˈam ʁɡolos ʔeχˈat. bazmˈan ʃelakˈaχ letaχnˈen velivnˈot ʔˈat aalibet."
+      "pred_phonemes": "χamijʃah tijlijm midegem regvolvos ʔaχat. bizman ʃelakaχ ltaknen vlibnvot ʔet hahalijbet."
     },
     {
       "sentence": "חנימים מתוקים וקלים יחסית, בעוד שהמים בשכבה העמוקה.",
-      "wer": 0.25,
-      "cer": 0.06756756756756757,
-      "stress_wer": 0.125,
+      "wer": 1.0,
+      "cer": 0.33783783783783783,
+      "stress_wer": 1.0,
       "gt_phonemes": "χamimˈim metukˈim vekalˈim jaχasˈit, beʔˈod ʃehamˈajim baʃiχvˈa haʔamukˈa.",
-      "pred_phonemes": "χaanˈmim metukˈim vekalˈim jaχasˈit, beʔˈod ʃehamˈajim beʃiχvˈa haʔamukˈa."
+      "pred_phonemes": "χanijmijm mtvkijm vkalijm jaχasijt, bʕvod ʃehamajim baʃikbah haʕamvkah."
     },
     {
       "sentence": "כארבעה חודשים לאחר שהסובייטים הפסיקו לחפש את הצוללת שלהם.",
-      "wer": 0.3333333333333333,
-      "cer": 0.06896551724137931,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.2988505747126437,
+      "stress_wer": 1.0,
       "gt_phonemes": "keʔaʁbaʔˈa χodaʃˈim leʔaχˈaʁ ʃehasovjˈetim hifsikˈu leχapˈes ʔˈet hatsolˈelet ʃelahˈem.",
-      "pred_phonemes": "keʔaʁbaʔˈa χodaʃˈim leʔaχˈaʁ ʃehasovjetˈim hafsˈiku leχapˈes ʔˈat hatsolˈelet ʃelahˈem."
+      "pred_phonemes": "kʔarbaʕah χvodaʃijm lʔaχar ʃehasvobjejtijm hipsijkv lχapes ʔet hatsvolelet ʃelahem."
     },
     {
       "sentence": "כדי לשלוט צעצוע או ממתק. ימשוך את הצוללת כלפי מעלה.",
-      "wer": 0.3,
-      "cer": 0.0379746835443038,
-      "stress_wer": 0.1,
+      "wer": 1.0,
+      "cer": 0.22784810126582278,
+      "stress_wer": 1.0,
       "gt_phonemes": "kedˈej liʃlˈot tsaʔatsˈua ʔˈo mamtˈak. jimʃˈoχ ʔˈet hatsolˈelet klapˈej maʔlˈa.",
-      "pred_phonemes": "χedˈej liʃlˈot tsaʔatsˈua ʔˈo mamtˈak. jimʃˈoχ ʔˈet hatsolˈelet klapˈaj maʔalˈa."
+      "pred_phonemes": "kdej liʃlvot tsaʕatsvʕa ʔvo mamtek. jimʃvok ʔet hatsvolelet klapej maʕlah."
     },
     {
       "sentence": "כטייקון בעולם הטכנולוגיה הצבאית, בלתי שגרתי בלשון המעטה.",
-      "wer": 0.5,
-      "cer": 0.10256410256410256,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.3333333333333333,
+      "stress_wer": 1.0,
       "gt_phonemes": "ketajkˈun beʔolˈam hateχnolˈoɡja hatsvaʔˈit, biltˈi ʃiɡʁatˈi bilʃˈon hamʔatˈa.",
-      "pred_phonemes": "katijkˈon baʔolˈam hateχnolˈoɡja hatsvaʔˈit, biltˈi ʃiɡʁatˈi balaʃˈon hamaʔatˈe."
+      "pred_phonemes": "ktajjkvon baʕvolam hateknvolvogjah hatsbaʔijt, biltij ʃigratij bilʃvon hamʕatah."
     },
     {
       "sentence": "כך שהשרידים עשויים להיות מזוהמים בקרינה רדיו אקטיבית.",
-      "wer": 0.125,
-      "cer": 0.07042253521126761,
-      "stress_wer": 0.125,
+      "wer": 1.0,
+      "cer": 0.36619718309859156,
+      "stress_wer": 1.0,
       "gt_phonemes": "kˈaχ ʃehasʁidˈim ʔasujˈim lihjˈot mezohamˈim bikʁinˈa ʁˈadjo ʔaktˈivit.",
-      "pred_phonemes": "kˈaχ ʃeʃˈʁdim ʔasujˈim lihjˈot mezohamˈim bikʁinˈa ʁˈadjo ʔaktˈivit."
+      "pred_phonemes": "kak ʃehasrijdijm ʕasvjijm lihjvot mzvohamijm bikrijnah radjvo ʔaktijbijt."
     },
     {
       "sentence": "כמעט מבלי לאבד מהאנרגיה שלהם, ולכן הם מסוגלים להגיע למרחקים אדירים.",
-      "wer": 0.09090909090909091,
-      "cer": 0.009615384615384616,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.3076923076923077,
+      "stress_wer": 1.0,
       "gt_phonemes": "kimʔˈat miblˈi leʔabˈed mehaʔenˈeʁɡija ʃelahˈem, velaχˈen hˈem mesuɡalˈim lehaɡˈia lemeʁχakˈim ʔadiʁˈim.",
-      "pred_phonemes": "kimʔˈat miblˈi leʔabˈed mehaʔenˈeʁɡija ʃelahˈem, velaχˈen hˈem mesuɡalˈim lehaɡˈia lameʁχakˈim ʔadiʁˈim."
+      "pred_phonemes": "kimʕat miblij lʔabed mehaʔenergijah ʃelahem, vlaken hem msvgalijm lhagijʕa lmerχakijm ʔadijrijm."
     },
     {
       "sentence": "כשהיא פוגשת את שכבת המים העליונה, היא שוב מוחזרת לכיוון הקרקעית.",
-      "wer": 0.18181818181818182,
-      "cer": 0.03296703296703297,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.34065934065934067,
+      "stress_wer": 1.0,
       "gt_phonemes": "kʃehˈi poɡˈeʃet ʔˈet ʃiχvˈat hamˈajim haʔeljonˈa, hˈi ʃˈuv muχzˈeʁet lekijvˈun hakaʁkaʔˈit.",
-      "pred_phonemes": "kʃehˈi poɡˈeʃet ʔˈat ʃiχvˈat hamˈajim haʔeljonˈa, hˈi ʃˈuv muχzˈeʁet lakivˈun hakaʁkaʔˈit."
+      "pred_phonemes": "kʃehijʔ pvogeʃet ʔet ʃikbat hamajim haʕeljvonah, hijʔ ʃvb mvχzeret lkijvvn hakarkaʕijt."
     },
     {
       "sentence": "כשחזרה הליבט לבסיס הוענקו לאנשי צוותה אותות הצטיינות מיוחדים על ההישג המרשים.",
-      "wer": 0.4166666666666667,
-      "cer": 0.08928571428571429,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.33035714285714285,
+      "stress_wer": 1.0,
       "gt_phonemes": "keʃeχazʁˈa hahˈalibat labasˈis hoʔankˈu leʔanʃˈej tsivtˈa ʔotˈot hitstajnˈut mejuχadˈim ʔˈal hahesˈeɡ hamaʁʃˈim.",
-      "pred_phonemes": "kʃeχazʁˈa aalbat levasˈis hoʔonkˈu leʔanʃˈej tsiˈta ʔotˈot hitstajnˈut mejuχadˈim ʔˈal hahesˈeɡ hamaʁʃˈim."
+      "pred_phonemes": "kʃeχazrah halijbet labasijs hvaʕankv lʔanʃej tsivvtah ʔvotvot hitstajjnvt mjvχadijm ʕal hahejseg hamarʃijm."
     },
     {
       "sentence": "לא היה מושג על מה בדיוק. ומרווין לירד, שר ההגנה לנשיא ניקסון,",
-      "wer": 0.5833333333333334,
-      "cer": 0.23170731707317074,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.4268292682926829,
+      "stress_wer": 1.0,
       "gt_phonemes": "lˈo hajˈa musˈaɡ ʔˈal mˈa bidjˈuk. umˈaʁvin lˈeʁd, sˈaʁ hahaɡanˈa lanasˈi nˈikson,",
-      "pred_phonemes": "lˈo hejˈe musˈaɡ ʔˈal mˈe bedijˈuk. oimʁuuan lˈiʁˈdˈ, ʃˈeʁ hahaɡanˈa lanasˈi niksˈon,"
+      "pred_phonemes": "loʔ hajah mvsag ʕal mah bdijvk. vmarvivjn ljrd, sar hahaganah linasijʔ nijksvon,"
     },
     {
       "sentence": "לא היו התשוקה היחידה של יוסט. הוא התעניין מאוד במדע וטכנולוגיה.",
-      "wer": 0.45454545454545453,
-      "cer": 0.09523809523809523,
-      "stress_wer": 0.18181818181818182,
+      "wer": 1.0,
+      "cer": 0.36904761904761907,
+      "stress_wer": 1.0,
       "gt_phonemes": "lˈo hajˈu hatʃukˈa hajeχidˈa ʃˈel jˈus. hˈu hitʔanjˈen meʔˈod bemadˈa veteχnolˈoɡja.",
-      "pred_phonemes": "lˈo hajˈu hatʃukˈa hajχidˈa ʃˈal jusˈat. hˈi hitʔanjˈen meʔˈod bamadˈa veteχnolˈoɡja."
+      "pred_phonemes": "loʔ hajv hatʃvkah hajχijdah ʃel jvst. hvʔ hitʕanjejn mʔvod bmadaʕ vteknvolvogjah."
     },
     {
       "sentence": "לא יכולים לפרוץ ממנה החוצה. הם כל הזמן ניטזים מהתפנות שלה במירכאות.",
-      "wer": 0.3333333333333333,
-      "cer": 0.14432989690721648,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.3402061855670103,
+      "stress_wer": 1.0,
       "gt_phonemes": "lˈo jeχolˈim lifʁˈots mimˈena haχˈutsa. hˈem kˈol hazmˈan nitazˈim mehadfanˈot ʃelˈa bemeʁχaʔˈot.",
-      "pred_phonemes": "lˈo jeχolˈim lifʁˈots mimˈena haχotsˈa. hˈem χˈol hazmˈan anˈatzˈim matafˈnuat ʃelˈa bemeʁχaʔˈot."
+      "pred_phonemes": "loʔ jkvolijm liprvots mimenah haχvtsah. hem kal hazman nijtazijm mehatpanvt ʃelah bamijrkaʔvot."
     },
     {
       "sentence": "לקלישאית יהודי עבור חיפושים תת ימי.",
-      "wer": 0.7142857142857143,
-      "cer": 0.30612244897959184,
-      "stress_wer": 0.2857142857142857,
+      "wer": 1.0,
+      "cer": 0.46938775510204084,
+      "stress_wer": 1.0,
       "gt_phonemes": "leklˈi ʃˈajit jeʔudˈi ʔavˈuʁ χipusˈim tˈat jamˈi.",
-      "pred_phonemes": "alkalˈjˈʃeiit jehudˈej ʔavˈuʁ χipuʃˈim tˈat jemˈej."
+      "pred_phonemes": "liklijʃaʔijt jhvdij ʕabvr χijpvsijm tat jamij."
     },
     {
       "sentence": "מאשר במים, קרירים ומלוכים. דאמינו לעצמכם גל קול שנפלט מהפיצוץ.",
-      "wer": 0.4,
-      "cer": 0.10869565217391304,
-      "stress_wer": 0.3,
+      "wer": 1.0,
+      "cer": 0.34782608695652173,
+      "stress_wer": 1.0,
       "gt_phonemes": "meʔaʃˈeʁ bemˈajim, kʁiʁˈim umluχˈim. damjenˈu leʔatsmeχˈem ɡˈal kˈol ʃeniflˈat mehapitsˈuts.",
-      "pred_phonemes": "meʔaʃˈeʁ bamˈajim, kʁiʁˈim umlukiam. aʔmˈinu leʔatsmχˈem ɡˈal kˈol ʃeniflˈat mehapitsˈuts."
+      "pred_phonemes": "meʔaʃer bmajim, krijrijm vmlvkijm. daʔamejnv lʕatsmkem gal kvol ʃeniplat mehapijtsvts."
     },
     {
       "sentence": "מי יודע מה יקרה כשיבינו הרוסים שהצוללת הגרעינית שלהם נפלה לידי האמריקנים?",
-      "wer": 0.4166666666666667,
-      "cer": 0.1308411214953271,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.32710280373831774,
+      "stress_wer": 1.0,
       "gt_phonemes": "mˈi jodˈea mˈa jikʁˈe kʃejavˈinu haʁusˈim ʃehatsolˈelet haɡaʁʔinˈit ʃelahˈem naflˈa lijdˈej haʔameʁikˈanim?",
-      "pred_phonemes": "mˈi jodˈea mˈe jekaʁˈa kʃejavˈinu haʁusˈim eʃehatsullat haɡaʁʔinˈit ʃelahˈem naflˈa lejadˈaj haʔameʁikanˈim?"
+      "pred_phonemes": "mij jvodeʕa mah jikreh kʃejabijnv harvsijm ʃehatsvolelet hagarʕijnijt ʃelahem naplah lijdej haʔamerijkanijm?"
     },
     {
       "sentence": "מי מסוגל לבנות מערכת הרמה שכזו לאתגר הטכנולוגי העצום שבו היה מדובר.",
-      "wer": 0.4166666666666667,
-      "cer": 0.11764705882352941,
-      "stress_wer": 0.08333333333333333,
+      "wer": 1.0,
+      "cer": 0.3431372549019608,
+      "stress_wer": 1.0,
       "gt_phonemes": "mˈi mesuɡˈal livnˈot maʔaʁˈeχet haʁamˈa ʃekazˈo laʔetɡˈaʁ hateχnolˈoɡi heʔatsˈum ʃebˈo hajˈa medubˈaʁ.",
-      "pred_phonemes": "mˈej mesuɡˈal livnˈot maʔaʁˈeχet haʁamˈa ʃekazˈo leʔetɡˈaʁ hateχnolˈoɡi heʔatsˈum ʃvˈu hejˈe midovˈeʁ."
+      "pred_phonemes": "mij msvgal libnvot maʕareket haramah ʃekazvo lʔetgar hateknvolvogij heʕatsvm ʃebvo hajah mdvbar."
     },
     {
       "sentence": "מכיוון ששלט הנאון של הקזינו גם היה אובססיבי לגבי פרטיותו.",
-      "wer": 0.4,
-      "cer": 0.12941176470588237,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.3176470588235294,
+      "stress_wer": 1.0,
       "gt_phonemes": "mikejvˈan ʃeʃˈelet hanˈeʔon ʃˈel hakazˈino ɡˈam hajˈa ʔobsesˈivi leɡabˈej pʁatijutˈo.",
-      "pred_phonemes": "mikejvˈan ʃeʃalˈat hnˈaven ʃˈal hakazˈino ɡˈam hejˈe ʔobsesˈivi leɡabˈej pʁatijutˈo."
+      "pred_phonemes": "mikejvavn ʃeʃalat hanaʔvn ʃel hakazijnv gam hajah ʔvobsesijbij lgabej pratijvtvo."
     },
     {
       "sentence": "מערך של אלפי מיקרופונים ימיים שהונחו בקרקעית הים, בעיקר לאורך מדף היבשת.",
-      "wer": 0.25,
-      "cer": 0.037037037037037035,
-      "stress_wer": 0.08333333333333333,
+      "wer": 1.0,
+      "cer": 0.3333333333333333,
+      "stress_wer": 1.0,
       "gt_phonemes": "maʔaʁˈaχ ʃˈel ʔalfˈej mikʁofˈonim jamijˈim ʃehunχˈu bekaʁkaʔˈit hajˈam, beʔikˈaʁ leʔˈoʁeχ madˈaf hajabˈeʃet.",
-      "pred_phonemes": "maʔaʁˈaχ ʃˈel ʔalfˈej mikʁˈofonim jamijˈim ʃehunχˈu bekaʁkaʔˈit hajˈam, baʔikˈaʁ leʔˈoʁeχ midˈaf hajabˈeʃet."
+      "pred_phonemes": "maʕarak ʃel ʔalpej mijkrvopvonijm jamijijm ʃehvnχv bkarkaʕijt hajam, bʕijkar lʔvorek madap hajabeʃet."
     },
     {
       "sentence": "מרחק אלפי קילומטרים מהיבשה. מהי אותה מערכת חיישנים היסטורית?",
-      "wer": 0.2222222222222222,
-      "cer": 0.05952380952380952,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.34523809523809523,
+      "stress_wer": 1.0,
       "gt_phonemes": "meʁχˈak ʔalfˈej kilomˈetʁim mehajabaʃˈa. mˈahi ʔotˈa maʔaʁˈeχet χajʃanˈim mistoʁˈit?",
-      "pred_phonemes": "meʁχˈak ʔalfˈej kilˈometʁim mehajabaʃˈa. mˈahi ʔotˈa maʔaʁˈeχet χajʃanˈim histˈoʁit?"
+      "pred_phonemes": "merχak ʔalpej kijlvometrijm mehajabaʃah. mahij ʔvotah maʕareket χajjʃanijm hijstvorijt?"
     },
     {
       "sentence": "נוטים באופן טבעי לצוף כלפי מעלה, ומים מלוכים נוטים לשקוע אל הקרקעית.",
-      "wer": 0.3333333333333333,
-      "cer": 0.10309278350515463,
-      "stress_wer": 0.25,
+      "wer": 1.0,
+      "cer": 0.35051546391752575,
+      "stress_wer": 1.0,
       "gt_phonemes": "notˈim beʔˈofen tivʔˈi latsˈuf klapˈej mˈaʔla, vemˈajim meluχˈim notˈim liʃkˈoa ʔˈel hakaʁkaʔˈit.",
-      "pred_phonemes": "notˈim baʔˈofen tivʔˈi latsˈuf klapˈej maʔalˈa, umajˈim mluχiim notˈim liʃkˈoa ʔˈel hakaʁkaʔˈit."
+      "pred_phonemes": "nvotijm bʔvopen tibʕij latsvp klapej maʕlah, vmajim mlvkijm nvotijm liʃkvoʕa ʔel hakarkaʕijt."
     },
     {
       "sentence": "ניחן ביכולת להוציא לפועל מבלי לעורר את חשדה של ברית המועצות.",
-      "wer": 0.45454545454545453,
-      "cer": 0.11363636363636363,
-      "stress_wer": 0.2727272727272727,
+      "wer": 1.0,
+      "cer": 0.36363636363636365,
+      "stress_wer": 1.0,
       "gt_phonemes": "niχˈan bajeχˈolet lehotsˈi lafˈoʔal miblˈi leʔoʁˈeʁ ʔˈet χaʃadˈa ʃˈel bʁˈit hamoʔatsˈot.",
-      "pred_phonemes": "najχˈen bajχˈolet lehotsˈi lapoʔˈel miblˈi leʔoʁˈeʁ ʔˈet χaʃdˈa ʃˈel vʁˈit hamoʔatsˈot."
+      "pred_phonemes": "najχan bajkvolet lhvotsijʔ lapvoʕal miblij lʕvorer ʔet χaʃdah ʃel brijt hamvoʕatsvot."
     },
     {
       "sentence": "נפלה לידיו של הצי האמריקני, היו מסוגלות להישאר מתחת למים במשך חודשים ארוכים.",
-      "wer": 0.38461538461538464,
-      "cer": 0.09482758620689655,
-      "stress_wer": 0.3076923076923077,
+      "wer": 1.0,
+      "cer": 0.3017241379310345,
+      "stress_wer": 1.0,
       "gt_phonemes": "naflˈa lejadˈav ʃˈel hatsˈi haʔameʁikˈani, hajˈu mesuɡalˈot lehiʃaʔˈeʁ mitˈaχat lamˈajim bemˈeʃeχ χodaʃˈim ʔaʁukˈim.",
-      "pred_phonemes": "nefalˈa lejadˈav ʃˈel hatsˈi haʔameʁikanˈi, hajˈu mesuɡalˈot lehiʃaʔˈeʁ matˈaχta lemajˈim bmˈeʃeχ χodaʃˈim ʔaʁukˈim."
+      "pred_phonemes": "naplah ljadajv ʃel hatsij haʔamerijkanij, hajv msvgalvot lhijʃaʔer mitaχat lamajim bmeʃek χvodaʃijm ʔarvkijm."
     },
     {
       "sentence": "נציגי מחלקת המדינה ומשרד המשפטים, הם העריכו שמשיאה של צוללת תבואה ששייכת למדינה אחרת.",
-      "wer": 0.2857142857142857,
-      "cer": 0.05426356589147287,
-      "stress_wer": 0.14285714285714285,
+      "wer": 1.0,
+      "cer": 0.32558139534883723,
+      "stress_wer": 1.0,
       "gt_phonemes": "netsiɡˈej maχlˈeket hamedinˈa umisʁˈad hamiʃpatˈim, hˈem heʔeʁˈiχu ʃemeʃiʔˈa ʃˈel tsolˈelet tvuʔˈa ʃeʃajˈeχet limedinˈa ʔaχˈeʁet.",
-      "pred_phonemes": "netsiɡˈej maχlˈeket hamedinˈa umisʁˈad hamiʃpatˈim, hˈem heʔeʁˈiχu ʃemasiʔˈa ʃˈel tsolˈelet tvuʔˈa ʃeʃajeχˈet lamedinˈa ʔaχeʁˈet."
+      "pred_phonemes": "ntsijgej maχleket hamdijnah vmisrad hamiʃpatijm, hem heʕerijkv ʃemsijʔah ʃel tsvolelet tbvʔah ʃeʃajejket lamdijnah ʔaχeret."
     },
     {
       "sentence": "סטייק מדיום רייר, סלט ואפונים, ובילאה ארבעה חודשים רצופים בעולם קולנוע.",
-      "wer": 0.5,
-      "cer": 0.20618556701030927,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.422680412371134,
+      "stress_wer": 1.0,
       "gt_phonemes": "stˈajk mˈedjum ʁˈejʁ, salˈat veʔafunˈim, hˈu bilʔˈa ʔaʁbaʔˈa χodaʃˈim ʁetsufˈim beʔolˈam kolnˈoa.",
-      "pred_phonemes": "stˈejk mˈedjum ʁiʁˈ, salˈat uʔpuanˈm, uveilˈaʔae ʔaʁbaʔˈa χodaʃˈim ʁetsufˈim baʔolˈam kolnˈoa."
+      "pred_phonemes": "stejjk medjvm rajejr, salat vaʔapvnijm, vbijlʔah ʔarbaʕah χvodaʃijm rtsvpijm baʕvolam kvolnvoʕa."
     },
     {
       "sentence": "עד שהיא הייתה מסוגלת לגלות אפילו מטוסי סיור סובייטים.",
-      "wer": 0.3333333333333333,
-      "cer": 0.05555555555555555,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.4166666666666667,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔˈad ʃehˈi hajtˈa mesuɡˈelet leɡalˈot ʔafˈilu metosˈej sijˈuʁ sovjˈetim.",
-      "pred_phonemes": "ʔˈod ʃehˈi hajtˈa mesuɡˈelet leɡalˈut ʔafˈilu metosˈej sijˈuʁ sovjetˈim."
+      "pred_phonemes": "ʕad ʃehijʔ hajjtah msvgelet lgalvot ʔapijlv mtvosej sijvr svobjejtijm."
     },
     {
       "sentence": "עלולה להיחשב על פי החוק הבינלאומי ולכן לסבך את ארצות הברית מבחינה משפטית.",
-      "wer": 0.15384615384615385,
-      "cer": 0.018691588785046728,
-      "stress_wer": 0.07692307692307693,
+      "wer": 1.0,
+      "cer": 0.32710280373831774,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʔalulˈa leheχaʃˈev ʔˈal pˈi haχˈok habenleʔumˈi velaχˈen lesabˈeχ ʔˈet ʔaʁtsˈot habʁˈit mibχinˈa miʃpatˈit.",
-      "pred_phonemes": "ʔalulˈa leheχaʃˈev ʔˈol pˈi haχˈok habenlʔumˈi velaχˈen lesabˈeχ ʔˈet ʔaʁtsˈot habʁˈit mibχinˈa miʃpatˈit."
+      "pred_phonemes": "ʕalvlah lhejχaʃeb ʕal pij haχvok habejnlʔvmij vlaken lsabek ʔet ʔartsvot habrijt mibχijnah miʃpatijt."
     },
     {
       "sentence": "פותחו טילים טובים ומתקדמים יותר, וטילי הרגולוס יצאו מהשירות.",
-      "wer": 0.3333333333333333,
-      "cer": 0.1,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.375,
+      "stress_wer": 1.0,
       "gt_phonemes": "putχˈu tˈilim tovˈim umitkadmˈim jotˈeʁ, vetilˈej haʁˈeɡolus jatsʔˈu mehaʃeʁˈut.",
-      "pred_phonemes": "putχˈu tilˈim tovˈim umitkadmˈim jotˈeʁ, vetilˈej haʁˈɡˈuluis jetseʔˈu mehaʃeʁˈut."
+      "pred_phonemes": "pvtχv tijlijm tvobijm vmitkadmijm jvoter, vtijlej haregvolvos jatsʔv mehaʃejrvt."
     },
     {
       "sentence": "צילם הרובוט לפחות מעשרים אלף תמונות של שרידיה של הקיי מאה עשרים ותשע.",
-      "wer": 0.4666666666666667,
-      "cer": 0.13592233009708737,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.3592233009708738,
+      "stress_wer": 1.0,
       "gt_phonemes": "tsilˈem haʁˈobot lˈo paχˈot mˈi ʔesʁˈim ʔˈelef tmunˈot ʃˈel sʁidˈeha ʃˈel hakˈej mˈeʔa ʔesʁˈim vetˈeʃa.",
-      "pred_phonemes": "tsilˈem haʁobˈot lifχˈot meʔesʁˈim ʔˈelef tmunˈot ʃˈel sʁidˈeha ʃˈel hakˈii meʔˈa ʔesʁˈim vetˈeʃa."
+      "pred_phonemes": "tsijlem harvobvot lpaχvot meʕesrijm ʔelep tmvnvot ʃel srijdejha ʃel hakejj meʔah ʕesrijm vteʃaʕ."
     },
     {
       "sentence": "קרירים מלוכים ודחוסים יותר, גלי קול נעים מהר יותר במים מתוקים וחמימים.",
-      "wer": 0.25,
-      "cer": 0.052083333333333336,
-      "stress_wer": 0.08333333333333333,
+      "wer": 1.0,
+      "cer": 0.375,
+      "stress_wer": 1.0,
       "gt_phonemes": "kʁiʁˈim meluχˈim udχusˈim jotˈeʁ, ɡalˈej kˈol naʔˈim mahˈeʁ jotˈeʁ bemˈajim metukˈim vaχamimˈim.",
-      "pred_phonemes": "kʁiʁˈim mluχiim udχusˈim jotˈeʁ, ɡalˈi kˈol naʔˈim mahˈeʁ jotˈeʁ bamˈajim metukˈim vaχamimˈim."
+      "pred_phonemes": "krijrijm mlvkijm vdχvsijm jvoter, galej kvol naʕijm maher jvoter bmajim mtvkijm vaχamijmijm."
     },
     {
       "sentence": "רק בודדים מאנשי הצוות של ההליבט היו מודעים למטרת ההפלגה.",
-      "wer": 0.2,
-      "cer": 0.05813953488372093,
-      "stress_wer": 0.2,
+      "wer": 1.0,
+      "cer": 0.3023255813953488,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʁˈak bodedˈim meʔanʃˈej hatsˈevet ʃˈel hahˈalibat hajˈu mudaʔˈim lematʁˈat hahaflaɡˈa.",
-      "pred_phonemes": "ʁˈak boddˈim meʔanʃˈej hatsˈevet ʃˈel aalibet hajˈu mudaʔˈim lematʁˈat hahaflaɡˈa."
+      "pred_phonemes": "rak bvoddijm meʔanʃej hatsevevt ʃel hahalijbet hajv mvdaʕijm lmatrat hahaplagah."
     },
     {
       "sentence": "שאנחנו מורידים מטען חומר נפץ לעומק של כמה מאות מטרים.",
-      "wer": 0.4,
-      "cer": 0.07692307692307693,
-      "stress_wer": 0.1,
+      "wer": 1.0,
+      "cer": 0.2948717948717949,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃeʔanˈaχnu moʁidˈim mitʔˈan χˈomeʁ nˈefets leʔˈomek ʃˈel kamˈa meʔˈot mˈetʁim.",
-      "pred_phonemes": "ʃeʔanˈaχnu moʁidˈim matʔˈen χˈomeʁ nˈefets laʔˈomek ʃˈel kamˈea meʔˈot metʁˈim."
+      "pred_phonemes": "ʃeʔanaχnv mvorijdijm mitʕan χvomer nepets laʕvomek ʃel kamah meʔvot metrijm."
     },
     {
       "sentence": "שבכל זאת היה מדובר בצוללת מהירה ואיכותית.",
-      "wer": 0.2857142857142857,
-      "cer": 0.04918032786885246,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.39344262295081966,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃebeχˈol zˈot hajˈa medubˈaʁ betsolˈelet mehiʁˈa veʔejχutˈit.",
-      "pred_phonemes": "ʃebeχˈal zˈot hejˈe medubˈaʁ betsolˈelet mehiʁˈa veʔejχutˈit."
+      "pred_phonemes": "ʃebkal zoʔt hajah mdvbar btsvolelet mhijrah vʔejkvtijt."
     },
     {
       "sentence": "שגלי הקול האלה לא פוגשים באף שלב את הקרקעית.",
-      "wer": 0.4444444444444444,
-      "cer": 0.1044776119402985,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.3283582089552239,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃeɡalˈej hakˈol haʔˈele lˈo poɡʃˈim beʔˈaf ʃalˈav ʔˈet hakaʁkaʔˈit.",
-      "pred_phonemes": "ʃeɡalˈej hakˈol haʔalˈa lˈa poɡʃˈim beʔˈaf ʃlˈav ʔˈat hakaʁkaʔˈit."
+      "pred_phonemes": "ʃegalej hakvol haʔeleh loʔ pvogʃijm bʔap ʃaleb ʔet hakarkaʕijt."
     },
     {
       "sentence": "שגם הייתה מצוידת בכור גרעיני מתקדם, הצי החליט לשמור אותה.",
-      "wer": 0.2,
-      "cer": 0.036585365853658534,
-      "stress_wer": 0.0,
+      "wer": 1.0,
+      "cer": 0.35365853658536583,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃeɡˈam hajtˈa metsujˈedet bekˈuʁ ɡaʁʔinˈi mitkadˈem, hatsˈi heχlˈit liʃmˈoʁ ʔotˈa.",
-      "pred_phonemes": "ʃeɡˈam hajtˈa metsujˈedet bakˈuʁ ɡaʁʔinˈej mitkadˈem, hatsˈi heχlˈit liʃmˈoʁ ʔotˈa."
+      "pred_phonemes": "ʃegam hajjtah mtsvjedet bkvr garʕijnij mitkadem, hatsij heχelijt liʃmvor ʔvotah."
     },
     {
       "sentence": "שהמים באוקיינוס נראים קצת כמו עוגת שכבות.",
-      "wer": 0.2857142857142857,
-      "cer": 0.06666666666666667,
-      "stress_wer": 0.14285714285714285,
+      "wer": 1.0,
+      "cer": 0.31666666666666665,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃehamˈajim baʔokijˈanos niʁʔˈim ktsˈat kemˈo ʔuɡˈat ʃχavˈot.",
-      "pred_phonemes": "ʃehamˈajim baʔokjanˈos niʁʔˈim ktsˈat kmˈo ʔuɡˈat ʃχavˈot."
+      "pred_phonemes": "ʃehamajim baʔvokjajnvos nirʔijm ktsat kmvo ʕvgat ʃkabvot."
     },
     {
       "sentence": "שטסו בגובה נמוך מעל המים. הפכה למבצעית בשנות השישים.",
-      "wer": 0.5555555555555556,
-      "cer": 0.15584415584415584,
-      "stress_wer": 0.2222222222222222,
+      "wer": 1.0,
+      "cer": 0.36363636363636365,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃetˈasu beɡˈova namˈuχ meʔˈal hamˈajim. hafχˈa lemivtsaʔˈit beʃnˈot haʃiʃˈim.",
-      "pred_phonemes": "ʃetˈasu baɡˈova nemˈuχ mˈaʔal hamˈajim. hafχˈa lmbetsaet biʃnˈot haʃiʃˈim."
+      "pred_phonemes": "ʃatasv bgvobah namvk meʕal hamajim. hapkah lamibtsaʕijt biʃnvot haʃijʃijm."
     },
     {
       "sentence": "שיוז הוא בדיוק האדם שהם מחפשים.",
-      "wer": 0.3333333333333333,
-      "cer": 0.13333333333333333,
-      "stress_wer": 0.3333333333333333,
+      "wer": 1.0,
+      "cer": 0.28888888888888886,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃejˈuz hˈu bidjˈuk haʔadˈam ʃehˈem meχapsˈim.",
-      "pred_phonemes": "ʃˈiuzˈ hˈu bedijˈuk haʔadˈam ʃehˈem meχapsˈim."
+      "pred_phonemes": "ʃejvz hvʔ bdijvk haʔadam ʃehem mχapsijm."
     },
     {
       "sentence": "שכמעט והוביל למלחמת עולם שלישית היה עדיין טרי במחותיהם של כולם.",
-      "wer": 0.09090909090909091,
-      "cer": 0.05434782608695652,
-      "stress_wer": 0.09090909090909091,
+      "wer": 1.0,
+      "cer": 0.33695652173913043,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃekimʔˈat vehovˈil lemilχˈemet ʔolˈam ʃliʃˈit hajˈa ʔadˈajin taʁˈi bemaχotehˈem ʃˈel kulˈam.",
-      "pred_phonemes": "ʃekimʔˈat vehovˈil lemilχˈemet ʔolˈam ʃliʃˈit hajˈa ʔadˈajin taʁˈi bemaχotˈeˈiaim ʃˈel kulˈam."
+      "pred_phonemes": "ʃekimʕat vhvobijl lmilχemet ʕvolam ʃlijʃijt hajah ʕadajijn tarij bimχvotejhem ʃel kvlam."
     },
     {
       "sentence": "שלא לפנות אליו ולא לדבר אליו, אלא אם פנה אליהם קודם.",
-      "wer": 0.36363636363636365,
-      "cer": 0.11688311688311688,
-      "stress_wer": 0.2727272727272727,
+      "wer": 1.0,
+      "cer": 0.2857142857142857,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃelˈo lifnˈot ʔelˈav velˈo ledabˈeʁ ʔelˈav, ʔˈela ʔˈim panˈa ʔalehˈem kˈodem.",
-      "pred_phonemes": "ʃelˈo lefanˈot ʔelˈav valˈo lidvˈaʁ ʔelˈav, ʔˈela ʔˈim pnˈe ʔalehˈem kˈodem."
+      "pred_phonemes": "ʃeloʔ lipnvot ʔelajv vloʔ ldaber ʔelajv, ʔelaʔ ʔim panah ʔalejhem kvodem."
     },
     {
       "sentence": "שסיכויי ההצלחה של הפרויקט הזה, אחד הרעיונות הראשוניים שהועלו,",
-      "wer": 0.3333333333333333,
-      "cer": 0.045454545454545456,
-      "stress_wer": 0.1111111111111111,
+      "wer": 1.0,
+      "cer": 0.29545454545454547,
+      "stress_wer": 1.0,
       "gt_phonemes": "ʃesikujˈej hahatslaχˈa ʃˈel hapʁojˈekt hazˈe, ʔeχˈad haʁaʔjonˈot haʁiʃonijˈim ʃehuʔalˈu,",
-      "pred_phonemes": "ʃesikujˈej hahatslaχˈa ʃˈel hapʁojˈekt hazˈe, ʔaχˈad haʁaʔajonˈot haʁiʃonijˈim ʃehoʔolˈu,"
+      "pred_phonemes": "ʃesijkvjej hahatslaχah ʃel haprvojekt hazeh, ʔeχad haraʕajvonvot hariʔʃvonijijm ʃehvʕalv,"
     },
     {
       "sentence": "תחשוף אותה ללוויני ריגול או מטוסי צילום של ברית המועצות.",
-      "wer": 0.2,
-      "cer": 0.1038961038961039,
-      "stress_wer": 0.1,
+      "wer": 1.0,
+      "cer": 0.36363636363636365,
+      "stress_wer": 1.0,
       "gt_phonemes": "taχsˈof ʔotˈa lelavjanˈej ʁiɡˈul ʔˈo metosˈej tsilˈum ʃˈel bʁˈit hamoʔatsˈot.",
-      "pred_phonemes": "taχsˈof ʔotˈa lˈlˈoveinj ʁiɡˈul ʔˈo metosˈej tsilˈum ʃˈel vʁˈit hamoʔatsˈot."
+      "pred_phonemes": "taχasvop ʔvotah llivvjanej rijgvl ʔvo mtvosej tsijlvm ʃel brijt hamvoʕatsvot."
     },
     {
       "sentence": "תעלה שמוליכה את גלי הקול ביעילות מדהימה.",
-      "wer": 0.42857142857142855,
-      "cer": 0.08771929824561403,
-      "stress_wer": 0.14285714285714285,
+      "wer": 1.0,
+      "cer": 0.3508771929824561,
+      "stress_wer": 1.0,
       "gt_phonemes": "teʔalˈa ʃemoliχˈa ʔˈet ɡalˈej hakˈol bijiʔilˈut madhimˈa.",
-      "pred_phonemes": "taʔalˈe ʃemoliχˈa ʔˈat ɡalˈej hakˈol biʔilˈut madhimˈa."
+      "pred_phonemes": "taʕaleh ʃemvolijkah ʔet galej hakvol bijʕijlvt madhijmah."
     },
     {
       "sentence": "תפייתה של הקיי מאה עשרים ותשע הייתה ההזדמנות הראשונה של ההליבט",
-      "wer": 0.45454545454545453,
-      "cer": 0.13636363636363635,
-      "stress_wer": 0.18181818181818182,
+      "wer": 1.0,
+      "cer": 0.3522727272727273,
+      "stress_wer": 1.0,
       "gt_phonemes": "tviʔatˈa ʃˈel hakˈej mˈeʔa ʔesʁˈim vetˈeʃa hajtˈa hahizdamnˈut haʁiʃonˈa ʃˈel hahalibˈat",
-      "pred_phonemes": "tfijutˈa ʃˈel hakˈii meʔˈa ʔesʁˈim vetˈeʃa hajtˈa hahizdamnˈut haʁiʃonˈa ʃˈal aalibet"
+      "pred_phonemes": "tpijajtah ʃel hakejj meʔah ʕesrijm vteʃaʕ hajjtah hahizdamnvt hariʔʃvonah ʃel hahalijbet"
     }
   ]
 }
