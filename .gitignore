@@ -16,3 +16,4 @@ pred.tsv
 pred_*.tsv
 pred.csv
 pred_*.csv
+.DS_Store

@@ -16,6 +16,16 @@
             "report": "reports/goruut.json"
         },
         {
+            "name": "Gemma3-G2P",
+            "url": "https://github.com/thewh1teagle/gemma3-g2p",
+            "report": "reports/gemma3.json"
+        },
+        {
+            "name": "GPT-5.2",
+            "url": "https://openai.com/index/introducing-gpt-5-2/",
+            "report": "reports/gpt52.json"
+        },
+        {
             "name": "Nakdimon (naive phonemizer)",
             "url": "https://github.com/thewh1teagle/nakdimon-onnx",
             "report": "reports/nakdimon_naive.json"
