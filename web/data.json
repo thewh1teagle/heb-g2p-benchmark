@@ -11,6 +11,11 @@
             "report": "reports/espeak_ng.json"
         },
         {
+            "name": "Dicta",
+            "url": "https://dicta.org.il/",
+            "report": "reports/dicta.json"
+        },
+        {
             "name": "Goruut",
             "url": "https://github.com/neurlang/goruut",
             "report": "reports/goruut.json"
@@ -26,19 +31,14 @@
             "report": "reports/gpt52.json"
         },
         {
-            "name": "Nakdimon (naive phonemizer)",
+            "name": "Nakdimon",
             "url": "https://github.com/thewh1teagle/nakdimon-onnx",
-            "report": "reports/nakdimon_naive.json"
+            "report": "reports/nakdimon.json"
         },
         {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
             "report": "reports/phonikud.json"
-        },
-        {
-            "name": "Phonikud (naive phonemizer)",
-            "url": "https://github.com/thewh1teagle/phonikud",
-            "report": "reports/phonikud_naive.json"
         }
     ]
 }
