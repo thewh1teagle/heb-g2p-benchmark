@@ -1,11 +1,11 @@
 """
 wget https://github.com/thewh1teagle/nakdimon-onnx/releases/download/v0.1.0/nakdimon.onnx
 uv pip install nakdimon-onnx
-uv run src/nakdimon_naive.py
+uv run src/nakdimon.py
 """
 from lib.runner import run
 from nakdimon_onnx import Nakdimon
-from lib.naive_phonemizer import phonemize as naive_phonemize
+from phonikud import phonemize as phonemize_phonikud
 
 _model = None
 
@@ -16,8 +16,8 @@ def phonemize(text):
         _model = Nakdimon("nakdimon.onnx")
 
     with_diacritics = _model.compute(text)
-    return naive_phonemize(with_diacritics)
+    return phonemize_phonikud(with_diacritics)
 
 
 if __name__ == "__main__":
-    run(phonemize, "nakdimon_naive")
+    run(phonemize, "nakdimon")
