@@ -13,3 +13,4 @@ def run(phonemize_fn, output_name):
             sentence = row["Sentence"]
             phonemes = phonemize_fn(sentence)
             writer.writerow([sentence, phonemes])
+            f_pred.flush()
