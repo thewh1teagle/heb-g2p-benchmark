@@ -1,14 +1,19 @@
 {
     "models": [
         {
-            "name": "Gemini 3 Pro",
-            "url": "https://deepmind.google/technologies/gemini/",
-            "report": "reports/gemini3-pro.json"
+            "name": "CharSiU G2P (ByT5-small)",
+            "url": "https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100",
+            "report": "reports/charisiu.json"
         },
         {
-            "name": "Phonikud",
-            "url": "https://github.com/thewh1teagle/phonikud",
-            "report": "reports/phonikud.json"
+            "name": "eSpeak NG",
+            "url": "https://github.com/espeak-ng/espeak-ng",
+            "report": "reports/espeak_ng.json"
+        },
+        {
+            "name": "Dicta",
+            "url": "https://dicta.org.il/",
+            "report": "reports/dicta.json"
         },
         {
             "name": "Goruut",
@@ -26,9 +31,14 @@
             "report": "reports/gpt52.json"
         },
         {
-            "name": "ESpeak-NG",
-            "url": "https://github.com/espeak-ng/espeak-ng",
-            "report": "reports/espeak-ng.json"
+            "name": "Nakdimon",
+            "url": "https://github.com/thewh1teagle/nakdimon-onnx",
+            "report": "reports/nakdimon.json"
+        },
+        {
+            "name": "Phonikud",
+            "url": "https://github.com/thewh1teagle/phonikud",
+            "report": "reports/phonikud.json"
         }
     ]
 }
