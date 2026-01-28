@@ -8,7 +8,7 @@ import argparse
 import json
 import os
 
-DELIMETER = ','
+DELIMETER = '\t'
 
 def extract_stress_positions(phonemes):
     """

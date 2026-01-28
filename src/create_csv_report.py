@@ -10,7 +10,7 @@ import csv
 import os
 from typing import Dict, List, Tuple
 
-DELIMITER = ','
+DELIMITER = '\t'
 
 
 def load_gt(path: str) -> List[Tuple[str, str, str]]:
