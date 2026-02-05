@@ -11,6 +11,11 @@
             "report": "reports/opus45.json"
         },
         {
+            "name": "Claude Opus 4.6",
+            "url": "https://www.anthropic.com/news/claude-opus-4-6",
+            "report": "reports/opus46.json"
+        },
+        {
             "name": "Phonikud",
             "url": "https://github.com/thewh1teagle/phonikud",
             "report": "reports/phonikud.json"
