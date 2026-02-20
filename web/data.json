@@ -1,47 +1,70 @@
 {
+    "title": "Hebrew G2P Benchmark - Grapheme-to-Phoneme Model Comparison",
+    "description": "Benchmark comparing Grapheme-to-Phoneme (G2P) models for Hebrew text using IPA transcriptions. Models are evaluated on Word Error Rate (WER), Character Error Rate (CER), and Stress placement accuracy across 100 test sentences.",
     "models": [
         {
             "name": "Gemini 3 Pro",
+            "description": "Google's Gemini 3 Pro LLM with high thinking level and Google Search grounding",
             "url": "https://deepmind.google/technologies/gemini/",
             "report": "reports/gemini3-pro.json"
         },
         {
-            "name":  "Claude Opus 4.5",
+            "name": "Gemini 3.1 Pro",
+            "description": "Google's Gemini 3.1 Pro LLM with low thinking level",
+            "url": "https://deepmind.google/technologies/gemini/",
+            "report": "reports/gemini31-pro.json"
+        },
+        {
+            "name": "Gemini 3.1 Pro (High Thinking)",
+            "description": "Google's Gemini 3.1 Pro LLM with high thinking level",
+            "url": "https://deepmind.google/technologies/gemini/",
+            "report": "reports/gemini31-pro-high.json"
+        },
+        {
+            "name": "Claude Opus 4.5",
+            "description": "Anthropic's Claude Opus 4.5 LLM with extended thinking",
             "url": "https://www.anthropic.com/news/claude-opus-4-5",
             "report": "reports/opus45.json"
         },
         {
             "name": "Claude Opus 4.6",
+            "description": "Anthropic's Claude Opus 4.6 LLM with extended thinking",
             "url": "https://www.anthropic.com/news/claude-opus-4-6",
             "report": "reports/opus46.json"
         },
         {
             "name": "Phonikud",
+            "description": "Dedicated Hebrew G2P model based on fine-tuned transformer architecture",
             "url": "https://github.com/thewh1teagle/phonikud",
             "report": "reports/phonikud.json"
         },
         {
             "name": "Goruut",
+            "description": "Rule-based multilingual G2P system written in Go",
             "url": "https://github.com/neurlang/goruut",
             "report": "reports/goruut.json"
         },
         {
             "name": "Gemma3-G2P",
+            "description": "Google's Gemma 3 model fine-tuned for G2P conversion",
             "url": "https://github.com/thewh1teagle/gemma3-g2p",
             "report": "reports/gemma3.json"
         },
         {
             "name": "Charsiu",
+            "description": "Multilingual G2P model based on ByT5 small architecture",
             "url": "https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100",
             "report": "reports/charisiu.json"
         },
         {
             "name": "GPT-5.2",
+            "description": "OpenAI's GPT-5.2 LLM",
             "url": "https://openai.com/index/introducing-gpt-5-2/",
             "report": "reports/gpt52.json"
         },
         {
             "name": "ESpeak-NG",
+            "description": "Open-source rule-based speech synthesizer with built-in G2P",
             "url": "https://github.com/espeak-ng/espeak-ng",
             "report": "reports/espeak-ng.json"
         }

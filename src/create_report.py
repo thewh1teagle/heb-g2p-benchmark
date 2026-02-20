@@ -10,6 +10,13 @@ import os
 
 DELIMETER = '\t'
 
+def detect_delimiter(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        header = f.readline()
+    if '\t' in header:
+        return '\t'
+    return ','
+
 def extract_stress_positions(phonemes):
     """
     Extract stress positions per-word to prevent error cascading.
@@ -49,7 +56,7 @@ args = parser.parse_args()
 gt_data = {}
 gt_text = {}
 with open(args.gt_file, 'r', encoding='utf-8') as f:
-    gt_reader = csv.DictReader(f, delimiter=DELIMETER)
+    gt_reader = csv.DictReader(f, delimiter=detect_delimiter(args.gt_file))
     for row in gt_reader:
         # Use sentence as key since there's no ID column
         sentence = row['Sentence']
@@ -59,7 +66,7 @@ with open(args.gt_file, 'r', encoding='utf-8') as f:
 # Read prediction file (format: Sentence\tPhonemes, with header)
 pred_data = {}
 with open(args.pred_file, 'r', encoding='utf-8') as f:
-    pred_reader = csv.DictReader(f, delimiter=DELIMETER)
+    pred_reader = csv.DictReader(f, delimiter=detect_delimiter(args.pred_file))
     for row in pred_reader:
         sentence = row['Sentence']
         pred_data[sentence] = row['Phonemes']
