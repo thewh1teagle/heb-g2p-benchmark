@@ -24,6 +24,7 @@ async function loadData() {
                         name: model.name,
                         url: model.url,
                         reportName: reportName,
+                        reportAvailable: true,
                         wer: report.summary.mean_wer,
                         cer: report.summary.mean_cer,
                         stress_wer: report.summary.mean_stress_wer,
@@ -31,19 +32,26 @@ async function loadData() {
                     };
                 } catch (error) {
                     console.error(`Error loading report for ${model.name}:`, error);
-                    return null;
+                    const reportName = model.report.replace('reports/', '').replace('.json', '');
+                    return {
+                        name: model.name,
+                        url: model.url,
+                        reportName: reportName,
+                        reportAvailable: false,
+                        wer: null,
+                        cer: null,
+                        stress_wer: null,
+                        num_samples: null
+                    };
                 }
             })
         );
-        
-        // Filter out models that failed to load
-        const validModels = modelsWithMetrics.filter(m => m !== null);
-        
-        if (validModels.length === 0) {
-            throw new Error('No valid models loaded');
+
+        if (modelsWithMetrics.length === 0) {
+            throw new Error('No models loaded');
         }
-        
-        displayResults({ models: validModels });
+
+        displayResults({ models: modelsWithMetrics });
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('loading').innerHTML =
@@ -54,8 +62,15 @@ async function loadData() {
 function displayResults(data) {
     const models = data.models;
 
-    // Sort models by WER (ascending - lower is better)
-    models.sort((a, b) => a.wer - b.wer);
+    // Sort models by WER (ascending). Models without metrics go last.
+    models.sort((a, b) => {
+        const aHasWer = typeof a.wer === 'number';
+        const bHasWer = typeof b.wer === 'number';
+        if (aHasWer && bHasWer) return a.wer - b.wer;
+        if (aHasWer) return -1;
+        if (bHasWer) return 1;
+        return a.name.localeCompare(b.name);
+    });
 
     // Add rank to each model
     models.forEach((model, index) => {
@@ -64,7 +79,10 @@ function displayResults(data) {
 
     // Update stats
     document.getElementById('total-models').textContent = models.length;
-    document.getElementById('best-wer').textContent = ((1 - models[0].wer) * 100).toFixed(1) + '%';
+    const scoredModels = models.filter(m => typeof m.wer === 'number');
+    document.getElementById('best-wer').textContent = scoredModels.length > 0
+        ? ((1 - scoredModels[0].wer) * 100).toFixed(1) + '%'
+        : 'N/A';
 
     // Populate the table
     const tableBody = document.getElementById('table-body');
@@ -75,32 +93,40 @@ function displayResults(data) {
         row.className = model.rank === 1 ? 'best-model-row' : '';
 
         // Calculate accuracy as percentage (1 - WER)
-        const accuracy = ((1 - model.wer) * 100).toFixed(1);
+        const hasMetrics = typeof model.wer === 'number' && typeof model.cer === 'number';
+        const accuracy = hasMetrics ? ((1 - model.wer) * 100).toFixed(1) : 'N/A';
 
         const modelNameCell = model.url
             ? `<a href="${model.url}" target="_blank">${model.name}</a>`
             : model.name;
 
-        const stressWer = model.stress_wer !== undefined ? model.stress_wer.toFixed(2) : 'N/A';
+        const stressWer = typeof model.stress_wer === 'number' ? model.stress_wer.toFixed(2) : 'N/A';
+        const reportCell = model.reportAvailable
+            ? `<a href="report.html?report=${model.reportName}">View Details</a>`
+            : 'Pending';
 
         row.innerHTML = `
             <td class="rank">${model.rank}</td>
             <td class="model-name">${modelNameCell}</td>
-            <td class="metric">${accuracy}%</td>
-            <td class="metric">${model.wer.toFixed(2)}</td>
-            <td class="metric">${model.cer.toFixed(2)}</td>
+            <td class="metric">${hasMetrics ? `${accuracy}%` : 'N/A'}</td>
+            <td class="metric">${hasMetrics ? model.wer.toFixed(2) : 'N/A'}</td>
+            <td class="metric">${hasMetrics ? model.cer.toFixed(2) : 'N/A'}</td>
             <td class="metric">${stressWer}</td>
-            <td class="report-link"><a href="report.html?report=${model.reportName}">View Details</a></td>
+            <td class="report-link">${reportCell}</td>
         `;
 
         tableBody.appendChild(row);
     });
 
-    // Display scatter plot
-    displayScatterPlot(models);
+    // Display scatter plot with models that have metrics
+    displayScatterPlot(scoredModels);
 }
 
 function displayScatterPlot(models) {
+    if (models.length === 0) {
+        document.getElementById('loading').style.display = 'none';
+        return;
+    }
     // Create trace
     const trace = {
         x: models.map(m => m.wer),
