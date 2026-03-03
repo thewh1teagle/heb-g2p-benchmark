@@ -1,9 +1,9 @@
 {
   "summary": {
-    "mean_wer": 0.16305653109776821,
-    "mean_cer": 0.0468300458668225,
-    "mean_stress_wer": 0.0874054639518557,
-    "num_samples": 97
+    "mean_wer": 0.16193106893106893,
+    "mean_cer": 0.046178820961406075,
+    "mean_stress_wer": 0.08712096237096237,
+    "num_samples": 100
   },
   "individual": [
     {
@@ -303,6 +303,14 @@
       "pred_phonemes": "hˈu tsaʔad leʔˈeveʁ haʔˈofek, uvχˈol tˈsaʔad hiʁɡˈiʃ ʔˈet kˈoved hadˈeʁeχ."
     },
     {
+      "sentence": "הוא צפה בסרט וראה חיה שצפה במים",
+      "wer": 0.2857142857142857,
+      "cer": 0.058823529411764705,
+      "stress_wer": 0.14285714285714285,
+      "gt_phonemes": "hˈu tsafˈa besˈeʁet veʁaʔˈa χajˈa ʃetsˈafa bamˈajim",
+      "pred_phonemes": "hˈu tsafˈa basˈeʁet veʁaʔˈa χajˈa ʃetsafˈa bamˈajim"
+    },
+    {
       "sentence": "הוא קנה לעצמו ג'ויסטיק חדש למשחקים",
       "wer": 0.16666666666666666,
       "cer": 0.0625,
@@ -333,6 +341,14 @@
       "stress_wer": 0.16666666666666666,
       "gt_phonemes": "haχajˈa hazˈo χˈaja haʁbˈe meʔˈod ʃanˈim.",
       "pred_phonemes": "haχajˈa hazˈo χajˈa haʁbˈe meʔˈod ʃanˈim."
+    },
+    {
+      "sentence": "היה לי רגע קצר של שקט והוא נתן לי מלא כוח",
+      "wer": 0.09090909090909091,
+      "cer": 0.03125,
+      "stress_wer": 0.09090909090909091,
+      "gt_phonemes": "hajˈa lˈi ʁˈeɡa katsˈaʁ ʃˈel ʃˈeket vehˈu natˈan lˈi malˈe kˈoaχ",
+      "pred_phonemes": "hajˈa lˈi ʁˈeɡa katˈsaʁ ʃˈel ʃˈeket vehˈu natˈan lˈi malˈe kˈoaχ"
     },
     {
       "sentence": "היה לי רגע קצר של שקט והוא נתן לי מלא כוח",
@@ -417,10 +433,10 @@
     {
       "sentence": "השקעתי קצת זמן ופתאום הכול הסתדר בצורה מושלמת",
       "wer": 0.25,
-      "cer": 0.07352941176470588,
+      "cer": 0.058823529411764705,
       "stress_wer": 0.0,
       "gt_phonemes": "hiʃkˈaʔti ktsˈat zmˈan vepitʔˈom hakˈol histadˈeʁ betsuʁˈa muʃlˈemet",
-      "pred_phonemes": "hiʃkˈaʔti kstˈat zmˈan ufitʔˈom hakˈol histadˈeʁ betsuʁˈa muʃlˈemet"
+      "pred_phonemes": "hiʃkˈaʔti ksˈat zmˈan ufitʔˈom hakˈol histadˈeʁ betsuʁˈa muʃlˈemet"
     },
     {
       "sentence": "התעוררתי עם אנרגיות טובות והכול פשוט זרם לי היום",
@@ -749,6 +765,14 @@
       "stress_wer": 0.2857142857142857,
       "gt_phonemes": "sˈamti plˈejlist χadˈaʃ baspˈotifaj veʃitˈafti ʔotˈo baʔˈinsteɡʁam",
       "pred_phonemes": "sˈamti plˈjjlˈist χadˈaʃ bispotipˈe veʃitˈafti ʔotˈo baʔinstaɡʁˈam"
+    },
+    {
+      "sentence": "שמתי תזכורת ולא הבנתי איך בכל זאת הצלחתי לשכוח",
+      "wer": 0.0,
+      "cer": 0.0,
+      "stress_wer": 0.0,
+      "gt_phonemes": "sˈamti tizkˈoʁet velˈo hevˈanti ʔˈejχ beχˈol zˈot hitslˈaχti liʃkˈoaχ",
+      "pred_phonemes": "sˈamti tizkˈoʁet velˈo hevˈanti ʔˈejχ beχˈol zˈot hitslˈaχti liʃkˈoaχ"
     },
     {
       "sentence": "שמתי תזכורת ולא הבנתי איך בכל זאת הצלחתי לשכוח",

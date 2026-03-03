@@ -20,7 +20,6 @@ def run(phonemize_fn, output_name):
     with open("gt.tsv", "r", encoding="utf-8") as f, \
          open(pred_path, mode, encoding="utf-8") as f_pred:
         reader = csv.DictReader(f, delimiter=DELIMITER)
-        next(reader)
         writer = csv.writer(f_pred, delimiter=DELIMITER)
 
         if mode == "w":

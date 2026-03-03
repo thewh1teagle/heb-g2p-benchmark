@@ -7,6 +7,7 @@ import csv
 import argparse
 import json
 import os
+from collections import defaultdict
 
 DELIMETER = '\t'
 
@@ -52,33 +53,49 @@ parser.add_argument('pred_file', type=str, default='pred.tsv')
 parser.add_argument('output', type=str, default='report.json', help='Output JSON file')
 args = parser.parse_args()
 
-# Read ground truth file (format: Sentence\tPhonemes, with header)
-gt_data = {}
-gt_text = {}
-with open(args.gt_file, 'r', encoding='utf-8') as f:
-    gt_reader = csv.DictReader(f, delimiter=detect_delimiter(args.gt_file))
-    for row in gt_reader:
-        # Use sentence as key since there's no ID column
-        sentence = row['Sentence']
-        gt_data[sentence] = row['Phonemes']
-        gt_text[sentence] = sentence
+def load_rows(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f, delimiter=detect_delimiter(path))
+        return [
+            {
+                'sentence': row['Sentence'],
+                'phonemes': row['Phonemes'],
+            }
+            for row in reader
+        ]
 
-# Read prediction file (format: Sentence\tPhonemes, with header)
-pred_data = {}
-with open(args.pred_file, 'r', encoding='utf-8') as f:
-    pred_reader = csv.DictReader(f, delimiter=detect_delimiter(args.pred_file))
-    for row in pred_reader:
-        sentence = row['Sentence']
-        pred_data[sentence] = row['Phonemes']
 
-# Find common sentences
-common_sentences = set(gt_data.keys()) & set(pred_data.keys())
+def group_by_sentence(rows):
+    grouped = defaultdict(list)
+    for row in rows:
+        grouped[row['sentence']].append(row['phonemes'])
+    return grouped
 
-if not common_sentences:
+
+gt_rows = load_rows(args.gt_file)
+pred_rows = load_rows(args.pred_file)
+gt_groups = group_by_sentence(gt_rows)
+pred_groups = group_by_sentence(pred_rows)
+
+common_samples = []
+
+for sentence in sorted(set(gt_groups) & set(pred_groups)):
+    gt_phonemes_list = gt_groups[sentence]
+    pred_phonemes_list = pred_groups[sentence]
+    match_count = min(len(gt_phonemes_list), len(pred_phonemes_list))
+
+    for i in range(match_count):
+        common_samples.append({
+            'sentence': sentence,
+            'gt_phonemes': gt_phonemes_list[i],
+            'pred_phonemes': pred_phonemes_list[i],
+        })
+
+if not common_samples:
     print("Error: No common sentences found between ground truth and prediction files")
     exit(1)
 
-print(f"Found {len(common_sentences)} common samples")
+print(f"Found {len(common_samples)} common samples")
 
 # Calculate WER, CER, and Stress WER for each sample
 individual_results = []
@@ -86,9 +103,10 @@ wer_scores = []
 cer_scores = []
 stress_wer_scores = []
 
-for sentence in sorted(common_sentences):
-    gt_phonemes = gt_data[sentence]
-    pred_phonemes = pred_data[sentence]
+for sample in common_samples:
+    sentence = sample['sentence']
+    gt_phonemes = sample['gt_phonemes']
+    pred_phonemes = sample['pred_phonemes']
 
     # Calculate WER (Word Error Rate) - treating each phoneme as a "word"
     wer = jiwer.wer(gt_phonemes, pred_phonemes)
@@ -125,7 +143,7 @@ report = {
         'mean_wer': mean_wer,
         'mean_cer': mean_cer,
         'mean_stress_wer': mean_stress_wer,
-        'num_samples': len(common_sentences)
+        'num_samples': len(common_samples)
     },
     'individual': individual_results
 }
@@ -140,4 +158,4 @@ print("\nSummary:")
 print(f"  Mean WER: {mean_wer:.4f}")
 print(f"  Mean CER: {mean_cer:.4f}")
 print(f"  Mean Stress WER: {mean_stress_wer:.4f}")
-print(f"  Samples: {len(common_sentences)}")
+print(f"  Samples: {len(common_samples)}")
