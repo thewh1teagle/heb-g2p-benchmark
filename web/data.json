@@ -67,6 +67,12 @@
             "description": "Open-source rule-based speech synthesizer with built-in G2P",
             "url": "https://github.com/espeak-ng/espeak-ng",
             "report": "reports/espeak-ng.json"
+        },
+        {
+            "name": "Renikud",
+            "description": "Hebrew G2P model based on DictaBERT character-level encoder with CTC decoding",
+            "url": "https://github.com/thewh1teagle/renikud-v4",
+            "report": "reports/renikud.json"
         }
     ]
 }
