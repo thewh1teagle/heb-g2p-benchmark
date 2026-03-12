@@ -10,7 +10,7 @@
 # ///
 
 """
-wget https://huggingface.co/thewh1teagle/renikud/resolve/main/model.onnx
+wget https://huggingface.co/thewh1teagle/renikud/resolve/main/model.onnx -O renikud.onnx
 uv run src/renikud.py
 """
 
@@ -23,7 +23,7 @@ _model = None
 def phonemize(text):
     global _model
     if _model is None:
-        _model = G2P("model.onnx")
+        _model = G2P("renikud.onnx")
     return _model.phonemize(text)
 
 
