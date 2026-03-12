@@ -52,8 +52,13 @@ function displayReport(report, modelName) {
     // Display individual sentences
     const container = document.getElementById('sentences-container');
     container.innerHTML = '';
+
+    const items = [...report.individual];
+    if (items.every(item => item.id !== undefined && item.id !== null && item.id !== '')) {
+        items.sort((a, b) => Number(a.id) - Number(b.id));
+    }
     
-    report.individual.forEach((item, index) => {
+    items.forEach((item, index) => {
         const sentenceCard = document.createElement('div');
         sentenceCard.className = 'sentence-card';
         
@@ -64,7 +69,9 @@ function displayReport(report, modelName) {
         // Use sentence field directly
         const sentenceText = item.sentence;
         // Truncate sentence for ID badge display if too long
-        const displayId = sentenceText.length > 50 ? sentenceText.substring(0, 47) + '...' : sentenceText;
+        const displayId = item.id !== undefined && item.id !== null && item.id !== ''
+            ? `ID ${item.id}`
+            : (sentenceText.length > 50 ? sentenceText.substring(0, 47) + '...' : sentenceText);
         
         sentenceCard.innerHTML = `
             <div class="sentence-header">
@@ -96,4 +103,3 @@ function displayReport(report, modelName) {
 
 // Load report when page loads
 document.addEventListener('DOMContentLoaded', loadReport);
-

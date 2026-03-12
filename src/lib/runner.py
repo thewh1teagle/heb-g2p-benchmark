@@ -17,7 +17,7 @@ def run(phonemize_fn, output_name):
     skip = count_existing_rows(pred_path)
     mode = "a" if skip > 0 else "w"
 
-    with open("gt.tsv", "r", encoding="utf-8") as f, \
+    with open("gt_for_morris.tsv", "r", encoding="utf-8") as f, \
          open(pred_path, mode, encoding="utf-8") as f_pred:
         reader = csv.DictReader(f, delimiter=DELIMITER)
         writer = csv.writer(f_pred, delimiter=DELIMITER)

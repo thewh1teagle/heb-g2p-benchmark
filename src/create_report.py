@@ -58,6 +58,7 @@ def load_rows(path):
         reader = csv.DictReader(f, delimiter=detect_delimiter(path))
         return [
             {
+                'id': row.get('Id'),
                 'sentence': row['Sentence'],
                 'phonemes': row['Phonemes'],
             }
@@ -74,22 +75,42 @@ def group_by_sentence(rows):
 
 gt_rows = load_rows(args.gt_file)
 pred_rows = load_rows(args.pred_file)
-gt_groups = group_by_sentence(gt_rows)
 pred_groups = group_by_sentence(pred_rows)
+pred_offsets = defaultdict(int)
 
 common_samples = []
 
-for sentence in sorted(set(gt_groups) & set(pred_groups)):
-    gt_phonemes_list = gt_groups[sentence]
-    pred_phonemes_list = pred_groups[sentence]
-    match_count = min(len(gt_phonemes_list), len(pred_phonemes_list))
+for row in gt_rows:
+    sentence = row['sentence']
+    pred_phonemes_list = pred_groups.get(sentence)
+    if not pred_phonemes_list:
+        continue
 
-    for i in range(match_count):
-        common_samples.append({
-            'sentence': sentence,
-            'gt_phonemes': gt_phonemes_list[i],
-            'pred_phonemes': pred_phonemes_list[i],
-        })
+    offset = pred_offsets[sentence]
+    if offset >= len(pred_phonemes_list):
+        continue
+
+    pred_offsets[sentence] += 1
+    common_samples.append({
+        'id': row['id'],
+        'sentence': sentence,
+        'gt_phonemes': row['phonemes'],
+        'pred_phonemes': pred_phonemes_list[offset],
+    })
+
+
+def id_sort_key(sample):
+    sample_id = sample.get('id')
+    if sample_id is None or sample_id == '':
+        return None
+    try:
+        return int(sample_id)
+    except ValueError:
+        return sample_id
+
+
+if common_samples and all(id_sort_key(sample) is not None for sample in common_samples):
+    common_samples.sort(key=id_sort_key)
 
 if not common_samples:
     print("Error: No common sentences found between ground truth and prediction files")
@@ -124,6 +145,7 @@ for sample in common_samples:
     stress_wer_scores.append(stress_wer)
 
     individual_results.append({
+        'id': sample.get('id'),
         'sentence': sentence,
         'wer': wer,
         'cer': cer,
