@@ -75,7 +75,7 @@ function displayResults(data) {
         row.className = model.rank === 1 ? 'best-model-row' : '';
 
         // Calculate accuracy as percentage (1 - WER)
-        const accuracy = ((1 - model.wer) * 100).toFixed(1);
+        const accuracy = (Math.max(0, 1 - model.wer) * 100).toFixed(1);
 
         const modelNameCell = model.url
             ? `<a href="${model.url}" target="_blank">${model.name}</a>`

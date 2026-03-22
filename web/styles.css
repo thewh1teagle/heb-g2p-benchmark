@@ -444,6 +444,24 @@ body {
     color: #5b21b6;
 }
 
+.phoneme-value.diff {
+    background: #f1f5f9;
+    color: #1d1d1f;
+}
+
+.diff-del {
+    background: #fee2e2;
+    color: #991b1b;
+    text-decoration: line-through;
+    border-radius: 2px;
+}
+
+.diff-ins {
+    background: #d1fae5;
+    color: #065f46;
+    border-radius: 2px;
+}
+
 @media (max-width: 1068px) {
     .report-controls {
         padding: 30px 20px 15px;

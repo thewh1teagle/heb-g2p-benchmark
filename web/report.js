@@ -73,6 +73,8 @@ function displayReport(report, modelName) {
             ? `ID ${item.id}`
             : (sentenceText.length > 50 ? sentenceText.substring(0, 47) + '...' : sentenceText);
         
+        const diffHtml = renderCharDiff(item.gt_phonemes, item.pred_phonemes);
+
         sentenceCard.innerHTML = `
             <div class="sentence-header">
                 <div class="sentence-number">#${index + 1}</div>
@@ -94,11 +96,25 @@ function displayReport(report, modelName) {
                     <div class="phoneme-label">Prediction:</div>
                     <div class="phoneme-value pred">${item.pred_phonemes}</div>
                 </div>
+                <div class="phoneme-row">
+                    <div class="phoneme-label">Diff:</div>
+                    <div class="phoneme-value diff">${diffHtml}</div>
+                </div>
             </div>
         `;
         
         container.appendChild(sentenceCard);
     });
+}
+
+function renderCharDiff(gt, pred) {
+    const parts = Diff.diffChars(gt, pred);
+    return parts.map(part => {
+        const escaped = part.value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        if (part.added)   return `<span class="diff-ins">${escaped}</span>`;
+        if (part.removed) return `<span class="diff-del">${escaped}</span>`;
+        return escaped;
+    }).join('');
 }
 
 // Load report when page loads
