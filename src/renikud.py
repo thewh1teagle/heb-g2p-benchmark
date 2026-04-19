@@ -6,7 +6,7 @@
 # ]
 #
 # [tool.uv.sources]
-# renikud-onnx = { git = "https://github.com/thewh1teagle/renikud-v4", subdirectory = "renikud-onnx" }
+# renikud-onnx = { git = "https://github.com/thewh1teagle/renikud", subdirectory = "renikud-onnx" }
 # ///
 
 """

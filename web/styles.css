@@ -97,6 +97,13 @@ body {
     background: #ffffff;
 }
 
+.table-note {
+    font-size: 13px;
+    color: #6e6e73;
+    margin-top: 16px;
+    text-align: center;
+}
+
 .leaderboard-title {
     font-size: 40px;
     font-weight: 600;
@@ -445,20 +452,20 @@ body {
 }
 
 .phoneme-value.diff {
-    background: #f1f5f9;
-    color: #1d1d1f;
-}
-
-.diff-del {
-    background: #fee2e2;
-    color: #991b1b;
-    text-decoration: line-through;
-    border-radius: 2px;
+    background: #fefce8;
+    color: #1a1a1a;
 }
 
 .diff-ins {
-    background: #d1fae5;
-    color: #065f46;
+    background: #bbf7d0;
+    color: #14532d;
+    border-radius: 2px;
+}
+
+.diff-del {
+    background: #fecaca;
+    color: #7f1d1d;
+    text-decoration: line-through;
     border-radius: 2px;
 }
 

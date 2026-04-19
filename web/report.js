@@ -1,121 +1,104 @@
 async function loadReport() {
     try {
-        // Get report name from URL query parameters
         const urlParams = new URLSearchParams(window.location.search);
-        const reportName = urlParams.get('report');
-        
-        if (!reportName) {
-            throw new Error('No report name specified in URL');
-        }
+        const modelId = urlParams.get('model');
+        if (!modelId) throw new Error('No model specified in URL');
 
-        // Load data.json to get model information
-        const dataResponse = await fetch('data.json');
-        if (!dataResponse.ok) {
-            throw new Error('Failed to load data.json');
-        }
-        const data = await dataResponse.json();
-        
-        // Find the model with matching report
-        const model = data.models.find(m => m.report === `reports/${reportName}.json`);
-        
-        // Load the report
-        const reportResponse = await fetch(`reports/${reportName}.json`);
-        if (!reportResponse.ok) {
-            throw new Error(`Failed to load report: ${reportName}.json`);
-        }
-        const report = await reportResponse.json();
-        
-        // Display the report
-        displayReport(report, model ? model.name : reportName);
-        
+        const [metaResp, gtResp, predResp] = await Promise.all([
+            fetch('data/metadata.json'),
+            fetch('data/gt.tsv'),
+            fetch(`data/${modelId}.tsv`),
+        ]);
+
+        if (!metaResp.ok) throw new Error('Failed to load metadata.json');
+        if (!gtResp.ok) throw new Error('Failed to load gt.tsv');
+        if (!predResp.ok) throw new Error(`Failed to load ${modelId}.tsv`);
+
+        const meta = await metaResp.json();
+        const model = meta.models.find(m => m.id === modelId);
+        if (!model) throw new Error(`Model ${modelId} not found in metadata.json`);
+
+        const gtRows = parseTsv(await gtResp.text());
+        const predMap = Object.fromEntries(parseTsv(await predResp.text()).map(r => [r[0], r[1]]));
+
+        displayReport(model, gtRows, predMap);
     } catch (error) {
         console.error('Error loading report:', error);
-        document.getElementById('loading').innerHTML = 
+        document.getElementById('loading').innerHTML =
             `<div class="error">Error loading report: ${error.message}</div>`;
     }
 }
 
-function displayReport(report, modelName) {
-    // Update header
-    document.getElementById('model-name').textContent = modelName + ' Report';
-    
-    // Update stats
-    const accuracy = ((1 - report.summary.mean_wer) * 100).toFixed(1);
+function charDiffHtml(gt, pred) {
+    const dmp = new diff_match_patch();
+    const diffs = dmp.diff_main(gt, pred);
+    dmp.diff_cleanupSemantic(diffs);
+    return diffs.map(([op, text]) => {
+        if (op === 1)  return `<span class="diff-ins">${text}</span>`;
+        if (op === -1) return `<span class="diff-del">${text}</span>`;
+        return text;
+    }).join('');
+}
+
+function parseTsv(text) {
+    const lines = text.trim().split('\n');
+    // skip header if present
+    const start = lines[0].includes('Sentence') ? 1 : 0;
+    return lines.slice(start).map(l => l.split('\t'));
+}
+
+function displayReport(model, gtRows, predMap) {
+    document.getElementById('model-name').textContent = model.name + ' Report';
+
+    const accuracy = Math.max(0, (1 - model.wer) * 100).toFixed(1);
     document.getElementById('accuracy-stat').textContent = accuracy + '%';
-    document.getElementById('wer-stat').textContent = report.summary.mean_wer.toFixed(2);
-    document.getElementById('cer-stat').textContent = report.summary.mean_cer.toFixed(2);
-    document.getElementById('stress-wer-stat').textContent = report.summary.mean_stress_wer.toFixed(2);
-    
-    // Hide loading
+    document.getElementById('wer-stat').textContent = model.wer.toFixed(2);
+    document.getElementById('cer-stat').textContent = model.cer.toFixed(2);
+    document.getElementById('stress-wer-stat').textContent = model.stress_wer.toFixed(2);
+
     document.getElementById('loading').style.display = 'none';
-    
-    // Display individual sentences
+
     const container = document.getElementById('sentences-container');
     container.innerHTML = '';
 
-    const items = [...report.individual];
-    if (items.every(item => item.id !== undefined && item.id !== null && item.id !== '')) {
-        items.sort((a, b) => Number(a.id) - Number(b.id));
-    }
-    
-    items.forEach((item, index) => {
-        const sentenceCard = document.createElement('div');
-        sentenceCard.className = 'sentence-card';
-        
-        // Calculate accuracy for this sentence
-        const sentenceAccuracy = ((1 - item.wer) * 100).toFixed(1);
-        const accuracyClass = item.wer === 0 ? 'perfect' : (item.wer < 0.5 ? 'good' : 'poor');
-        
-        // Use sentence field directly
-        const sentenceText = item.sentence;
-        // Truncate sentence for ID badge display if too long
-        const displayId = item.id !== undefined && item.id !== null && item.id !== ''
-            ? `ID ${item.id}`
-            : (sentenceText.length > 50 ? sentenceText.substring(0, 47) + '...' : sentenceText);
-        
-        const diffHtml = renderCharDiff(item.gt_phonemes, item.pred_phonemes);
+    gtRows.forEach((row, index) => {
+        const [sentence, gtPhonemes] = row;
+        const predPhonemes = predMap[sentence] ?? '';
+        const wer = model.wers?.[index] ?? 0;
+        const cer = model.cers?.[index] ?? 0;
 
-        sentenceCard.innerHTML = `
+        const sentenceAccuracy = Math.max(0, (1 - wer) * 100).toFixed(1);
+        const accuracyClass = wer === 0 ? 'perfect' : (wer < 0.5 ? 'good' : 'poor');
+
+        const card = document.createElement('div');
+        card.className = 'sentence-card';
+        card.innerHTML = `
             <div class="sentence-header">
                 <div class="sentence-number">#${index + 1}</div>
-                <div class="sentence-id" title="${sentenceText}">${displayId}</div>
                 <div class="sentence-accuracy ${accuracyClass}">${sentenceAccuracy}% Accuracy</div>
             </div>
-            <div class="sentence-text" dir="rtl">${sentenceText}</div>
+            <div class="sentence-text" dir="rtl">${sentence}</div>
             <div class="sentence-metrics">
-                <span class="metric-badge">WER: ${item.wer.toFixed(2)}</span>
-                <span class="metric-badge">CER: ${item.cer.toFixed(2)}</span>
-                <span class="metric-badge">Stress WER: ${item.stress_wer.toFixed(2)}</span>
+                <span class="metric-badge">WER: ${wer.toFixed(2)}</span>
+                <span class="metric-badge">CER: ${cer.toFixed(2)}</span>
             </div>
             <div class="phonemes-container">
                 <div class="phoneme-row">
                     <div class="phoneme-label">Ground Truth:</div>
-                    <div class="phoneme-value gt">${item.gt_phonemes}</div>
+                    <div class="phoneme-value gt">${gtPhonemes}</div>
                 </div>
                 <div class="phoneme-row">
                     <div class="phoneme-label">Prediction:</div>
-                    <div class="phoneme-value pred">${item.pred_phonemes}</div>
+                    <div class="phoneme-value pred">${predPhonemes}</div>
                 </div>
                 <div class="phoneme-row">
                     <div class="phoneme-label">Diff:</div>
-                    <div class="phoneme-value diff">${diffHtml}</div>
+                    <div class="phoneme-value diff">${charDiffHtml(gtPhonemes, predPhonemes)}</div>
                 </div>
             </div>
         `;
-        
-        container.appendChild(sentenceCard);
+        container.appendChild(card);
     });
 }
 
-function renderCharDiff(gt, pred) {
-    const parts = Diff.diffChars(gt, pred);
-    return parts.map(part => {
-        const escaped = part.value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        if (part.added)   return `<span class="diff-ins">${escaped}</span>`;
-        if (part.removed) return `<span class="diff-del">${escaped}</span>`;
-        return escaped;
-    }).join('');
-}
-
-// Load report when page loads
 document.addEventListener('DOMContentLoaded', loadReport);

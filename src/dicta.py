@@ -1,5 +1,5 @@
 """
-uv pip install -U dicta-onnx
+uv pip install -U dicta-onnx git+https://github.com/thewh1teagle/phonikud.git
 
 wget https://github.com/thewh1teagle/dicta-onnx/releases/download/model-files-v1.0/dicta-1.0.int8.onnx
 uv run src/dicta.py

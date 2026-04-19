@@ -13,17 +13,16 @@ def count_existing_rows(path):
 
 
 def run(phonemize_fn, output_name):
-    pred_path = f"pred_{output_name}.tsv"
+    os.makedirs("web/data", exist_ok=True)
+    pred_path = f"web/data/{output_name}.tsv"
     skip = count_existing_rows(pred_path)
     mode = "a" if skip > 0 else "w"
 
-    with open("gt.tsv", "r", encoding="utf-8") as f, \
+    with open("web/data/gt.tsv", "r", encoding="utf-8") as f, \
          open(pred_path, mode, encoding="utf-8") as f_pred:
-        reader = csv.DictReader(f, delimiter=DELIMITER)
+        reader = csv.DictReader(f, fieldnames=["Sentence", "Phonemes"], delimiter=DELIMITER)
         writer = csv.writer(f_pred, delimiter=DELIMITER)
 
-        if mode == "w":
-            writer.writerow(["Sentence", "Phonemes"])
 
         for _ in range(skip):
             next(reader)
