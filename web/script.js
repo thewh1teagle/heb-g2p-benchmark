@@ -18,6 +18,7 @@ function displayResults(models) {
 
     document.getElementById('total-models').textContent = models.length;
     document.getElementById('best-wer').textContent = ((1 - models[0].wer) * 100).toFixed(1) + '%';
+    document.getElementById('total-sentences').textContent = models[0].n;
 
     const tableBody = document.getElementById('table-body');
     tableBody.innerHTML = '';

@@ -56,12 +56,10 @@ def load_tsv(path):
         first = f.readline()
         has_header = 'Sentence' in first or 'sentence' in first
         f.seek(0)
+        reader = csv.reader(f, delimiter='\t')
         if has_header:
-            reader = csv.DictReader(f, delimiter='\t')
-            return {row['Sentence']: row['Phonemes'] for row in reader}
-        else:
-            reader = csv.reader(f, delimiter='\t')
-            return {row[0]: row[1] for row in reader if len(row) >= 2}
+            next(reader)
+        return [(row[0], row[1]) for row in reader if len(row) >= 2]
 
 
 def extract_stress_positions(phonemes):
@@ -78,12 +76,20 @@ def extract_stress_positions(phonemes):
     return ' '.join(positions)
 
 
-def score(gt: dict, pred: dict):
+def score(gt: list, pred: list):
+    pred_map = {}
+    for sentence, phonemes in pred:
+        pred_map.setdefault(sentence, []).append(phonemes)
+    pred_offsets = {}
+
     wer_scores, cer_scores, stress_scores = [], [], []
-    for sentence, gt_ph in gt.items():
-        pred_ph = pred.get(sentence)
-        if pred_ph is None:
+    for sentence, gt_ph in gt:
+        offset = pred_offsets.get(sentence, 0)
+        candidates = pred_map.get(sentence, [])
+        if offset >= len(candidates):
             continue
+        pred_ph = candidates[offset]
+        pred_offsets[sentence] = offset + 1
         wer_scores.append(jiwer.wer(gt_ph, pred_ph))
         cer_scores.append(jiwer.cer(gt_ph, pred_ph))
         stress_scores.append(jiwer.wer(extract_stress_positions(gt_ph), extract_stress_positions(pred_ph)))

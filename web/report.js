@@ -19,9 +19,9 @@ async function loadReport() {
         if (!model) throw new Error(`Model ${modelId} not found in metadata.json`);
 
         const gtRows = parseTsv(await gtResp.text());
-        const predMap = Object.fromEntries(parseTsv(await predResp.text()).map(r => [r[0], r[1]]));
+        const predRows = parseTsv(await predResp.text());
 
-        displayReport(model, gtRows, predMap);
+        displayReport(model, gtRows, predRows);
     } catch (error) {
         console.error('Error loading report:', error);
         document.getElementById('loading').innerHTML =
@@ -47,7 +47,7 @@ function parseTsv(text) {
     return lines.slice(start).map(l => l.split('\t'));
 }
 
-function displayReport(model, gtRows, predMap) {
+function displayReport(model, gtRows, predRows) {
     document.getElementById('model-name').textContent = model.name + ' Report';
 
     const accuracy = Math.max(0, (1 - model.wer) * 100).toFixed(1);
@@ -63,7 +63,7 @@ function displayReport(model, gtRows, predMap) {
 
     gtRows.forEach((row, index) => {
         const [sentence, gtPhonemes] = row;
-        const predPhonemes = predMap[sentence] ?? '';
+        const predPhonemes = predRows[index]?.[1] ?? '';
         const wer = model.wers?.[index] ?? 0;
         const cer = model.cers?.[index] ?? 0;
 
